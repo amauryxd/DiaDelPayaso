@@ -1,5 +1,10 @@
-TileMap
 CollisionShape2D
+Area2D
 Sprite2D
+Node2D
+ColorRect
+StaticBody2D
+Node
+TileMap
 RigidBody2D
 CharacterBody2D

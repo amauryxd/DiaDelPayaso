@@ -1,3 +1,9 @@
 res://top_down.tscn
 res://scenes/top_down.tscn
 res://Scripts/Player/playerMovement.gd
+res://Scripts/Interactuable.gd
+res://scenes/Pruebadragndrop.tscn
+res://Scripts/global.gd
+res://Scripts/platform.gd
+res://Scripts/Object.gd
+res://scenes/MiniJuegoPayasada.tscn

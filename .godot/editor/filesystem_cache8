@@ -60,9 +60,13 @@ main_view.tscn::PackedScene::4884668666408697448::1705965146::0::1::::<><>::res:
 settings_view.gd::GDScript::-1::1705965146::0::1::::<>TabContainer<>::
 settings_view.tscn::PackedScene::5839841081119266502::1705965146::0::1::::<><>::res://addons/dialogue_manager/views/settings_view.gd
 ::res://scenes/::1705963199
-top_down.tscn::PackedScene::6478721847452414261::1705965026::0::1::::<><>::uid://c7auyjjupoyjy::::res://icon.svg<>res://Scripts/Player/playerMovement.gd<>uid://buoa1x68qy2lb::::res://Tileset/OIP.jpg
+MiniJuegoPayasada.tscn::PackedScene::1234619505068410301::1705967184::0::1::::<><>::
+Pruebadragndrop.tscn::PackedScene::4123682827990322876::1705967628::0::1::::<><>::
+global.gd::GDScript::-1::1705968144::0::1::::<>Node2D<>::
+top_down.tscn::PackedScene::6478721847452414261::1705967042::0::1::::<><>::uid://c7auyjjupoyjy::::res://icon.svg<>res://Scripts/Player/playerMovement.gd<>res://Scripts/Interactuable.gd
 ::res://Scripts/::1705963527
+Interactuable.gd::GDScript::-1::1705966530::0::1::::<>Area2D<>::
 ::res://Scripts/Player/::1705963533
-playerMovement.gd::GDScript::-1::1705965026::0::1::::<>CharacterBody2D<>::
+playerMovement.gd::GDScript::-1::1705965418::0::1::::<>CharacterBody2D<>::
 ::res://Tileset/::1705963769
 OIP.jpg::CompressedTexture2D::3819146533099828355::1705963752::1705963780::1::::<><>::

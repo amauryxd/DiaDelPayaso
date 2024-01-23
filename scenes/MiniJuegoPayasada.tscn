@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://rucadk0a4j14"]
+
+[ext_resource type="Script" path="res://Scripts/global.gd" id="1_arogd"]
+
+[node name="MiniJuegoPayasada" type="Node2D"]
+script = ExtResource("1_arogd")
