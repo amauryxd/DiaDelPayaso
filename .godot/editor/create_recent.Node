@@ -4,6 +4,9 @@ Sprite2D
 Node2D
 ColorRect
 StaticBody2D
+Timer
+Panel
+TextureRect
 Node
 TileMap
 RigidBody2D

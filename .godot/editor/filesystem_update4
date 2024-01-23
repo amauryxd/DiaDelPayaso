@@ -7,3 +7,12 @@ res://Scripts/global.gd
 res://Scripts/platform.gd
 res://Scripts/Object.gd
 res://scenes/MiniJuegoPayasada.tscn
+res://DragDrop.tscn
+res://Scripts/DragDrop.gd
+res://DragDropParrilla.tscn
+res://Scripts/DragDropParrilla.gd
+res://DragDropEntregado.tscn
+res://Scripts/DragDropEntregado.gd
+res://platform.tscn
+res://Scripts/object.gd
+res://object.tscn

@@ -1,3 +1,3 @@
 extends Node2D
 
-var isDragging = false
+var is_dragging = false
