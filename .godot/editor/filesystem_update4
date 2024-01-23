@@ -2,5 +2,6 @@ res://scenes/MiniJuegoPayasada.tscn
 res://scenes/top_down.tscn
 res://platform.tscn
 res://object.tscn
-res://MiniJuegoSichichita.gd
 res://scenes/MiniJuegoSichichita.tscn
+res://Scripts/global.gd
+res://Scripts/Spawner.gd
