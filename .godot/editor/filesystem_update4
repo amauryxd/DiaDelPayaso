@@ -6,3 +6,6 @@ res://PlayashoRes/Player.tscn
 res://PlayashoRes/area_2d.tscn
 res://scenes/MiniJuegoPlayasho.tscn
 res://Scripts/Spawner.gd
+res://scenes/divorcio.tscn
+res://Scripts/object.gd
+res://Scripts/platform.gd

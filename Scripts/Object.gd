@@ -5,6 +5,7 @@ var is_inside_dropable = false
 var body_ref
 var offset: Vector2
 var initialPos : Vector2
+@export var idDivorcio = 0
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -39,7 +40,7 @@ func _on_area_2d_mouse_exited():
 
 
 func _on_area_2d_body_entered(body:StaticBody2D):
-	if body.is_in_group('dropable'):
+	if body.is_in_group('dropable') && body.divorcio == 1:
 		is_inside_dropable = true
 		body.modulate = Color(Color.REBECCA_PURPLE, 1)
 		body_ref = body

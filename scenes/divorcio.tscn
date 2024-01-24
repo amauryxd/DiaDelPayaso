@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://dasqjp5ux7q52"]
+
+[ext_resource type="PackedScene" uid="uid://ci2jw68wrdtkf" path="res://object.tscn" id="1_6s5op"]
+[ext_resource type="PackedScene" uid="uid://cenabm0gouhbo" path="res://platform.tscn" id="2_qpjjc"]
+
+[node name="Divorcio" type="Node2D"]
+
+[node name="Object" parent="." instance=ExtResource("1_6s5op")]
+position = Vector2(153, 562)
+idDivorcio = 1
+
+[node name="Platform" parent="." instance=ExtResource("2_qpjjc")]
+position = Vector2(253, 216)
+divorcio = 1
+
+[node name="Platform2" parent="." instance=ExtResource("2_qpjjc")]
+position = Vector2(767, 229)
+divorcio = 2
