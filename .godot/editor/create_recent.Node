@@ -1,13 +1,13 @@
+Timer
 CollisionShape2D
+CharacterBody2D
+RigidBody2D
+Node2D
 Area2D
 Sprite2D
-Node2D
 ColorRect
 StaticBody2D
-Timer
 Panel
 TextureRect
 Node
 TileMap
-RigidBody2D
-CharacterBody2D
