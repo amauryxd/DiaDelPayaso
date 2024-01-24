@@ -41,13 +41,19 @@ func _on_area_2d_mouse_exited():
 
 func _on_area_2d_body_entered(body:StaticBody2D):
 	if body.is_in_group('dropable') && body.divorcio == 1:
+		print("Si se puede")
 		is_inside_dropable = true
 		body.modulate = Color(Color.REBECCA_PURPLE, 1)
 		body_ref = body
+	else:
+		print("No se puede")
+	
 
 
 
 func _on_area_2d_body_exited(body):
 	if body.is_in_group('dropable'):
 		is_inside_dropable = false
+		
 		body.modulate = Color(Color.MEDIUM_PURPLE, 0.7)
+		

@@ -10,9 +10,9 @@ position = Vector2(153, 562)
 idDivorcio = 1
 
 [node name="Platform" parent="." instance=ExtResource("2_qpjjc")]
-position = Vector2(253, 216)
+position = Vector2(308, 222)
 divorcio = 1
 
 [node name="Platform2" parent="." instance=ExtResource("2_qpjjc")]
-position = Vector2(767, 229)
+position = Vector2(535, 220)
 divorcio = 2

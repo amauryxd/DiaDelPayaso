@@ -13,12 +13,17 @@ script = ExtResource("1_arogd")
 
 [node name="Platform" parent="." instance=ExtResource("2_mr26u")]
 position = Vector2(252, 243)
+scale = Vector2(1.002, 1)
+divorcio = 1
 
 [node name="Platform2" parent="." instance=ExtResource("2_mr26u")]
 position = Vector2(990, 459)
+divorcio = 1
 
 [node name="Platform3" parent="." instance=ExtResource("2_mr26u")]
 position = Vector2(837, 133)
+scale = Vector2(0.996581, 1.01002)
+divorcio = 1
 
 [node name="Object" parent="." instance=ExtResource("3_42560")]
 position = Vector2(565, 406)
