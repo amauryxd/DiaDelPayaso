@@ -1,0 +1,585 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_ypu76"]
+
+[resource]
+script = ExtResource("1_ypu76")
+using_states = PackedStringArray()
+titles = {
+"Payasada_Primera_Interaccion": "3",
+"Payasada_Segunda_Interaccion": "36",
+"Payasada_Tercera_Interaccion": "52"
+}
+character_names = PackedStringArray("???", "{{playername}}", "Payasada")
+first_title = "3"
+lines = {
+"1": {
+"id": "1",
+"next_id": "3",
+"text": "Payasada_Primera_Interaccion",
+"type": "title"
+},
+"10": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "10",
+"next_id": "12",
+"parent_id": "7",
+"tags": PackedStringArray(),
+"text": "Te mira, un poco confusa.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Te mira, un poco confusa.",
+"type": "dialogue"
+},
+"12": {
+"character": "Payasada",
+"character_replacements": Array[Dictionary]([]),
+"id": "12",
+"next_id": "14",
+"parent_id": "7",
+"tags": PackedStringArray(),
+"text": "Hola, soy Payasada, debes ser el estudiante de intercambio veda?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Hola, soy Payasada, debes ser el estudiante de intercambio veda?",
+"type": "dialogue"
+},
+"14": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "14",
+"next_id": "16",
+"parent_id": "7",
+"tags": PackedStringArray(),
+"text": "Hablan un poco, su enojado rostro poco a poco convirtiéndose en uno más calmado.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Hablan un poco, su enojado rostro poco a poco convirtiéndose en uno más calmado.",
+"type": "dialogue"
+},
+"16": {
+"character": "Payasada",
+"character_replacements": Array[Dictionary]([]),
+"id": "16",
+"next_id": "32",
+"parent_id": "7",
+"tags": PackedStringArray(),
+"text": "¿Sabes? Me caiste un poco bien, chance y te invito a una carnita asada mañana, buscame…",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "¿Sabes? Me caiste un poco bien, chance y te invito a una carnita asada mañana, buscame…",
+"type": "dialogue"
+},
+"18": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "18",
+"next_id": "19",
+"next_id_after": "32",
+"tags": PackedStringArray(),
+"text": "Yo te conozco",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Yo te conozco",
+"type": "response"
+},
+"19": {
+"character": "{{playername}}",
+"character_replacements": Array[Dictionary]([{
+"expression": Array[Dictionary]([{
+"type": "variable",
+"value": "playername"
+}]),
+"value_in_text": "{{playername}}"
+}]),
+"id": "19",
+"next_id": "21",
+"parent_id": "18",
+"tags": PackedStringArray(),
+"text": "Hey! Creo que ya nos hemos visto.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Hey! Creo que ya nos hemos visto.",
+"type": "dialogue"
+},
+"21": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "21",
+"next_id": "23",
+"parent_id": "18",
+"tags": PackedStringArray(),
+"text": "La payasa tomó un poco de tiempo para pensar; un poco después, su cara cambió a una de sorpresa.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "La payasa tomó un poco de tiempo para pensar; un poco después, su cara cambió a una de sorpresa.",
+"type": "dialogue"
+},
+"23": {
+"character": "???",
+"character_replacements": Array[Dictionary]([]),
+"id": "23",
+"next_id": "25",
+"parent_id": "18",
+"tags": PackedStringArray(),
+"text": "Ah! Claro, eras quien estaba estorbando cuando tenía prisa…",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Ah! Claro, eras quien estaba estorbando cuando tenía prisa…",
+"type": "dialogue"
+},
+"25": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "25",
+"next_id": "27",
+"parent_id": "18",
+"tags": PackedStringArray(),
+"text": "Pasó un poco de tiempo en un silencio incómodo, el cual se vio obligada a romper.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Pasó un poco de tiempo en un silencio incómodo, el cual se vio obligada a romper.",
+"type": "dialogue"
+},
+"27": {
+"character": "Payasada",
+"character_replacements": Array[Dictionary]([]),
+"id": "27",
+"next_id": "32",
+"parent_id": "18",
+"tags": PackedStringArray(),
+"text": "Soy payasada, deberías de ser menos un estorbo, pero te ves como una buena persona, si te veo por aquí mañana, chance y hablamos de nuevo.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Soy payasada, deberías de ser menos un estorbo, pero te ves como una buena persona, si te veo por aquí mañana, chance y hablamos de nuevo.",
+"type": "dialogue"
+},
+"29": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "29",
+"next_id": "30",
+"next_id_after": "32",
+"tags": PackedStringArray(),
+"text": "Regresar luego",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Regresar luego",
+"type": "response"
+},
+"3": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "3",
+"next_id": "5",
+"tags": PackedStringArray(),
+"text": "Te acercas a la payasa sentada a tu lado, te mira de forma ligeramente agresiva, sientes que la reconoces de algún lado.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Te acercas a la payasa sentada a tu lado, te mira de forma ligeramente agresiva, sientes que la reconoces de algún lado.",
+"type": "dialogue"
+},
+"30": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "30",
+"next_id": "32",
+"parent_id": "29",
+"tags": PackedStringArray(),
+"text": "Te das la vuelta y decides hablarle luego, su aura parece un poco atemorizante.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Te das la vuelta y decides hablarle luego, su aura parece un poco atemorizante.",
+"type": "dialogue"
+},
+"32": {
+"id": "32",
+"is_snippet": false,
+"next_id": "end",
+"type": "goto"
+},
+"34": {
+"id": "34",
+"next_id": "36",
+"text": "Payasada_Segunda_Interaccion",
+"type": "title"
+},
+"36": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "36",
+"next_id": "38",
+"tags": PackedStringArray(),
+"text": "A lo lejos en el pasillo, logras ver a la Payasada. Corres a saludarla y puedes jurar que su rostro usualmente fruncido cambia a uno de alegría por medio segundo.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "A lo lejos en el pasillo, logras ver a la Payasada. Corres a saludarla y puedes jurar que su rostro usualmente fruncido cambia a uno de alegría por medio segundo.",
+"type": "dialogue"
+},
+"38": {
+"character": "Payasada",
+"character_replacements": Array[Dictionary]([]),
+"id": "38",
+"next_id": "40",
+"tags": PackedStringArray(),
+"text": "¡Hola-! Digo… que tal, {{playername}}. Justo iba a salir a hacer una carnita asada, ¿le entras?",
+"text_replacements": Array[Dictionary]([{
+"expression": Array[Dictionary]([{
+"type": "variable",
+"value": "playername"
+}]),
+"value_in_text": "{{playername}}"
+}]),
+"translation_key": "¡Hola-! Digo… que tal, {{playername}}. Justo iba a salir a hacer una carnita asada, ¿le entras?",
+"type": "dialogue"
+},
+"40": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "40",
+"next_id": "41",
+"next_id_after": "48",
+"responses": PackedStringArray("40", "43"),
+"tags": PackedStringArray(),
+"text": "Si",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Si",
+"type": "response"
+},
+"41": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "41",
+"next_id": "48",
+"parent_id": "40",
+"tags": PackedStringArray(),
+"text": "Asientes con gusto, con un poco de preocupación, pues sería tu primera carne asada.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Asientes con gusto, con un poco de preocupación, pues sería tu primera carne asada.",
+"type": "dialogue"
+},
+"43": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "43",
+"next_id": "44",
+"next_id_after": "48",
+"tags": PackedStringArray(),
+"text": "Por ahora no.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Por ahora no.",
+"type": "response"
+},
+"44": {
+"character": "{{playername}}",
+"character_replacements": Array[Dictionary]([{
+"expression": Array[Dictionary]([{
+"type": "variable",
+"value": "playername"
+}]),
+"value_in_text": "{{playername}}"
+}]),
+"id": "44",
+"next_id": "45",
+"parent_id": "43",
+"tags": PackedStringArray(),
+"text": "Lo siento Payasada, pero tengo algo que hacer.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Lo siento Payasada, pero tengo algo que hacer.",
+"type": "dialogue"
+},
+"45": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "45",
+"next_id": "46",
+"parent_id": "43",
+"tags": PackedStringArray(),
+"text": "Un poco molesta, se voltea a ver otro lado",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Un poco molesta, se voltea a ver otro lado",
+"type": "dialogue"
+},
+"46": {
+"character": "Payasada",
+"character_replacements": Array[Dictionary]([]),
+"id": "46",
+"next_id": "48",
+"parent_id": "43",
+"tags": PackedStringArray(),
+"text": "Está bien, pero si cambias de opinión, aquí voy a estar.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Está bien, pero si cambias de opinión, aquí voy a estar.",
+"type": "dialogue"
+},
+"48": {
+"id": "48",
+"is_snippet": false,
+"next_id": "end",
+"type": "goto"
+},
+"5": {
+"character": "???",
+"character_replacements": Array[Dictionary]([]),
+"id": "5",
+"next_id": "7",
+"tags": PackedStringArray(),
+"text": "Oye, ¿que me ves?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Oye, ¿que me ves?",
+"type": "dialogue"
+},
+"50": {
+"id": "50",
+"next_id": "52",
+"text": "Payasada_Tercera_Interaccion",
+"type": "title"
+},
+"52": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "52",
+"next_id": "54",
+"tags": PackedStringArray(),
+"text": "Sorprendentemente te encuentras a la Payasada en donde menos de lo esperarías, en la sala de baile de la RAP.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Sorprendentemente te encuentras a la Payasada en donde menos de lo esperarías, en la sala de baile de la RAP.",
+"type": "dialogue"
+},
+"54": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "54",
+"next_id": "56",
+"tags": PackedStringArray(),
+"text": "Sorprendida de verte, entra en un poco de Pánico, pero luego se calma, poniéndose un poco triste.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Sorprendida de verte, entra en un poco de Pánico, pero luego se calma, poniéndose un poco triste.",
+"type": "dialogue"
+},
+"56": {
+"character": "Payasada",
+"character_replacements": Array[Dictionary]([]),
+"id": "56",
+"next_id": "58",
+"tags": PackedStringArray(),
+"text": "Eh, qué caso tiene esconderlo, al final de cuentas, ya me viste…",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Eh, qué caso tiene esconderlo, al final de cuentas, ya me viste…",
+"type": "dialogue"
+},
+"58": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "58",
+"next_id": "59",
+"next_id_after": "63",
+"responses": PackedStringArray("58", "60"),
+"tags": PackedStringArray(),
+"text": "De qué hablas?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "De qué hablas?",
+"type": "response"
+},
+"59": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "59",
+"next_id": "63",
+"parent_id": "58",
+"tags": PackedStringArray(),
+"text": "De esto, de aquí!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "De esto, de aquí!",
+"type": "dialogue"
+},
+"60": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "60",
+"next_id": "61",
+"next_id_after": "63",
+"tags": PackedStringArray(),
+"text": "Todo bien?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Todo bien?",
+"type": "response"
+},
+"61": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "61",
+"next_id": "63",
+"parent_id": "60",
+"tags": PackedStringArray(),
+"text": "NO! Acabas de descubrir mi secreto…",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "NO! Acabas de descubrir mi secreto…",
+"type": "dialogue"
+},
+"63": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "63",
+"next_id": "65",
+"tags": PackedStringArray(),
+"text": "Payasada tomó un respiro, un poco más calmada, se sentó en el piso.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Payasada tomó un respiro, un poco más calmada, se sentó en el piso.",
+"type": "dialogue"
+},
+"65": {
+"character": "Payasada",
+"character_replacements": Array[Dictionary]([]),
+"id": "65",
+"next_id": "67",
+"tags": PackedStringArray(),
+"text": "Mira, todos en mi familia esperan que tome el negocio familiar cuando crezca, y necesito ser una payasa dura y ruda para eso, pero yo no soy así…",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Mira, todos en mi familia esperan que tome el negocio familiar cuando crezca, y necesito ser una payasa dura y ruda para eso, pero yo no soy así…",
+"type": "dialogue"
+},
+"67": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "67",
+"next_id": "68",
+"next_id_after": "74",
+"responses": PackedStringArray("67", "70"),
+"tags": PackedStringArray(),
+"text": "Eres perfecta tal y como eres",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Eres perfecta tal y como eres",
+"type": "response"
+},
+"68": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "68",
+"next_id": "69",
+"parent_id": "67",
+"tags": PackedStringArray(),
+"text": "Con lágrimas en los ojos, te voltea a ver, una ligera sonrisa pintando su cara.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Con lágrimas en los ojos, te voltea a ver, una ligera sonrisa pintando su cara.",
+"type": "dialogue"
+},
+"69": {
+"character": "Payasada",
+"character_replacements": Array[Dictionary]([]),
+"id": "69",
+"next_id": "74",
+"parent_id": "67",
+"tags": PackedStringArray(),
+"text": "Lo dices en serio? Nadie nunca me lo había dicho…",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Lo dices en serio? Nadie nunca me lo había dicho…",
+"type": "dialogue"
+},
+"7": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "7",
+"next_id": "8",
+"next_id_after": "32",
+"responses": PackedStringArray("7", "18", "29"),
+"tags": PackedStringArray(),
+"text": "Hola, como te llamas?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Hola, como te llamas?",
+"type": "response"
+},
+"70": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "70",
+"next_id": "71",
+"next_id_after": "74",
+"tags": PackedStringArray(),
+"text": "…",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "…",
+"type": "response"
+},
+"71": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "71",
+"next_id": "72",
+"parent_id": "70",
+"tags": PackedStringArray(),
+"text": "Después de un tiempo, te voltea a ver.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Después de un tiempo, te voltea a ver.",
+"type": "dialogue"
+},
+"72": {
+"character": "Payasada",
+"character_replacements": Array[Dictionary]([]),
+"id": "72",
+"next_id": "74",
+"parent_id": "70",
+"tags": PackedStringArray(),
+"text": "Gracias por escucharme, {{playername}}, creo que eres la persona más cercana a un amigo que tengo…",
+"text_replacements": Array[Dictionary]([{
+"expression": Array[Dictionary]([{
+"type": "variable",
+"value": "playername"
+}]),
+"value_in_text": "{{playername}}"
+}]),
+"translation_key": "Gracias por escucharme, {{playername}}, creo que eres la persona más cercana a un amigo que tengo…",
+"type": "dialogue"
+},
+"74": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "74",
+"next_id": "75",
+"tags": PackedStringArray(),
+"text": "Payasada suspiró por un momento, parándose y extendiendo su mano.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Payasada suspiró por un momento, parándose y extendiendo su mano.",
+"type": "dialogue"
+},
+"75": {
+"character": "Payasada",
+"character_replacements": Array[Dictionary]([]),
+"id": "75",
+"next_id": "77",
+"tags": PackedStringArray(),
+"text": "Ven, vamos a bailar un rato.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Ven, vamos a bailar un rato.",
+"type": "dialogue"
+},
+"77": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "77",
+"next_id": "79",
+"tags": PackedStringArray(),
+"text": "Pasaron el resto del tiempo bailando payaso de rodeo, su canción favorita…",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Pasaron el resto del tiempo bailando payaso de rodeo, su canción favorita…",
+"type": "dialogue"
+},
+"79": {
+"id": "79",
+"is_snippet": false,
+"next_id": "end",
+"type": "goto"
+},
+"8": {
+"character": "{{playername}}",
+"character_replacements": Array[Dictionary]([{
+"expression": Array[Dictionary]([{
+"type": "variable",
+"value": "playername"
+}]),
+"value_in_text": "{{playername}}"
+}]),
+"id": "8",
+"next_id": "10",
+"parent_id": "7",
+"tags": PackedStringArray(),
+"text": "Hola, soy {{playername}}, y tú cómo te llamas?",
+"text_replacements": Array[Dictionary]([{
+"expression": Array[Dictionary]([{
+"type": "variable",
+"value": "playername"
+}]),
+"value_in_text": "{{playername}}"
+}]),
+"translation_key": "Hola, soy {{playername}}, y tú cómo te llamas?",
+"type": "dialogue"
+}
+}
+metadata/dialogue_manager_version = "2.32.3"

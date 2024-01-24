@@ -1,0 +1,182 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_rjxkr"]
+
+[resource]
+script = ExtResource("1_rjxkr")
+using_states = PackedStringArray()
+titles = {
+"Inicio_Dia_1": "17",
+"Interactuar_Puerta_Dia⁠_1": "11",
+"Intro_Clase": "27",
+"Primer_Dialogo": "3"
+}
+character_names = PackedStringArray("???", "Prof. Papayaso")
+first_title = "3"
+lines = {
+"1": {
+"id": "1",
+"next_id": "3",
+"text": "Primer_Dialogo",
+"type": "title"
+},
+"11": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "11",
+"next_id": "12",
+"tags": PackedStringArray(),
+"text": "La noche se ha apoderado del campus, así que no hay más que hacer por hoy…",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "La noche se ha apoderado del campus, así que no hay más que hacer por hoy…",
+"type": "dialogue"
+},
+"12": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "12",
+"next_id": "13",
+"tags": PackedStringArray(),
+"text": "‬",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "‬",
+"type": "dialogue"
+},
+"13": {
+"id": "13",
+"is_snippet": false,
+"next_id": "end",
+"type": "goto"
+},
+"15": {
+"id": "15",
+"next_id": "17",
+"text": "Inicio_Dia_1",
+"type": "title"
+},
+"17": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "17",
+"next_id": "19",
+"tags": PackedStringArray(),
+"text": "Mientras ibas caminando a la escuela, una payasa corriendo sin querer te tiró al piso, empujandote a un lado mientras corría hacia la escuela",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Mientras ibas caminando a la escuela, una payasa corriendo sin querer te tiró al piso, empujandote a un lado mientras corría hacia la escuela",
+"type": "dialogue"
+},
+"19": {
+"character": "???",
+"character_replacements": Array[Dictionary]([]),
+"id": "19",
+"next_id": "21",
+"tags": PackedStringArray(),
+"text": "Quítate! ¡Traigo prisa!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Quítate! ¡Traigo prisa!",
+"type": "dialogue"
+},
+"21": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "21",
+"next_id": "23",
+"tags": PackedStringArray(),
+"text": "No la lograste ver muy bien, pero lograste ver que traía un sombrero, y una carnita asada en la boca, como si fuese un pan tostado.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "No la lograste ver muy bien, pero lograste ver que traía un sombrero, y una carnita asada en la boca, como si fuese un pan tostado.",
+"type": "dialogue"
+},
+"23": {
+"id": "23",
+"is_snippet": false,
+"next_id": "end",
+"type": "goto"
+},
+"25": {
+"id": "25",
+"next_id": "27",
+"text": "Intro_Clase",
+"type": "title"
+},
+"27": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "27",
+"next_id": "29",
+"tags": PackedStringArray(),
+"text": "Entras rápidamente al salón, donde el profesor te pide que te le acerques.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Entras rápidamente al salón, donde el profesor te pide que te le acerques.",
+"type": "dialogue"
+},
+"29": {
+"character": "???",
+"character_replacements": Array[Dictionary]([]),
+"id": "29",
+"next_id": "31",
+"tags": PackedStringArray(),
+"text": "Clase! Les presento a {{playername}}, un estudiante de intercambio de Chiapas. Espero que tu tiempo en Payasolandia y en la RAP sea bastante agradable.",
+"text_replacements": Array[Dictionary]([{
+"expression": Array[Dictionary]([{
+"type": "variable",
+"value": "playername"
+}]),
+"value_in_text": "{{playername}}"
+}]),
+"translation_key": "Clase! Les presento a {{playername}}, un estudiante de intercambio de Chiapas. Espero que tu tiempo en Payasolandia y en la RAP sea bastante agradable.",
+"type": "dialogue"
+},
+"3": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "3",
+"next_id": "5",
+"tags": PackedStringArray(),
+"text": "Después de un largo día, por fin desempacastes las maletas. Mañana será tu primer día en la Real Academia de Payasos.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Después de un largo día, por fin desempacastes las maletas. Mañana será tu primer día en la Real Academia de Payasos.",
+"type": "dialogue"
+},
+"31": {
+"character": "Prof. Papayaso",
+"character_replacements": Array[Dictionary]([]),
+"id": "31",
+"next_id": "33",
+"tags": PackedStringArray(),
+"text": "Soy el Profesor Papayaso, si necesitas algo, puedes preguntarme.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Soy el Profesor Papayaso, si necesitas algo, puedes preguntarme.",
+"type": "dialogue"
+},
+"33": {
+"id": "33",
+"is_snippet": false,
+"next_id": "end",
+"type": "goto"
+},
+"5": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "5",
+"next_id": "7",
+"tags": PackedStringArray(),
+"text": "Ya es un poco tarde, deberías de irte a acostar por el día de hoy.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Ya es un poco tarde, deberías de irte a acostar por el día de hoy.",
+"type": "dialogue"
+},
+"7": {
+"id": "7",
+"is_snippet": false,
+"next_id": "end",
+"type": "goto"
+},
+"9": {
+"id": "9",
+"next_id": "11",
+"text": "Interactuar_Puerta_Dia⁠_1",
+"type": "title"
+}
+}
+metadata/dialogue_manager_version = "2.32.3"
