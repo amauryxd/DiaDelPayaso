@@ -10,10 +10,6 @@ var nodo = get_parent()
 func _ready():
 	
 	print(nodo)
-	
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
 
 func _spawn():
 	var instancia = carne.instantiate()
