@@ -1,7 +1,6 @@
 extends Sprite2D
 
 var carne = preload("res://object.tscn")
-var instancia = carne.instantiate()
 var nodo = get_parent()
 
 
@@ -17,8 +16,9 @@ func _process(delta):
 	pass
 
 func _spawn():
-	instancia.position=Vector2(231,528)
-	$"..".add_child.call_deferred(instancia)
+	var instancia = carne.instantiate()
+	add_sibling(instancia)
+	instancia.global_position=Vector2(231,528)
 
 func _input(event): #detecta si el botón del mouse se ha presionado
 	if event is InputEventMouseButton and event.pressed:_spawn()

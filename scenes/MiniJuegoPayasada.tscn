@@ -1,8 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://b7dy5msicfvmi"]
+[gd_scene load_steps=6 format=3 uid="uid://b7dy5msicfvmi"]
 
 [ext_resource type="Script" path="res://Scripts/global.gd" id="1_arogd"]
 [ext_resource type="PackedScene" uid="uid://cenabm0gouhbo" path="res://platform.tscn" id="2_mr26u"]
-[ext_resource type="PackedScene" uid="uid://ci2jw68wrdtkf" path="res://object.tscn" id="3_42560"]
 [ext_resource type="Texture2D" uid="uid://figentvoqxdj" path="res://Imgs/cruda.png" id="4_bn0b2"]
 [ext_resource type="Script" path="res://Scripts/Spawner.gd" id="5_6xb76"]
 
@@ -19,9 +18,6 @@ position = Vector2(990, 459)
 
 [node name="Platform3" parent="." instance=ExtResource("2_mr26u")]
 position = Vector2(837, 133)
-
-[node name="Object" parent="." instance=ExtResource("3_42560")]
-position = Vector2(565, 406)
 
 [node name="Spawner" type="Sprite2D" parent="."]
 position = Vector2(231, 528)

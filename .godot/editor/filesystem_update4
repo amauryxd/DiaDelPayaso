@@ -3,5 +3,3 @@ res://scenes/top_down.tscn
 res://platform.tscn
 res://object.tscn
 res://scenes/MiniJuegoSichichita.tscn
-res://Scripts/global.gd
-res://Scripts/Spawner.gd
