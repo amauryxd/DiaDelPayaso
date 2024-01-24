@@ -1,0 +1,33 @@
+~ Primer_Dialogo 
+
+Después de un largo día, por fin desempacastes las maletas. Mañana será tu primer día en la Real Academia de Payasos. 
+
+Ya es un poco tarde, deberías de irte a acostar por el día de hoy.
+
+=> END
+
+~ Interactuar_Puerta_Dia⁠_1
+
+La noche se ha apoderado del campus, así que no hay más que hacer por hoy…
+‬
+=> END
+
+~ Inicio_Dia_1
+
+Mientras ibas caminando a la escuela, una payasa corriendo sin querer te tiró al piso, empujandote a un lado mientras corría hacia la escuela
+
+???: Quítate! ¡Traigo prisa!
+
+No la lograste ver muy bien, pero lograste ver que traía un sombrero, y una carnita asada en la boca, como si fuese un pan tostado.
+
+=> END
+
+~ Intro_Clase
+
+Entras rápidamente al salón, donde el profesor te pide que te le acerques. 
+
+???: Clase! Les presento a {{playername}}, un estudiante de intercambio de Chiapas. Espero que tu tiempo en Payasolandia y en la RAP sea bastante agradable. 
+
+Prof. Papayaso: Soy el Profesor Papayaso, si necesitas algo, puedes preguntarme. 
+
+=> END

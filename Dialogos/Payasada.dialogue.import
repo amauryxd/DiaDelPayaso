@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_11"
+type="Resource"
+uid="uid://totijoxg3ek1"
+path="res://.godot/imported/Payasada.dialogue-0e1a97091d365226227f3fe2582dacdd.tres"
+
+[deps]
+
+source_file="res://Dialogos/Payasada.dialogue"
+dest_files=["res://.godot/imported/Payasada.dialogue-0e1a97091d365226227f3fe2582dacdd.tres"]
+
+[params]
+
+defaults=true

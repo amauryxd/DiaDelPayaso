@@ -1,0 +1,79 @@
+~ Payasada_Primera_Interaccion
+
+Te acercas a la payasa sentada a tu lado, te mira de forma ligeramente agresiva, sientes que la reconoces de algún lado. 
+
+???: Oye, ¿que me ves?
+
+- Hola, como te llamas?
+	{{playername}}: Hola, soy {{playername}}, y tú cómo te llamas?
+	
+	Te mira, un poco confusa.
+	
+	Payasada: Hola, soy Payasada, debes ser el estudiante de intercambio veda? 
+	
+	Hablan un poco, su enojado rostro poco a poco convirtiéndose en uno más calmado.
+	
+	Payasada: ¿Sabes? Me caiste un poco bien, chance y te invito a una carnita asada mañana, buscame…
+
+- Yo te conozco
+	{{playername}}: Hey! Creo que ya nos hemos visto.
+	
+	La payasa tomó un poco de tiempo para pensar; un poco después, su cara cambió a una de sorpresa.
+	
+	???: Ah! Claro, eras quien estaba estorbando cuando tenía prisa…
+	
+	Pasó un poco de tiempo en un silencio incómodo, el cual se vio obligada a romper.
+	
+	Payasada: Soy payasada, deberías de ser menos un estorbo, pero te ves como una buena persona, si te veo por aquí mañana, chance y hablamos de nuevo.
+
+- Regresar luego
+	Te das la vuelta y decides hablarle luego, su aura parece un poco atemorizante.
+
+=> END
+
+~ Payasada_Segunda_Interaccion
+
+A lo lejos en el pasillo, logras ver a la Payasada. Corres a saludarla y puedes jurar que su rostro usualmente fruncido cambia a uno de alegría por medio segundo.
+
+Payasada: ¡Hola-! Digo… que tal, {{playername}}. Justo iba a salir a hacer una carnita asada, ¿le entras?
+
+- Si
+	Asientes con gusto, con un poco de preocupación, pues sería tu primera carne asada.
+	#Iniciar Minijuego Payasada
+- Por ahora no.
+	{{playername}}: Lo siento Payasada, pero tengo algo que hacer.
+	Un poco molesta, se voltea a ver otro lado
+	Payasada: Está bien, pero si cambias de opinión, aquí voy a estar.
+
+=> END
+
+~ Payasada_Tercera_Interaccion
+
+Sorprendentemente te encuentras a la Payasada en donde menos de lo esperarías, en la sala de baile de la RAP.
+
+Sorprendida de verte, entra en un poco de Pánico, pero luego se calma, poniéndose un poco triste.
+
+Payasada: Eh, qué caso tiene esconderlo, al final de cuentas, ya me viste…
+
+- De qué hablas?
+	De esto, de aquí!
+- Todo bien?
+	NO! Acabas de descubrir mi secreto…
+
+Payasada tomó un respiro, un poco más calmada, se sentó en el piso.
+
+Payasada: Mira, todos en mi familia esperan que tome el negocio familiar cuando crezca, y necesito ser una payasa dura y ruda para eso, pero yo no soy así…
+
+- Eres perfecta tal y como eres
+	Con lágrimas en los ojos, te voltea a ver, una ligera sonrisa pintando su cara.
+	Payasada: Lo dices en serio? Nadie nunca me lo había dicho… 
+- … 
+	Después de un tiempo, te voltea a ver.
+	Payasada: Gracias por escucharme, {{playername}}, creo que eres la persona más cercana a un amigo que tengo…
+
+Payasada suspiró por un momento, parándose y extendiendo su mano.
+Payasada: Ven, vamos a bailar un rato.
+
+Pasaron el resto del tiempo bailando payaso de rodeo, su canción favorita…
+
+=> END
