@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://5eeoh0pflxvo"]
+
+[ext_resource type="Texture2D" uid="uid://c7auyjjupoyjy" path="res://icon.svg" id="1_6din8"]
+[ext_resource type="Script" path="res://PlayashoRes/Player.gd" id="1_slopr"]
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_slopr")
+
+[node name="Icon" type="Sprite2D" parent="."]
+texture = ExtResource("1_6din8")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(64, -59.6, 64, 59, 59.6, 64, -59, 64, -64, 59.6, -64, -59.6, -59, -63.9, 59, -64)

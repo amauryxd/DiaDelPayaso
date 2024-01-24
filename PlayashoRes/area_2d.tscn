@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://18vwbo3ufq6y"]
+
+[ext_resource type="Script" path="res://Scripts/obstacle.gd" id="1_aoryx"]
+[ext_resource type="Texture2D" uid="uid://cvofb5mf3bosf" path="res://Imgs/quemada.jpg" id="1_jm2g0"]
+
+[node name="Area2D" type="Area2D"]
+scale = Vector2(3.63159, 3.63159)
+script = ExtResource("1_aoryx")
+
+[node name="Quemada" type="Sprite2D" parent="."]
+scale = Vector2(0.0361111, 0.0361111)
+texture = ExtResource("1_jm2g0")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+scale = Vector2(0.0361111, 0.0361111)
+polygon = PackedVector2Array(480, 360, -480, 360, -480, -360, 480, -360)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
