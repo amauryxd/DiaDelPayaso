@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_11"
+type="Resource"
+uid="uid://b1o54c7ytpkbq"
+path="res://.godot/imported/Playasho.dialogue-686a02876a7a48be8f929c8fadc01f09.tres"
+
+[deps]
+
+source_file="res://Dialogos/Playasho.dialogue"
+dest_files=["res://.godot/imported/Playasho.dialogue-686a02876a7a48be8f929c8fadc01f09.tres"]
+
+[params]
+
+defaults=true

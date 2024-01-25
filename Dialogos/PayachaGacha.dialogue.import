@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_11"
+type="Resource"
+uid="uid://ca4t286fnw5fh"
+path="res://.godot/imported/PayachaGacha.dialogue-86fa555f8f42134e01126c5d918168e4.tres"
+
+[deps]
+
+source_file="res://Dialogos/PayachaGacha.dialogue"
+dest_files=["res://.godot/imported/PayachaGacha.dialogue-86fa555f8f42134e01126c5d918168e4.tres"]
+
+[params]
+
+defaults=true

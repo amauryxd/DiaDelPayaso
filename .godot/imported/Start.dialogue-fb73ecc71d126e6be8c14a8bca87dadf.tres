@@ -1,17 +1,18 @@
 [gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_rjxkr"]
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_fvr32"]
 
 [resource]
-script = ExtResource("1_rjxkr")
+script = ExtResource("1_fvr32")
 using_states = PackedStringArray()
 titles = {
+"Final_3": "37",
 "Inicio_Dia_1": "17",
 "Interactuar_Puerta_Dia⁠_1": "11",
 "Intro_Clase": "27",
 "Primer_Dialogo": "3"
 }
-character_names = PackedStringArray("???", "Prof. Papayaso")
+character_names = PackedStringArray("???", "Prof. Papayaso", "FINAL 3")
 first_title = "3"
 lines = {
 "1": {
@@ -151,6 +152,40 @@ lines = {
 },
 "33": {
 "id": "33",
+"is_snippet": false,
+"next_id": "end",
+"type": "goto"
+},
+"35": {
+"id": "35",
+"next_id": "37",
+"text": "Final_3",
+"type": "title"
+},
+"37": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "37",
+"next_id": "39",
+"tags": PackedStringArray(),
+"text": "Llegas a la entrada de la escuela, el Dia del Payaso esta a todo dar, pero no tienes a nadie con quien pasarlo…",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Llegas a la entrada de la escuela, el Dia del Payaso esta a todo dar, pero no tienes a nadie con quien pasarlo…",
+"type": "dialogue"
+},
+"39": {
+"character": "FINAL 3",
+"character_replacements": Array[Dictionary]([]),
+"id": "39",
+"next_id": "41",
+"tags": PackedStringArray(),
+"text": "Skill Issue",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Skill Issue",
+"type": "dialogue"
+},
+"41": {
+"id": "41",
 "is_snippet": false,
 "next_id": "end",
 "type": "goto"
