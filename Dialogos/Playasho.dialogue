@@ -1,0 +1,93 @@
+~ Primera_Interaccion
+
+Viendo a todos los payasos en el salón, notas a uno bastante musculoso.
+
+???: Ah, hola! Eres el nuevo estudiante huh? 
+
+Con una sonrisa amigable, te mira de forma directa.
+
+Playasho: Soy el Payaso de Playa, pero me dicen el Playasho.
+
+- Playasho?
+	{{playername}}: Playasho?
+	Playasho: Si, así me pusieron mis compas, decir Payaso de Playa era bastante largo, entonces decidimos acortarlo.
+	{{playername}}: ¡Te queda bien! Me llamo {{playername}}, por cierto.
+	Playasho: Un gusto {{playername}}. Hey, te gustaría ir a la playa un día de estos? ¡Puedo enseñarte a surfear si quieres! 
+	Con una sonrisa, asientes.
+	Playasho: Perfecto, entonces nos vemos mañana!
+	Y con eso, se fué, silbando tranquilamente mientras salía del salón.
+
+- Heh, buen nombre!
+	{{playername}}: Playasho… ¡Te queda bien! Me llamo {{playername}}, por cierto.
+	Playasho: Un gusto {{playername}}. Hey, te gustaría ir a la playa un día de estos? ¡Puedo enseñarte a surfear si quieres! 
+	Con una sonrisa, asientes.
+	Playasho: Perfecto, entonces nos vemos mañana!
+	Y con eso, se fué, silbando tranquilamente mientras salía del salón.
+
+- Ahorita regreso.
+	{{playername}}: En un momento regreso! Se me olvidó algo…
+	Playasho te ve un poco confundido, pero no se enfoca mucho en ello, y regresa a sus pensamientos.
+
+=> END
+
+~ Segunda_Interaccion
+
+Saliendo del campus, ves a Playasho descansando en las escaleras, al caminar cerca de el, se para y se acerca a ti.
+Playasho: {{playername}}! Por fin, te he estado esperando. Que dices, quieres ir a surfear un rato?
+- Si
+	Una sonrisa pinta su rostro. 
+	Playasho: Perfecto! Ven, vamos!
+	#Iniciar Minijuego Playasho
+- No por ahora
+	Playasho regresa a una expresión neutral y se sienta.
+	Playasho: Está bien, pero si cambias de opinión, aquí te espero!
+
+=> END
+
+~ Tercera_Interaccion
+
+Abres las puertas del gran salón de oratoria, bastante vacío por el momento, con la excepción de alguien en el podio, Playasho. Él te mira, un poco cansado.
+Playasho: Ah, ¡Hola! No esperaba que nadie viniese a verme..
+- Que haces aqui?
+	{{playername}}: ¿Qué… haces aquí?
+	Playasho: Práctico, para mi futuro…
+- No te ves muy bien.
+	{{playername}}: Hola Playasho, no te ves muy bien…
+	Playasho suspira
+	Playasho: No, la verdad es que no estoy…
+
+Playasho se toma un momento, mirandote.
+Verás, la gente piensa que soy un poco tonto, pero en realidad me esfuerzo mucho, yo quiero ser un diputado, ayudar a que Payasolandia sea un lugar mejor! Pero creo que es un sueño tonto…
+
+- Tus sueños son válidos
+	A Playasho le crece una sonrisa.
+	Playasho: Gracias por pensar eso, te aprecio…
+- Vas a llegar lejos.
+	Playasho se ríe ligeramente.
+	Playasho: Esperemos que sí…
+
+Playasho: Bueno, dejemos eso atrás, déjame practicar un rato y luego caminamos, ¿te parece?
+Asientes, escuchándolo practicar, dando notas donde crees que puede mejorar, te sientes más cerca de Playasho que nunca.
+
+=> END
+
+~ Cuarta_Interaccion
+
+Caminas hacia la alberca, observando que Playasho estaba a punto de meterse a nadar.
+Playasho: Hey! Como estas, {{playername}}, quieres nadar un rato?
+
+- Si
+	Playasho sonríe, y él y tú nadan por un tiempo, hasta que la noche llega.
+- No
+	Playasho: Bueno, no pasa nada, voy a estar nadando un tiempo, por si quieres acompañarme! 
+
+=> END
+
+~ Final_1
+
+En la entrada de la escuela, logras ver al playasho, sosteniendo un ramo de rosas; en el segundo en el que te ve, levanta la mano y pide que te acerques.
+Playasho: Hey, {{playername}}! Gracias por confiar en mí… Y por eso, me gustaría que estuvieras conmigo en el Día del Payaso. 
+Tomas el ramo y te metes junto con Playasho, listos para disfrutar de un día entero lleno de risas…
+FINAL 1: Las Risas No Faltaron…
+
+=> END

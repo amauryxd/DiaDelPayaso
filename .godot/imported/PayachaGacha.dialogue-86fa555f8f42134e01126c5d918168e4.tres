@@ -1,0 +1,674 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_wb0lw"]
+
+[resource]
+script = ExtResource("1_wb0lw")
+using_states = PackedStringArray()
+titles = {
+"Cuarta_Interaccion": "59",
+"Final_1": "71",
+"Primera_Interaccion": "3",
+"Segunda_Interaccion": "12",
+"Tercera_Interaccion": "30"
+}
+character_names = PackedStringArray("Payacha Gacha", "Gacha", "{{playername}}", "FINAL 1")
+first_title = "3"
+lines = {
+"1": {
+"id": "1",
+"next_id": "3",
+"text": "Primera_Interaccion",
+"type": "title"
+},
+"10": {
+"id": "10",
+"next_id": "12",
+"text": "Segunda_Interaccion",
+"type": "title"
+},
+"12": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "12",
+"next_id": "14",
+"tags": PackedStringArray(),
+"text": "Con cuidado entras a la oficina de Gacha, la encuentras enterrada en papeles, a punto de que casi ni se da cuenta que te metiste a su oficina. Un poco cansada, te saluda.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Con cuidado entras a la oficina de Gacha, la encuentras enterrada en papeles, a punto de que casi ni se da cuenta que te metiste a su oficina. Un poco cansada, te saluda.",
+"type": "dialogue"
+},
+"14": {
+"character": "Gacha",
+"character_replacements": Array[Dictionary]([]),
+"id": "14",
+"next_id": "15",
+"tags": PackedStringArray(),
+"text": "Ah, hola {{playername}}, me encuentras en un momento un poco complicado…",
+"text_replacements": Array[Dictionary]([{
+"expression": Array[Dictionary]([{
+"type": "variable",
+"value": "playername"
+}]),
+"value_in_text": "{{playername}}"
+}]),
+"translation_key": "Ah, hola {{playername}}, me encuentras en un momento un poco complicado…",
+"type": "dialogue"
+},
+"15": {
+"character": "Gacha",
+"character_replacements": Array[Dictionary]([]),
+"id": "15",
+"next_id": "16",
+"tags": PackedStringArray(),
+"text": "Estoy abrumada con un poco de papeleo, pero puedo charlar rápidamente, ¿que necesitas?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Estoy abrumada con un poco de papeleo, pero puedo charlar rápidamente, ¿que necesitas?",
+"type": "dialogue"
+},
+"16": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "16",
+"next_id": "17",
+"next_id_after": "26",
+"responses": PackedStringArray("16", "21"),
+"tags": PackedStringArray(),
+"text": "¡Te ayudo!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "¡Te ayudo!",
+"type": "response"
+},
+"17": {
+"character": "{{playername}}",
+"character_replacements": Array[Dictionary]([{
+"expression": Array[Dictionary]([{
+"type": "variable",
+"value": "playername"
+}]),
+"value_in_text": "{{playername}}"
+}]),
+"id": "17",
+"next_id": "18",
+"parent_id": "16",
+"tags": PackedStringArray(),
+"text": "Deja te ayudo! Así no tendrás tanto trabajo por el cual preocuparte.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Deja te ayudo! Así no tendrás tanto trabajo por el cual preocuparte.",
+"type": "dialogue"
+},
+"18": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "18",
+"next_id": "19",
+"parent_id": "16",
+"tags": PackedStringArray(),
+"text": "Gacha pensó por un momento, pero aceptó.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Gacha pensó por un momento, pero aceptó.",
+"type": "dialogue"
+},
+"19": {
+"character": "Gacha",
+"character_replacements": Array[Dictionary]([]),
+"id": "19",
+"next_id": "26",
+"parent_id": "16",
+"tags": PackedStringArray(),
+"text": "Gracias, es una gran ayuda.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Gracias, es una gran ayuda.",
+"type": "dialogue"
+},
+"21": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "21",
+"next_id": "22",
+"next_id_after": "26",
+"tags": PackedStringArray(),
+"text": "En un momento vuelvo",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "En un momento vuelvo",
+"type": "response"
+},
+"22": {
+"character": "{{playername}}",
+"character_replacements": Array[Dictionary]([{
+"expression": Array[Dictionary]([{
+"type": "variable",
+"value": "playername"
+}]),
+"value_in_text": "{{playername}}"
+}]),
+"id": "22",
+"next_id": "23",
+"parent_id": "21",
+"tags": PackedStringArray(),
+"text": "Ya veo… en un momento regreso!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Ya veo… en un momento regreso!",
+"type": "dialogue"
+},
+"23": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "23",
+"next_id": "24",
+"parent_id": "21",
+"tags": PackedStringArray(),
+"text": "Gacha mostró una sonrisa cansada.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Gacha mostró una sonrisa cansada.",
+"type": "dialogue"
+},
+"24": {
+"character": "Gacha",
+"character_replacements": Array[Dictionary]([]),
+"id": "24",
+"next_id": "26",
+"parent_id": "21",
+"tags": PackedStringArray(),
+"text": "Seguro, no me voy a ningún lado…",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Seguro, no me voy a ningún lado…",
+"type": "dialogue"
+},
+"26": {
+"id": "26",
+"is_snippet": false,
+"next_id": "end",
+"type": "goto"
+},
+"28": {
+"id": "28",
+"next_id": "30",
+"text": "Tercera_Interaccion",
+"type": "title"
+},
+"3": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "3",
+"next_id": "4",
+"tags": PackedStringArray(),
+"text": "Al lado del Profesor Papayaso, hay una payasa vestida comparativamente más formal que los otros, también puedes ver que es más grande, tanto en edad como en estatura.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Al lado del Profesor Papayaso, hay una payasa vestida comparativamente más formal que los otros, también puedes ver que es más grande, tanto en edad como en estatura.",
+"type": "dialogue"
+},
+"30": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "30",
+"next_id": "32",
+"tags": PackedStringArray(),
+"text": "Esta vez, cuando la vas a visitar, notas que no hay mucho papeleo, pero también notas a Gacha mucho más apagada.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Esta vez, cuando la vas a visitar, notas que no hay mucho papeleo, pero también notas a Gacha mucho más apagada.",
+"type": "dialogue"
+},
+"32": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "32",
+"next_id": "33",
+"next_id_after": "38",
+"responses": PackedStringArray("32", "35"),
+"tags": PackedStringArray(),
+"text": "Gacha, ¿estás bien?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Gacha, ¿estás bien?",
+"type": "response"
+},
+"33": {
+"character": "{{playername}}",
+"character_replacements": Array[Dictionary]([{
+"expression": Array[Dictionary]([{
+"type": "variable",
+"value": "playername"
+}]),
+"value_in_text": "{{playername}}"
+}]),
+"id": "33",
+"next_id": "38",
+"parent_id": "32",
+"tags": PackedStringArray(),
+"text": "Uhm, Gacha? ¿Te encuentras bien?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Uhm, Gacha? ¿Te encuentras bien?",
+"type": "dialogue"
+},
+"35": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "35",
+"next_id": "36",
+"next_id_after": "38",
+"tags": PackedStringArray(),
+"text": "…",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "…",
+"type": "response"
+},
+"36": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "36",
+"next_id": "38",
+"parent_id": "35",
+"tags": PackedStringArray(),
+"text": "Guardas silencio, pero Gacha se da cuenta de tu entrada, levantando su mirada.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Guardas silencio, pero Gacha se da cuenta de tu entrada, levantando su mirada.",
+"type": "dialogue"
+},
+"38": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "38",
+"next_id": "39",
+"tags": PackedStringArray(),
+"text": "Gacha, apenas notando tu presencia, te voltea a ver.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Gacha, apenas notando tu presencia, te voltea a ver.",
+"type": "dialogue"
+},
+"39": {
+"character": "Gacha",
+"character_replacements": Array[Dictionary]([]),
+"id": "39",
+"next_id": "40",
+"tags": PackedStringArray(),
+"text": "Ah. Hola {{playername}}...",
+"text_replacements": Array[Dictionary]([{
+"expression": Array[Dictionary]([{
+"type": "variable",
+"value": "playername"
+}]),
+"value_in_text": "{{playername}}"
+}]),
+"translation_key": "Ah. Hola {{playername}}...",
+"type": "dialogue"
+},
+"4": {
+"character": "Payacha Gacha",
+"character_replacements": Array[Dictionary]([]),
+"id": "4",
+"next_id": "5",
+"tags": PackedStringArray(),
+"text": "Hola, tu debes de ser {{playername}}. Espero que el intercambio sea agradable para ti, todos en la RAP estamos a tu disposición. Soy la Payacha Gacha, pero puedes llamarme Gacha.",
+"text_replacements": Array[Dictionary]([{
+"expression": Array[Dictionary]([{
+"type": "variable",
+"value": "playername"
+}]),
+"value_in_text": "{{playername}}"
+}]),
+"translation_key": "Hola, tu debes de ser {{playername}}. Espero que el intercambio sea agradable para ti, todos en la RAP estamos a tu disposición. Soy la Payacha Gacha, pero puedes llamarme Gacha.",
+"type": "dialogue"
+},
+"40": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "40",
+"next_id": "41",
+"tags": PackedStringArray(),
+"text": "Hubo un ligero silencio incómodo, el cual fue prontamente roto por una pregunta.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Hubo un ligero silencio incómodo, el cual fue prontamente roto por una pregunta.",
+"type": "dialogue"
+},
+"41": {
+"character": "Gacha",
+"character_replacements": Array[Dictionary]([]),
+"id": "41",
+"next_id": "43",
+"tags": PackedStringArray(),
+"text": "Dime {{playername}}... ¿Crees que una persona puede volver a amar, aún si le han roto el corazón varias veces?",
+"text_replacements": Array[Dictionary]([{
+"expression": Array[Dictionary]([{
+"type": "variable",
+"value": "playername"
+}]),
+"value_in_text": "{{playername}}"
+}]),
+"translation_key": "Dime {{playername}}... ¿Crees que una persona puede volver a amar, aún si le han roto el corazón varias veces?",
+"type": "dialogue"
+},
+"43": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "43",
+"next_id": "44",
+"next_id_after": "52",
+"responses": PackedStringArray("43", "47"),
+"tags": PackedStringArray(),
+"text": "Claro, el amor siempre puede florecer",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Claro, el amor siempre puede florecer",
+"type": "response"
+},
+"44": {
+"character": "{{playername}}",
+"character_replacements": Array[Dictionary]([{
+"expression": Array[Dictionary]([{
+"type": "variable",
+"value": "playername"
+}]),
+"value_in_text": "{{playername}}"
+}]),
+"id": "44",
+"next_id": "45",
+"parent_id": "43",
+"tags": PackedStringArray(),
+"text": "Por supuesto, aún despues de varios intentos, el amor siempre puede florecer.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Por supuesto, aún despues de varios intentos, el amor siempre puede florecer.",
+"type": "dialogue"
+},
+"45": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "45",
+"next_id": "46",
+"parent_id": "43",
+"tags": PackedStringArray(),
+"text": "Esto parece haber hecho un poco feliz a Gacha.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Esto parece haber hecho un poco feliz a Gacha.",
+"type": "dialogue"
+},
+"46": {
+"character": "Gacha",
+"character_replacements": Array[Dictionary]([]),
+"id": "46",
+"next_id": "52",
+"parent_id": "43",
+"tags": PackedStringArray(),
+"text": "Gracias, espero que tengas razón.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Gracias, espero que tengas razón.",
+"type": "dialogue"
+},
+"47": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "47",
+"next_id": "48",
+"next_id_after": "52",
+"tags": PackedStringArray(),
+"text": "Leí los documentos de ayer, puede encontrar el amor.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Leí los documentos de ayer, puede encontrar el amor.",
+"type": "response"
+},
+"48": {
+"character": "{{playername}}",
+"character_replacements": Array[Dictionary]([{
+"expression": Array[Dictionary]([{
+"type": "variable",
+"value": "playername"
+}]),
+"value_in_text": "{{playername}}"
+}]),
+"id": "48",
+"next_id": "49",
+"parent_id": "47",
+"tags": PackedStringArray(),
+"text": "No es por querer hablar de más, pero los documentos de ayer. Yo sé que le preocupa, pero va a poder encontrar a alguien que la haga sentir bien.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "No es por querer hablar de más, pero los documentos de ayer. Yo sé que le preocupa, pero va a poder encontrar a alguien que la haga sentir bien.",
+"type": "dialogue"
+},
+"49": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "49",
+"next_id": "50",
+"parent_id": "47",
+"tags": PackedStringArray(),
+"text": "El ir directo al grano la sorprende, haciendo que se ruborice un poco. Toma un tiempo para pensarlo, pero al final sonríe.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "El ir directo al grano la sorprende, haciendo que se ruborice un poco. Toma un tiempo para pensarlo, pero al final sonríe.",
+"type": "dialogue"
+},
+"5": {
+"character": "Gacha",
+"character_replacements": Array[Dictionary]([]),
+"id": "5",
+"next_id": "6",
+"tags": PackedStringArray(),
+"text": "Y… si quieres hablar a solas por alguna razón, siempre puedes encontrarme en mi oficina.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Y… si quieres hablar a solas por alguna razón, siempre puedes encontrarme en mi oficina.",
+"type": "dialogue"
+},
+"50": {
+"character": "Gacha",
+"character_replacements": Array[Dictionary]([]),
+"id": "50",
+"next_id": "52",
+"parent_id": "47",
+"tags": PackedStringArray(),
+"text": "Gracias por preocuparte {{playername}}.",
+"text_replacements": Array[Dictionary]([{
+"expression": Array[Dictionary]([{
+"type": "variable",
+"value": "playername"
+}]),
+"value_in_text": "{{playername}}"
+}]),
+"translation_key": "Gracias por preocuparte {{playername}}.",
+"type": "dialogue"
+},
+"52": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "52",
+"next_id": "53",
+"tags": PackedStringArray(),
+"text": "Gacha se levanta de su silla acercándose a ti.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Gacha se levanta de su silla acercándose a ti.",
+"type": "dialogue"
+},
+"53": {
+"character": "Gacha",
+"character_replacements": Array[Dictionary]([]),
+"id": "53",
+"next_id": "55",
+"tags": PackedStringArray(),
+"text": "Tengo hambre, acompáñame por algo de comer, yo invito... Te sientes más cerca de Gacha que nunca.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Tengo hambre, acompáñame por algo de comer, yo invito... Te sientes más cerca de Gacha que nunca.",
+"type": "dialogue"
+},
+"55": {
+"id": "55",
+"is_snippet": false,
+"next_id": "end",
+"type": "goto"
+},
+"57": {
+"id": "57",
+"next_id": "59",
+"text": "Cuarta_Interaccion",
+"type": "title"
+},
+"59": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "59",
+"next_id": "60",
+"tags": PackedStringArray(),
+"text": "Te encuentras a Gacha sentada, con una sonrisa llena de calma la cual nunca habías visto antes.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Te encuentras a Gacha sentada, con una sonrisa llena de calma la cual nunca habías visto antes.",
+"type": "dialogue"
+},
+"6": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "6",
+"next_id": "8",
+"tags": PackedStringArray(),
+"text": "Puedes jurar que te guiño el ojo antes de salir del salón.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Puedes jurar que te guiño el ojo antes de salir del salón.",
+"type": "dialogue"
+},
+"60": {
+"character": "Gacha",
+"character_replacements": Array[Dictionary]([]),
+"id": "60",
+"next_id": "62",
+"tags": PackedStringArray(),
+"text": "Hola {{playername}}, quieres ir por algo de comer?",
+"text_replacements": Array[Dictionary]([{
+"expression": Array[Dictionary]([{
+"type": "variable",
+"value": "playername"
+}]),
+"value_in_text": "{{playername}}"
+}]),
+"translation_key": "Hola {{playername}}, quieres ir por algo de comer?",
+"type": "dialogue"
+},
+"62": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "62",
+"next_id": "63",
+"next_id_after": "67",
+"responses": PackedStringArray("62", "64"),
+"tags": PackedStringArray(),
+"text": "Si",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Si",
+"type": "response"
+},
+"63": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "63",
+"next_id": "67",
+"parent_id": "62",
+"tags": PackedStringArray(),
+"text": "Gacha sonríe y se levanta, llevándote a su lugar favorito.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Gacha sonríe y se levanta, llevándote a su lugar favorito.",
+"type": "dialogue"
+},
+"64": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "64",
+"next_id": "65",
+"next_id_after": "67",
+"tags": PackedStringArray(),
+"text": "No",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "No",
+"type": "response"
+},
+"65": {
+"character": "Gacha",
+"character_replacements": Array[Dictionary]([]),
+"id": "65",
+"next_id": "67",
+"parent_id": "64",
+"tags": PackedStringArray(),
+"text": "Ah, está bien, de igual manera me quedaré aquí por si cambias de opinión.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Ah, está bien, de igual manera me quedaré aquí por si cambias de opinión.",
+"type": "dialogue"
+},
+"67": {
+"id": "67",
+"is_snippet": false,
+"next_id": "end",
+"type": "goto"
+},
+"69": {
+"id": "69",
+"next_id": "71",
+"text": "Final_1",
+"type": "title"
+},
+"71": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "71",
+"next_id": "72",
+"tags": PackedStringArray(),
+"text": "Esperándote en la entrada, estaba Gacha, lista para recibirte.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Esperándote en la entrada, estaba Gacha, lista para recibirte.",
+"type": "dialogue"
+},
+"72": {
+"character": "Gacha",
+"character_replacements": Array[Dictionary]([]),
+"id": "72",
+"next_id": "73",
+"tags": PackedStringArray(),
+"text": "Hola {{playername}}, tengo entendido que ya sabes de lo que va el Día del Payaso. Así que, tenía algo que preguntarte…",
+"text_replacements": Array[Dictionary]([{
+"expression": Array[Dictionary]([{
+"type": "variable",
+"value": "playername"
+}]),
+"value_in_text": "{{playername}}"
+}]),
+"translation_key": "Hola {{playername}}, tengo entendido que ya sabes de lo que va el Día del Payaso. Así que, tenía algo que preguntarte…",
+"type": "dialogue"
+},
+"73": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "73",
+"next_id": "74",
+"tags": PackedStringArray(),
+"text": "Sin mas que decir, asientes feliz.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Sin mas que decir, asientes feliz.",
+"type": "dialogue"
+},
+"74": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "74",
+"next_id": "75",
+"tags": PackedStringArray(),
+"text": "Gacha sonríe, tomando tu mano y entrando al día del Payaso.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Gacha sonríe, tomando tu mano y entrando al día del Payaso.",
+"type": "dialogue"
+},
+"75": {
+"character": "FINAL 1",
+"character_replacements": Array[Dictionary]([]),
+"id": "75",
+"next_id": "77",
+"tags": PackedStringArray(),
+"text": "Las Risas No Faltaron…",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Las Risas No Faltaron…",
+"type": "dialogue"
+},
+"77": {
+"id": "77",
+"is_snippet": false,
+"next_id": "end",
+"type": "goto"
+},
+"8": {
+"id": "8",
+"is_snippet": false,
+"next_id": "end",
+"type": "goto"
+}
+}
+metadata/dialogue_manager_version = "2.32.3"

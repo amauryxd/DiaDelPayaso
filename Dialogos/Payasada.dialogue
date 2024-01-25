@@ -1,4 +1,4 @@
-~ Payasada_Primera_Interaccion
+~ Primera_Interaccion
 
 Te acercas a la payasa sentada a tu lado, te mira de forma ligeramente agresiva, sientes que la reconoces de algún lado. 
 
@@ -31,7 +31,7 @@ Te acercas a la payasa sentada a tu lado, te mira de forma ligeramente agresiva,
 
 => END
 
-~ Payasada_Segunda_Interaccion
+~ Segunda_Interaccion
 
 A lo lejos en el pasillo, logras ver a la Payasada. Corres a saludarla y puedes jurar que su rostro usualmente fruncido cambia a uno de alegría por medio segundo.
 
@@ -47,7 +47,7 @@ Payasada: ¡Hola-! Digo… que tal, {{playername}}. Justo iba a salir a hacer un
 
 => END
 
-~ Payasada_Tercera_Interaccion
+~ Tercera_Interaccion
 
 Sorprendentemente te encuentras a la Payasada en donde menos de lo esperarías, en la sala de baile de la RAP.
 
@@ -74,6 +74,32 @@ Payasada: Mira, todos en mi familia esperan que tome el negocio familiar cuando 
 Payasada suspiró por un momento, parándose y extendiendo su mano.
 Payasada: Ven, vamos a bailar un rato.
 
-Pasaron el resto del tiempo bailando payaso de rodeo, su canción favorita…
+Pasaron el resto del tiempo bailando payaso de rodeo, su canción favorita... Te sientes más cerca de Payasada que nunca.
 
 => END
+
+~ Cuarta_Interaccion
+
+Payasada estaba en frente de su parrilla, asando una carne mientras veía el atardecer.
+
+Payasada: Ah, eres tú! ¿Qué onda, quieres pasar el rato?
+
+- Si
+	Pasas un tiempo con la Payasada, comiendo la carnita mientras la noche llegaba. 
+- No 
+	Se ve un poco molesta, pero entiende.
+	Payasada: Como siempre, si cambias de opinión, aquí ando.
+
+=> END
+
+~ Final_1
+
+Esperándote en la entrada, estaba Payasada, un poco apenada, y enojada gracias a eso.
+Payasada: Psh… Hasta que llegas…
+Payasada bajaba la mirada, un poco sonrojada.
+Payasada: Entonces… vamos, {{playername}}?
+Con su mano extendida, la tomas y te adentras al festejo del Dia del Payaso, sonriendo ligeramente, haciendola reir.
+FINAL 1: Las Risas No Faltaron…
+
+=> END
+
