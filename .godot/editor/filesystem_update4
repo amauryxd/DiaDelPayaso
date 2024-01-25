@@ -1,11 +1,5 @@
-res://scenes/MiniJuegoPayasada.tscn
-res://scenes/top_down.tscn
-res://platform.tscn
 res://scenes/MiniJuegoSichichita.tscn
-res://PlayashoRes/Player.tscn
-res://PlayashoRes/area_2d.tscn
-res://scenes/MiniJuegoPlayasho.tscn
-res://Scripts/Spawner.gd
 res://scenes/divorcio.tscn
-res://Scripts/object.gd
-res://Scripts/platform.gd
+res://scenes/MiniJuegoPayasada.tscn
+res://Scripts/Timer.gd
+res://MiniJuegoSichichita.gd

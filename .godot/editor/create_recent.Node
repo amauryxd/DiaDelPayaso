@@ -1,5 +1,7 @@
-TextEdit
 Timer
+RichTextLabel
+CanvasLayer
+TextEdit
 CollisionShape2D
 CharacterBody2D
 RigidBody2D
@@ -10,5 +12,3 @@ ColorRect
 StaticBody2D
 Panel
 TextureRect
-Node
-TileMap
