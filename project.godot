@@ -21,17 +21,15 @@ DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
 Dlog="*res://TestMain.gd"
 Global="*res://Scripts/global.gd"
 
-
-[display]
-
-window/size/viewport_width=1920
-window/size/viewport_height=1080
-
 [dialogue_manager]
 
 general/states=["Global"]
 general/wrap_lines=true
 
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
 
 [dotnet]
 
@@ -71,9 +69,7 @@ click={
 
 [internationalization]
 
-
-locale/translations_pot_files=PackedStringArray("res://Dialogos/Payasada.dialogue", "res://Dialogos/Start.dialogue", "res://Dialogos/Test.dialogue")
-
+locale/translations_pot_files=PackedStringArray("res://Dialogos/Payasada.dialogue", "res://Dialogos/Start.dialogue", "res://Dialogos/Test.dialogue", "res://Dialogos/PayachaGacha.dialogue", "res://Dialogos/Playasho.dialogue")
 
 [rendering]
 

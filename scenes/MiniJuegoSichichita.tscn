@@ -1,22 +1,41 @@
-[gd_scene load_steps=4 format=3 uid="uid://dstermr4tmkbg"]
+[gd_scene load_steps=7 format=3 uid="uid://dstermr4tmkbg"]
 
 [ext_resource type="Texture2D" uid="uid://c7auyjjupoyjy" path="res://icon.svg" id="1_bcaat"]
 [ext_resource type="Script" path="res://MiniJuegoSichichita.gd" id="1_c00nx"]
 [ext_resource type="Script" path="res://Scripts/Timer.gd" id="3_isupq"]
+[ext_resource type="Script" path="res://scenes/MiniJuegoSichichita_2.gd" id="4_usyk1"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b3len"]
+size = Vector2(126, 127)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5ceyq"]
+size = Vector2(128, 128)
 
 [node name="MiniJuegoSichichita" type="Node2D"]
 script = ExtResource("3_isupq")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="Sprite2D_1" type="Sprite2D" parent="."]
 position = Vector2(312, 570)
 texture = ExtResource("1_bcaat")
+
+[node name="Area2D_1" type="Area2D" parent="Sprite2D_1"]
 script = ExtResource("1_c00nx")
+
+[node name="CollisionShape2D_1" type="CollisionShape2D" parent="Sprite2D_1/Area2D_1"]
+position = Vector2(0, 0.5)
+shape = SubResource("RectangleShape2D_b3len")
 
 [node name="Timer" type="Timer" parent="."]
 
-[node name="Random" type="Sprite2D" parent="."]
+[node name="Sprite2D_2" type="Sprite2D" parent="."]
 position = Vector2(951, 570)
 texture = ExtResource("1_bcaat")
-script = ExtResource("1_c00nx")
 
+[node name="Area2D_2" type="Area2D" parent="Sprite2D_2"]
+script = ExtResource("4_usyk1")
+
+[node name="CollisionShape2D_2" type="CollisionShape2D" parent="Sprite2D_2/Area2D_2"]
+shape = SubResource("RectangleShape2D_5ceyq")
+
+[connection signal="input_event" from="Sprite2D_1/Area2D_1" to="Sprite2D_1" method="_on_area_2d_input_event"]
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
