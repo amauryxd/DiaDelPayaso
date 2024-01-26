@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_11"
+type="Resource"
+uid="uid://clvweiqhf6s7k"
+path="res://.godot/imported/PayachitaChinchichita.dialogue-5cce0ed3906be33213fb6841fc68501b.tres"
+
+[deps]
+
+source_file="res://Dialogos/PayachitaChinchichita.dialogue"
+dest_files=["res://.godot/imported/PayachitaChinchichita.dialogue-5cce0ed3906be33213fb6841fc68501b.tres"]
+
+[params]
+
+defaults=true
