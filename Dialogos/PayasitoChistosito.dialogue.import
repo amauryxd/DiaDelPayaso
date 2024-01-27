@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_11"
+type="Resource"
+uid="uid://baj4olp7e1bqx"
+path="res://.godot/imported/PayasitoChistosito.dialogue-dfbb964d548472b1a03aac31250d9bb0.tres"
+
+[deps]
+
+source_file="res://Dialogos/PayasitoChistosito.dialogue"
+dest_files=["res://.godot/imported/PayasitoChistosito.dialogue-dfbb964d548472b1a03aac31250d9bb0.tres"]
+
+[params]
+
+defaults=true
