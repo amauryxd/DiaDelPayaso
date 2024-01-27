@@ -1,6 +1,6 @@
 extends Sprite2D
 
-var carne = preload("res://object.tscn")
+var carne = preload("res://Scripts/global.gd")
 var nodo = get_parent()
 
 

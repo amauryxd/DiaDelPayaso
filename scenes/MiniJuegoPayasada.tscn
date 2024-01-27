@@ -1,8 +1,8 @@
 [gd_scene load_steps=7 format=3 uid="uid://b7dy5msicfvmi"]
 
 [ext_resource type="Script" path="res://Scripts/global.gd" id="1_arogd"]
-[ext_resource type="PackedScene" uid="uid://cenabm0gouhbo" path="res://platform.tscn" id="2_mr26u"]
-[ext_resource type="PackedScene" uid="uid://ci2jw68wrdtkf" path="res://object.tscn" id="3_42560"]
+[ext_resource type="PackedScene" uid="uid://cenabm0gouhbo" path="res://Prefabs/platform.tscn" id="2_mr26u"]
+[ext_resource type="PackedScene" uid="uid://ci2jw68wrdtkf" path="res://Prefabs/object.tscn" id="3_42560"]
 [ext_resource type="Texture2D" uid="uid://figentvoqxdj" path="res://Imgs/cruda.png" id="4_bn0b2"]
 [ext_resource type="Script" path="res://Scripts/Spawner.gd" id="5_6xb76"]
 
@@ -12,24 +12,24 @@
 script = ExtResource("1_arogd")
 
 [node name="Platform" parent="." instance=ExtResource("2_mr26u")]
-position = Vector2(252, 243)
+position = Vector2(521, 459)
 scale = Vector2(1.002, 1)
 divorcio = 1
 
 [node name="Platform2" parent="." instance=ExtResource("2_mr26u")]
-position = Vector2(990, 459)
+position = Vector2(949, 461)
 divorcio = 1
 
 [node name="Platform3" parent="." instance=ExtResource("2_mr26u")]
-position = Vector2(837, 133)
+position = Vector2(751, 461)
 scale = Vector2(0.996581, 1.01002)
 divorcio = 1
 
 [node name="Object" parent="." instance=ExtResource("3_42560")]
-position = Vector2(565, 406)
+position = Vector2(-157, 543)
 
 [node name="Spawner" type="Sprite2D" parent="."]
-position = Vector2(231, 528)
+position = Vector2(192, 193)
 scale = Vector2(0.137854, 0.137854)
 texture = ExtResource("4_bn0b2")
 script = ExtResource("5_6xb76")

@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://dasqjp5ux7q52"]
 
-[ext_resource type="PackedScene" uid="uid://ci2jw68wrdtkf" path="res://object.tscn" id="1_6s5op"]
-[ext_resource type="PackedScene" uid="uid://cenabm0gouhbo" path="res://platform.tscn" id="2_qpjjc"]
+[ext_resource type="PackedScene" uid="uid://ci2jw68wrdtkf" path="res://Prefabs/object.tscn" id="1_6s5op"]
+[ext_resource type="PackedScene" uid="uid://cenabm0gouhbo" path="res://Prefabs/platform.tscn" id="2_qpjjc"]
 
 [node name="Divorcio" type="Node2D"]
 
