@@ -1,9 +1,9 @@
 [gd_scene load_steps=7 format=3 uid="uid://dstermr4tmkbg"]
 
 [ext_resource type="Texture2D" uid="uid://c7auyjjupoyjy" path="res://icon.svg" id="1_bcaat"]
-[ext_resource type="Script" path="res://MiniJuegoSichichita.gd" id="1_c00nx"]
+[ext_resource type="Script" path="res://Scripts/MiniJuegoSichichita.gd" id="1_c00nx"]
 [ext_resource type="Script" path="res://Scripts/Timer.gd" id="3_isupq"]
-[ext_resource type="Script" path="res://scenes/MiniJuegoSichichita_2.gd" id="4_usyk1"]
+[ext_resource type="Script" path="res://Scripts/MiniJuegoSichichita_2.gd" id="4_usyk1"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_b3len"]
 size = Vector2(126, 127)
