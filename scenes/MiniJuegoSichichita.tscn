@@ -14,6 +14,25 @@ size = Vector2(128, 128)
 [node name="MiniJuegoSichichita" type="Node2D"]
 script = ExtResource("3_isupq")
 
+[node name="Timer" type="Timer" parent="."]
+
+[node name="Time" type="Label" parent="."]
+offset_left = 1547.0
+offset_top = 30.0
+offset_right = 1632.0
+offset_bottom = 53.0
+scale = Vector2(4, 4)
+text = "Tiempo: 60"
+horizontal_alignment = 2
+
+[node name="Score" type="Label" parent="."]
+offset_left = 31.0
+offset_top = 18.0
+offset_right = 118.0
+offset_bottom = 41.0
+scale = Vector2(4, 4)
+text = "Puntaje: 00"
+
 [node name="Sprite2D_1" type="Sprite2D" parent="."]
 position = Vector2(312, 570)
 texture = ExtResource("1_bcaat")
@@ -25,8 +44,6 @@ script = ExtResource("1_c00nx")
 position = Vector2(0, 0.5)
 shape = SubResource("RectangleShape2D_b3len")
 
-[node name="Timer" type="Timer" parent="."]
-
 [node name="Sprite2D_2" type="Sprite2D" parent="."]
 position = Vector2(951, 570)
 texture = ExtResource("1_bcaat")
@@ -37,5 +54,46 @@ script = ExtResource("4_usyk1")
 [node name="CollisionShape2D_2" type="CollisionShape2D" parent="Sprite2D_2/Area2D_2"]
 shape = SubResource("RectangleShape2D_5ceyq")
 
-[connection signal="input_event" from="Sprite2D_1/Area2D_1" to="Sprite2D_1" method="_on_area_2d_input_event"]
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 334.0
+offset_top = 197.0
+offset_right = 1553.0
+offset_bottom = 882.0
+
+[node name="Panel" type="Panel" parent="Control"]
+layout_mode = 0
+offset_right = 1219.0
+offset_bottom = 692.0
+
+[node name="Label" type="Label" parent="Control/Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.414
+anchor_top = 0.5
+anchor_right = 0.414
+anchor_bottom = 0.5
+offset_left = -281.666
+offset_top = -230.0
+offset_right = -144.666
+offset_bottom = -207.0
+scale = Vector2(6, 6)
+text = "\"Muy bien hecho\""
+
+[node name="Button" type="Button" parent="Control/Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.518
+anchor_top = 0.678
+anchor_right = 0.518
+anchor_bottom = 0.678
+offset_left = -300.442
+offset_top = -54.176
+offset_right = -100.442
+offset_bottom = -21.176
+scale = Vector2(3, 3)
+text = "Continuar con la historia"
+
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="input_event" from="Sprite2D_1/Area2D_1" to="Sprite2D_1" method="_on_area_2d_input_event"]

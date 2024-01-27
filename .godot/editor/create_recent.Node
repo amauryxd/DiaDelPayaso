@@ -1,3 +1,10 @@
+Panel
+VBoxContainer
+Button
+Label
+Control
+MarginContainer
+Container
 CollisionShape2D
 Area2D
 Timer
@@ -6,9 +13,3 @@ CanvasLayer
 TextEdit
 CharacterBody2D
 RigidBody2D
-Node2D
-Sprite2D
-ColorRect
-StaticBody2D
-Panel
-TextureRect
