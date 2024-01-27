@@ -6,7 +6,7 @@ var growth_factor := 1.2 # Crecimiento del sprite cuando es clickeado.
 var custom_max_size := 0.0 # Valor máximo de crecimiento individual.
 
 func _ready():
-	sprite = get_tree().get_root().get_node("/root/MiniJuegoSichichita/Sprite2D_1") # Obtener la referencia al Sprite2D_1
+	sprite = get_tree().get_root().get_node("/root/MiniJuegoSichichita/Sprite2D_2") # Obtener la referencia al Sprite2D_1
 	initial_scale = sprite.scale
 	custom_max_size = randf_range(2.0, 5.0) # Valor máximo individual.
 

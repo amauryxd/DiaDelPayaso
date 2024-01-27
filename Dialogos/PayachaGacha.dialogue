@@ -1,0 +1,77 @@
+~ Primera_Interaccion
+
+Al lado del Profesor Papayaso, hay una payasa vestida comparativamente más formal que los otros, también puedes ver que es más grande, tanto en edad como en estatura.
+Payacha Gacha: Hola, tu debes de ser {{playername}}. Espero que el intercambio sea agradable para ti, todos en la RAP estamos a tu disposición. Soy la Payacha Gacha, pero puedes llamarme Gacha.
+Gacha: Y… si quieres hablar a solas por alguna razón, siempre puedes encontrarme en mi oficina.
+Puedes jurar que te guiño el ojo antes de salir del salón.
+
+=> END
+
+~ Segunda_Interaccion
+
+Con cuidado entras a la oficina de Gacha, la encuentras enterrada en papeles, a punto de que casi ni se da cuenta que te metiste a su oficina. Un poco cansada, te saluda.
+
+Gacha: Ah, hola {{playername}}, me encuentras en un momento un poco complicado… 
+Gacha: Estoy abrumada con un poco de papeleo, pero puedo charlar rápidamente, ¿que necesitas?
+- ¡Te ayudo!
+	{{playername}}: Deja te ayudo! Así no tendrás tanto trabajo por el cual preocuparte.
+	Gacha pensó por un momento, pero aceptó.
+	Gacha: Gracias, es una gran ayuda.
+	# Iniciar Minijuego Gacha
+- En un momento vuelvo
+	{{playername}}: Ya veo… en un momento regreso!
+	Gacha mostró una sonrisa cansada.
+	Gacha: Seguro, no me voy a ningún lado…
+
+=> END
+
+~ Tercera_Interaccion
+
+Esta vez, cuando la vas a visitar, notas que no hay mucho papeleo, pero también notas a Gacha mucho más apagada. 
+
+- Gacha, ¿estás bien?
+	{{playername}}: Uhm, Gacha? ¿Te encuentras bien?
+
+- …
+	Guardas silencio, pero Gacha se da cuenta de tu entrada, levantando su mirada.
+
+Gacha, apenas notando tu presencia, te voltea a ver.
+Gacha: Ah. Hola {{playername}}...
+Hubo un ligero silencio incómodo, el cual fue prontamente roto por una pregunta.
+Gacha: Dime {{playername}}... ¿Crees que una persona puede volver a amar, aún si le han roto el corazón varias veces?
+
+- Claro, el amor siempre puede florecer
+	{{playername}}: Por supuesto, aún despues de varios intentos, el amor siempre puede florecer.
+	Esto parece haber hecho un poco feliz a Gacha. 
+	Gacha: Gracias, espero que tengas razón.
+- Leí los documentos de ayer, puede encontrar el amor.
+	{{playername}}: No es por querer hablar de más, pero los documentos de ayer. Yo sé que le preocupa, pero va a poder encontrar a alguien que la haga sentir bien.
+	El ir directo al grano la sorprende, haciendo que se ruborice un poco. Toma un tiempo para pensarlo, pero al final sonríe. 
+	Gacha: Gracias por preocuparte {{playername}}.
+
+Gacha se levanta de su silla acercándose a ti.
+Gacha: Tengo hambre, acompáñame por algo de comer, yo invito... Te sientes más cerca de Gacha que nunca.
+
+=> END
+
+~ Cuarta_Interaccion
+
+Te encuentras a Gacha sentada, con una sonrisa llena de calma la cual nunca habías visto antes.
+Gacha: Hola {{playername}}, quieres ir por algo de comer?
+
+- Si
+	Gacha sonríe y se levanta, llevándote a su lugar favorito.
+- No
+	Gacha: Ah, está bien, de igual manera me quedaré aquí por si cambias de opinión.
+
+=> END
+
+~ Final_1
+
+Esperándote en la entrada, estaba Gacha, lista para recibirte. 
+Gacha: Hola {{playername}}, tengo entendido que ya sabes de lo que va el Día del Payaso. Así que, tenía algo que preguntarte…
+Sin mas que decir, asientes feliz. 
+Gacha sonríe, tomando tu mano y entrando al día del Payaso.
+FINAL 1: Las Risas No Faltaron…
+
+=> END

@@ -1,0 +1,98 @@
+~ Primera_Interaccion
+
+En uno de los asientos, había una payasa la cual estaba adornando su escritorio con varios globos festivos. 
+???: Ah! Hola! Debes de ser {{playername}}!! 
+- Si, hola.
+	Ah, hola! ¿Cómo te llamas?
+- Y, tu quien eres?
+	Ah, y… ¿Tu quién eres?
+- Ahora vuelvo.
+	{{playername}}: Ahorita regreso, se me olvido algo.
+	???: Oki!
+	=> END
+
+???: Ah claro! 
+La payasa pausa por un momento.
+Chinchi: Mis amigos me dicen Chinchi! ¡Un gusto! 
+Chinchi: Por cierto, mañana tengo muchos globos que inflar, para un trabajo…
+Chinchi: Si me ayudas, te recompenso, ya sabes lo que dicen, sin globos no hay fiesta~
+
+=> END
+
+~ Segunda_Interaccion
+
+A la mitad del salón de fiestas, estaba Sinchi, inflando globo tras globo. 
+Al verte, se alegró bastante.
+Sinchi: Ah! Hola {{playername}}! Gracias por venir. Entonces, ¿me vas a ayudar? Prometo recompensarte~
+- Si
+	Asientes, escalofríos corren por tu espalda al escuchar la forma en como habla.
+	# Iniciar juego chicha
+- No
+	{{playername}}: Hm, espera un momento, tengo algo que hacer…
+	Sinchi: Oki! ¡Estaré aquí hasta noche, por si me quieres ayudar!
+
+=> END
+
+~ Segunda_Interaccion_Fin
+
+Sinchi: Gracias por la ayuda! Buscame mañana en el salón de cómputo, tengo una sorpresa...
+
+=> END
+
+~ Tercera_Interaccion
+
+Llegando al salón de cómputo, notas a Sinchi sentada en una computadora, jugando algo en ella. Al llegar, pausa su juego y se levanta, acercándose hacia ti.
+
+Sinchi: ¡Hasta que llegas! Bueno, tengo tu sorpresa aquí~ 
+Sinchi se acerca a ti, cuando de pronto uno de sus pechos explotó de forma repentina. 
+Sinchi se asombra, poniéndose roja y empujándote un poco.
+
+Sinchi: Bueno… parece que ya no puedo esconderlo más…
+
+- ¿Estás bien?!
+	{{playername}}: Oh! ¿Estás bien? ¿Qué pasó?
+- Son… globos?...
+	{{playername}}: Uh… esos son, globos?
+
+Sinchi suspira un poco. 
+Sinchi: No he sido completamente honesta contigo…
+Sinchi: Mi nombre no es solo Sinchi. Mi nombre completo es, Payasita Sinchichita…
+Sinchichita: Solían burlarse por mi falta de… Así que decidí cambiar como me veían… 
+Los globos que inflo todos los días, no son…
+
+- No necesitas ponerte nada
+	{{playername}}: No necesitas ponerte nada.
+- Te ves bien sin ellos.
+	{{playername}}: Te ves bien, muy bien sin los globos.
+
+Sinchichita, triste, te ve con ojos llorosos?
+Sinchichita: Lo dices en serio? Gracias…
+{{playername}}: Ven, vamos a jugar algo.
+Te sientas a su lado, prendiendo una compu, una sonrisa ahora en su rostro.
+Te sientes más cerca de Sinchichita que nunca.
+
+=> END
+
+~ Cuarta_Interaccion
+
+Sinchichita estaba en el salón de cómputo, sonriendo al verte.
+Sinchichita: Hola {{playername}}! ¿Quieres jugar un rato?
+- Si
+	Asientes. Sinchichita sonríe.
+	Sinchichita: ¡Bien! Siéntate a mi lado.
+	Te sientas, y juegas hasta las altas horas de la tarde.
+- No
+	{{playername}}: Por el momento no, pero chance y regreso!
+	Sinchichita: ¡Está bien! Estaré aquí por si cambias de opinión.
+
+=> END
+
+~ FINAL_1
+
+En la entrada, en el Día del Payaso, Chinchichita te estaba esperando en la entrada, mucho más feliz, y sin globos. 
+Sinchichita: ¡Hola! Te estaba esperando… Ya conoces el día de hoy, y… quería preguntarte…
+Sonríes y asientes, sabiendo lo que iba a decir. 
+Tomas su mano, sonriendo, mientras ambos entran a el Día del Payaso. 
+FINAL 1: Las Risas No Faltaron…
+
+=> END
