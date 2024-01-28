@@ -1,0 +1,32 @@
+[gd_scene load_steps=2 format=3 uid="uid://clts4ad0fnylb"]
+
+[ext_resource type="Script" path="res://Scripts/EntradaNombre.gd" id="1_e4a2b"]
+
+[node name="EntradaNombre" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_e4a2b")
+
+[node name="LineEdit" type="LineEdit" parent="."]
+layout_mode = 0
+offset_left = 143.0
+offset_top = 341.0
+offset_right = 1065.0
+offset_bottom = 486.0
+theme_override_font_sizes/font_size = 50
+alignment = 1
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 143.0
+offset_top = 139.0
+offset_right = 1065.0
+offset_bottom = 276.0
+theme_override_font_sizes/font_size = 100
+text = "Ingresa tu nombre:"
+
+[connection signal="text_submitted" from="LineEdit" to="." method="_on_line_edit_text_submitted"]

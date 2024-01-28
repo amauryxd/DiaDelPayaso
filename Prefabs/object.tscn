@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://ci2jw68wrdtkf"]
 
 [ext_resource type="Script" path="res://Scripts/object.gd" id="1_bj1hl"]
-[ext_resource type="Texture2D" uid="uid://c7auyjjupoyjy" path="res://icon.svg" id="2_wwpcy"]
+[ext_resource type="Texture2D" uid="uid://figentvoqxdj" path="res://Imgs/cruda.png" id="2_vu7l5"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0mje3"]
 size = Vector2(126, 127)
@@ -10,7 +10,8 @@ size = Vector2(126, 127)
 script = ExtResource("1_bj1hl")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("2_wwpcy")
+scale = Vector2(0.145, 0.145)
+texture = ExtResource("2_vu7l5")
 
 [node name="Area2D" type="Area2D" parent="."]
 
@@ -18,7 +19,12 @@ texture = ExtResource("2_wwpcy")
 position = Vector2(0, -0.5)
 shape = SubResource("RectangleShape2D_0mje3")
 
+[node name="Timer" type="Timer" parent="."]
+wait_time = 8.0
+one_shot = true
+
 [connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
 [connection signal="body_exited" from="Area2D" to="." method="_on_area_2d_body_exited"]
 [connection signal="mouse_entered" from="Area2D" to="." method="_on_area_2d_mouse_entered"]
 [connection signal="mouse_exited" from="Area2D" to="." method="_on_area_2d_mouse_exited"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

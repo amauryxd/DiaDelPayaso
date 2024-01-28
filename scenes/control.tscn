@@ -1,0 +1,48 @@
+[gd_scene load_steps=2 format=3 uid="uid://clata5nytrsq2"]
+
+[ext_resource type="Script" path="res://Scripts/Menu.gd" id="1_mb31r"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_mb31r")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 101.0
+offset_top = 204.0
+offset_right = 156.0
+offset_bottom = 305.0
+scale = Vector2(17.3164, 4.05023)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "play"
+
+[node name="credis" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "credis"
+
+[node name="salir" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "salir"
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 250.0
+offset_right = 988.0
+offset_bottom = 137.0
+theme_override_font_sizes/font_size = 100
+text = "Dia Del Payaso "
+horizontal_alignment = 1
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/credis" to="." method="_on_credis_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/salir" to="." method="_on_salir_pressed"]

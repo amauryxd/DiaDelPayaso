@@ -1,43 +1,57 @@
-[gd_scene load_steps=7 format=3 uid="uid://b7dy5msicfvmi"]
+[gd_scene load_steps=8 format=3 uid="uid://b7dy5msicfvmi"]
 
 [ext_resource type="Script" path="res://Scripts/global.gd" id="1_arogd"]
 [ext_resource type="PackedScene" uid="uid://cenabm0gouhbo" path="res://Prefabs/platform.tscn" id="2_mr26u"]
 [ext_resource type="PackedScene" uid="uid://ci2jw68wrdtkf" path="res://Prefabs/object.tscn" id="3_42560"]
-[ext_resource type="Texture2D" uid="uid://figentvoqxdj" path="res://Imgs/cruda.png" id="4_bn0b2"]
+[ext_resource type="Texture2D" uid="uid://c7auyjjupoyjy" path="res://icon.svg" id="4_e67or"]
 [ext_resource type="Script" path="res://Scripts/Spawner.gd" id="5_6xb76"]
+[ext_resource type="PackedScene" uid="uid://b1tvxexc72gl" path="res://Prefabs/PayasadaUI.tscn" id="6_ausj0"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_f0p44"]
+size = Vector2(20.1159, 20.1159)
 
 [node name="MiniJuegoPayasada" type="Node2D"]
 script = ExtResource("1_arogd")
 
 [node name="Platform" parent="." instance=ExtResource("2_mr26u")]
-position = Vector2(521, 459)
+position = Vector2(188, 528)
 scale = Vector2(1.002, 1)
-divorcio = 1
+isParrilla = true
+num = 3
 
 [node name="Platform2" parent="." instance=ExtResource("2_mr26u")]
-position = Vector2(949, 461)
-divorcio = 1
+position = Vector2(788, 526)
+isParrilla = true
 
 [node name="Platform3" parent="." instance=ExtResource("2_mr26u")]
-position = Vector2(751, 461)
+position = Vector2(487, 526)
 scale = Vector2(0.996581, 1.01002)
-divorcio = 1
+isParrilla = true
 
 [node name="Object" parent="." instance=ExtResource("3_42560")]
-position = Vector2(-157, 543)
+position = Vector2(633.277, 958.277)
 
 [node name="Spawner" type="Sprite2D" parent="."]
-position = Vector2(192, 193)
-scale = Vector2(0.137854, 0.137854)
-texture = ExtResource("4_bn0b2")
+position = Vector2(107.277, 263.277)
+scale = Vector2(0.897855, 0.897855)
+texture = ExtResource("4_e67or")
 script = ExtResource("5_6xb76")
 
 [node name="Area2D" type="Area2D" parent="Spawner"]
+scale = Vector2(0.153537, 0.153537)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Spawner/Area2D"]
 scale = Vector2(43.0736, 43.0736)
 shape = SubResource("RectangleShape2D_f0p44")
 
+[node name="Platform4" parent="." instance=ExtResource("2_mr26u")]
+position = Vector2(1063, 285)
+isPlato = true
+
+[node name="PayasadaUi" parent="." instance=ExtResource("6_ausj0")]
+
+[connection signal="area_entered" from="Spawner/Area2D" to="Spawner" method="_on_area_2d_area_entered"]
+[connection signal="area_exited" from="Spawner/Area2D" to="Spawner" method="_on_area_2d_area_exited"]
+[connection signal="body_entered" from="Spawner/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Spawner/Area2D" to="Spawner" method="_on_area_2d_body_entered"]
 [connection signal="input_event" from="Spawner/Area2D" to="Spawner" method="_on_area_2d_input_event"]

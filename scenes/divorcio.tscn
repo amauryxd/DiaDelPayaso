@@ -11,7 +11,6 @@ idDivorcio = 1
 
 [node name="Platform" parent="." instance=ExtResource("2_qpjjc")]
 position = Vector2(308, 222)
-divorcio = 1
 
 [node name="Platform2" parent="." instance=ExtResource("2_qpjjc")]
 position = Vector2(535, 220)

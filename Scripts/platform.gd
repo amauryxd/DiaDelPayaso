@@ -1,6 +1,9 @@
 extends StaticBody2D
 
-@export var divorcio = 0
+@export var divorcio = 1
+@export var isParrilla = false
+@export var isPlato = false
+@export var num = 0
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -13,3 +16,14 @@ func _process(delta):
 		visible = true	
 	else: 
 		visible = false
+
+
+
+func _on_area_2d_area_entered(area):
+	Global.isOcupado[num] = true
+	
+
+
+
+func _on_area_2d_area_exited(area):
+	Global.isOcupado[num] = false

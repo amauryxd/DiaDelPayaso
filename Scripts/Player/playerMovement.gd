@@ -5,7 +5,8 @@ const SPEED = 300.0
 
 
 # Get the gravity from the project settings to be synced with RigidBody nodes.
-
+func _ready():
+	print(Global.playername)
 
 
 

@@ -1,0 +1,46 @@
+[gd_scene load_steps=2 format=3 uid="uid://b1tvxexc72gl"]
+
+[ext_resource type="Script" path="res://Scripts/PayasadaUI.gd" id="1_2vumh"]
+
+[node name="PayasadaUi" type="CanvasLayer"]
+script = ExtResource("1_2vumh")
+
+[node name="Score" type="Label" parent="."]
+offset_left = 979.0
+offset_top = 86.0
+offset_right = 1610.0
+offset_bottom = 495.0
+theme_override_font_sizes/font_size = 100
+text = "0"
+
+[node name="Label" type="Label" parent="Score"]
+layout_mode = 0
+offset_left = -107.143
+offset_top = -103.571
+offset_right = 159.857
+offset_bottom = 33.4286
+theme_override_font_sizes/font_size = 100
+text = "Score"
+
+[node name="Tiempo" type="Label" parent="."]
+offset_left = 100.0
+offset_top = 68.0
+offset_right = 157.0
+offset_bottom = 205.0
+theme_override_font_sizes/font_size = 100
+text = "0"
+
+[node name="Label2" type="Label" parent="Tiempo"]
+layout_mode = 0
+offset_left = -82.0
+offset_top = -81.0
+offset_right = 185.0
+offset_bottom = 56.0
+theme_override_font_sizes/font_size = 100
+text = "Time"
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 60.0
+one_shot = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://d2nfpcy1t3rdx"]
+
+[ext_resource type="Script" path="res://Scripts/interactuableChido.gd" id="1_cjmno"]
+
+[node name="Interactuable" type="Area2D"]
+collision_layer = 17
+script = ExtResource("1_cjmno")
