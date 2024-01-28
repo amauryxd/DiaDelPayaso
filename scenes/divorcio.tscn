@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://dasqjp5ux7q52"]
+[gd_scene load_steps=4 format=3 uid="uid://dasqjp5ux7q52"]
 
 [ext_resource type="PackedScene" uid="uid://ci2jw68wrdtkf" path="res://Prefabs/object.tscn" id="1_6s5op"]
 [ext_resource type="PackedScene" uid="uid://cenabm0gouhbo" path="res://Prefabs/platform.tscn" id="2_qpjjc"]
+[ext_resource type="AudioStream" uid="uid://blhx76dgxe4md" path="res://Audio/cacho.ogg" id="3_y8rhh"]
 
 [node name="Divorcio" type="Node2D"]
 
@@ -15,3 +16,7 @@ position = Vector2(308, 222)
 [node name="Platform2" parent="." instance=ExtResource("2_qpjjc")]
 position = Vector2(535, 220)
 divorcio = 2
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_y8rhh")
+volume_db = -5.0

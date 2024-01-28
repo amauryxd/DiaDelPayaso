@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://cykluqh2aidrh"]
+[gd_scene load_steps=15 format=3 uid="uid://cykluqh2aidrh"]
 
 [ext_resource type="Texture2D" uid="uid://c7auyjjupoyjy" path="res://icon.svg" id="1_aa0in"]
 [ext_resource type="Script" path="res://Scripts/Player/playerMovement.gd" id="1_klhgr"]
@@ -6,6 +6,9 @@
 [ext_resource type="Texture2D" uid="uid://cvofb5mf3bosf" path="res://Imgs/quemada.jpg" id="4_se3sr"]
 [ext_resource type="PackedScene" uid="uid://d2nfpcy1t3rdx" path="res://Prefabs/interactuable.tscn" id="5_8bf1i"]
 [ext_resource type="Resource" uid="uid://totijoxg3ek1" path="res://Dialogos/Payasada.dialogue" id="6_y31dc"]
+[ext_resource type="AudioStream" uid="uid://b5cnis4w7iguv" path="res://Audio/Bgm.ogg" id="7_1okx7"]
+[ext_resource type="Texture2D" path="res://Imgs/Playaso chibi.png" id="8_fc0s0"]
+[ext_resource type="Resource" uid="uid://b1o54c7ytpkbq" path="res://Dialogos/Playasho.dialogue" id="9_2pi4f"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5hgmn"]
 size = Vector2(135, 139)
@@ -17,7 +20,9 @@ size = Vector2(203, 215)
 size = Vector2(103, 114)
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_hrjjt"]
-radius = 26.5623
+radius = 23.493
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_cntr0"]
 
 [node name="TopDown" type="Node2D"]
 
@@ -34,6 +39,7 @@ position = Vector2(-42, 1)
 texture = ExtResource("1_aa0in")
 
 [node name="Area2D" type="Area2D" parent="PersonajeGaming"]
+collision_mask = 17
 script = ExtResource("3_n22fd")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="PersonajeGaming/Area2D"]
@@ -67,6 +73,24 @@ dialogue_start = "Tercera_Interaccion"
 position = Vector2(1151.29, 273.428)
 scale = Vector2(9.71436, 9.71436)
 shape = SubResource("CircleShape2D_hrjjt")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("7_1okx7")
+volume_db = -10.0
+autoplay = true
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(1002, 121)
+texture = ExtResource("8_fc0s0")
+
+[node name="Interactuable" parent="Sprite2D2" instance=ExtResource("5_8bf1i")]
+daialogue_resource = ExtResource("9_2pi4f")
+dialogue_start = "Primera_Interaccion"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D2/Interactuable"]
+position = Vector2(-3, 91)
+scale = Vector2(7.76, 7.76)
+shape = SubResource("CircleShape2D_cntr0")
 
 [connection signal="area_entered" from="PersonajeGaming/Area2D" to="PersonajeGaming/Area2D" method="_on_area_entered"]
 [connection signal="body_entered" from="PersonajeGaming/Area2D" to="PersonajeGaming/Area2D" method="_on_body_entered"]

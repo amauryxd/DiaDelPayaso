@@ -1,2 +1,2 @@
-﻿64342
-C:/Users/Shika/Downloads/Godot_v4.2.1-stable_mono_win64/Godot_v4.2.1-stable_mono_win64/Godot_v4.2.1-stable_mono_win64.exe
+﻿62516
+E:/Godot/Godot_v4.2.1-stable_mono_win64.exe

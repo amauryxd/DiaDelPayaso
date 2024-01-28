@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://clata5nytrsq2"]
+[gd_scene load_steps=3 format=3 uid="uid://clata5nytrsq2"]
 
 [ext_resource type="Script" path="res://Scripts/Menu.gd" id="1_mb31r"]
+[ext_resource type="AudioStream" uid="uid://cke4p3wuuxndi" path="res://Audio/menu.ogg" id="2_5cpey"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -42,6 +43,11 @@ offset_bottom = 137.0
 theme_override_font_sizes/font_size = 100
 text = "Dia Del Payaso "
 horizontal_alignment = 1
+
+[node name="menumusic" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("2_5cpey")
+volume_db = -10.0
+autoplay = true
 
 [connection signal="pressed" from="MarginContainer/VBoxContainer/Button" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="MarginContainer/VBoxContainer/credis" to="." method="_on_credis_pressed"]
