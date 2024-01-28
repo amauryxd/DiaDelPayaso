@@ -6,17 +6,17 @@
 script = ExtResource("1_ck2jq")
 using_states = PackedStringArray()
 titles = {
-"Cuarta_Interaccion": "126",
-"FINAL_1": "132",
+"Cuarta_Interaccion": "141",
+"FINAL_1": "156",
 "Primera_Interaccion": "3",
 "Segunda_Interaccion_1": "28",
 "Segunda_Interaccion_2": "44",
 "Segunda_Interaccion_3": "61",
 "Segunda_Interaccion_4": "79",
 "Segunda_Interaccion_5": "98",
-"Tercera_Interaccion": "120"
+"Tercera_Interaccion": "118"
 }
-character_names = PackedStringArray("Chistosito", "{{playername}}")
+character_names = PackedStringArray("Chistosito", "{{playername}}", "FINAL 1")
 first_title = "3"
 lines = {
 "1": {
@@ -174,9 +174,31 @@ lines = {
 },
 "116": {
 "id": "116",
-"next_id": "120",
+"next_id": "118",
 "text": "Tercera_Interaccion",
 "type": "title"
+},
+"118": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "118",
+"next_id": "119",
+"tags": PackedStringArray(),
+"text": "No te encontraste al payasito chistosito en el teatro, de hecho estaba afuera, sentado en las escaleras de la escuela.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "No te encontraste al payasito chistosito en el teatro, de hecho estaba afuera, sentado en las escaleras de la escuela.",
+"type": "dialogue"
+},
+"119": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "119",
+"next_id": "120",
+"tags": PackedStringArray(),
+"text": "Ah, hola compa.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Ah, hola compa.",
+"type": "dialogue"
 },
 "12": {
 "character": "{{playername}}",
@@ -197,28 +219,112 @@ lines = {
 "type": "dialogue"
 },
 "120": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
 "id": "120",
-"is_snippet": false,
-"next_id": "end",
-"type": "goto"
+"next_id": "123",
+"next_id_after": "123",
+"responses": PackedStringArray("120", "121"),
+"tags": PackedStringArray(),
+"text": "Estas bien?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Estas bien?",
+"type": "response"
 },
-"122": {
-"id": "122",
+"121": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "121",
+"next_id": "123",
+"next_id_after": "123",
+"tags": PackedStringArray(),
+"text": "Que pasa?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Que pasa?",
+"type": "response"
+},
+"123": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "123",
+"next_id": "124",
+"tags": PackedStringArray(),
+"text": "Chistosito se ve derrotado.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Chistosito se ve derrotado.",
+"type": "dialogue"
+},
+"124": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "124",
 "next_id": "126",
-"text": "Cuarta_Interaccion",
-"type": "title"
+"tags": PackedStringArray(),
+"text": "Sabes, creo que mis chistes chistositos no dan risa :(",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Sabes, creo que mis chistes chistositos no dan risa :(",
+"type": "dialogue"
 },
 "126": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
 "id": "126",
-"is_snippet": false,
-"next_id": "end",
-"type": "goto"
+"next_id": "127",
+"next_id_after": "131",
+"responses": PackedStringArray("126", "128"),
+"tags": PackedStringArray(),
+"text": "Pues la verdad no.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Pues la verdad no.",
+"type": "response"
+},
+"127": {
+"character": "{{playername}}",
+"character_replacements": Array[Dictionary]([{
+"expression": Array[Dictionary]([{
+"type": "variable",
+"value": "playername"
+}]),
+"value_in_text": "{{playername}}"
+}]),
+"id": "127",
+"next_id": "131",
+"parent_id": "126",
+"tags": PackedStringArray(),
+"text": "La neta no, pero puedes mejorar.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "La neta no, pero puedes mejorar.",
+"type": "dialogue"
 },
 "128": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
 "id": "128",
-"next_id": "132",
-"text": "FINAL_1",
-"type": "title"
+"next_id": "129",
+"next_id_after": "131",
+"tags": PackedStringArray(),
+"text": "No, si dan risa.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "No, si dan risa.",
+"type": "response"
+},
+"129": {
+"character": "{{playername}}",
+"character_replacements": Array[Dictionary]([{
+"expression": Array[Dictionary]([{
+"type": "variable",
+"value": "playername"
+}]),
+"value_in_text": "{{playername}}"
+}]),
+"id": "129",
+"next_id": "131",
+"parent_id": "128",
+"tags": PackedStringArray(),
+"text": "Pues, a mi si me dieron risa.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Pues, a mi si me dieron risa.",
+"type": "dialogue"
 },
 "13": {
 "character": "",
@@ -232,11 +338,50 @@ lines = {
 "translation_key": "Tomas un momento y te retiras",
 "type": "dialogue"
 },
-"132": {
-"id": "132",
+"131": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "131",
+"next_id": "133",
+"tags": PackedStringArray(),
+"text": "Chistosito pausó por un momento, parándose con determinación y fuerza nueva.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Chistosito pausó por un momento, parándose con determinación y fuerza nueva.",
+"type": "dialogue"
+},
+"133": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "133",
+"next_id": "135",
+"tags": PackedStringArray(),
+"text": "Tienes razón, tengo que mejorar para ser el chistoso mas chistosito…",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Tienes razón, tengo que mejorar para ser el chistoso mas chistosito…",
+"type": "dialogue"
+},
+"135": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "135",
+"next_id": "137",
+"tags": PackedStringArray(),
+"text": "Te sientes más cerca de Chistosito que nunca…",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Te sientes más cerca de Chistosito que nunca…",
+"type": "dialogue"
+},
+"137": {
+"id": "137",
 "is_snippet": false,
 "next_id": "end",
 "type": "goto"
+},
+"139": {
+"id": "139",
+"next_id": "141",
+"text": "Cuarta_Interaccion",
+"type": "title"
 },
 "14": {
 "character": "Chistosito",
@@ -250,11 +395,219 @@ lines = {
 "translation_key": "Okay! Pero me debes de contestar!",
 "type": "dialogue"
 },
+"141": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "141",
+"next_id": "142",
+"tags": PackedStringArray(),
+"text": "Otra vez en el teatro, ahí estaba el Payasito Chistosito, practicando sus chistes más chistosos.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Otra vez en el teatro, ahí estaba el Payasito Chistosito, practicando sus chistes más chistosos.",
+"type": "dialogue"
+},
+"142": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "142",
+"next_id": "144",
+"tags": PackedStringArray(),
+"text": "Hola! Vamos a contar unos chistes bien chistosos.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Hola! Vamos a contar unos chistes bien chistosos.",
+"type": "dialogue"
+},
+"144": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "144",
+"next_id": "145",
+"next_id_after": "152",
+"responses": PackedStringArray("144", "148"),
+"tags": PackedStringArray(),
+"text": "Si",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Si",
+"type": "response"
+},
+"145": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "145",
+"next_id": "146",
+"parent_id": "144",
+"tags": PackedStringArray(),
+"text": "Eso!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Eso!",
+"type": "dialogue"
+},
+"146": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "146",
+"next_id": "147",
+"parent_id": "144",
+"tags": PackedStringArray(),
+"text": "Chistosito te contó unos chistes",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Chistosito te contó unos chistes",
+"type": "dialogue"
+},
+"147": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "147",
+"next_id": "152",
+"parent_id": "144",
+"tags": PackedStringArray(),
+"text": "Estaban chistosos",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Estaban chistosos",
+"type": "dialogue"
+},
+"148": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "148",
+"next_id": "149",
+"next_id_after": "152",
+"tags": PackedStringArray(),
+"text": "No",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "No",
+"type": "response"
+},
+"149": {
+"character": "{{playername}}",
+"character_replacements": Array[Dictionary]([{
+"expression": Array[Dictionary]([{
+"type": "variable",
+"value": "playername"
+}]),
+"value_in_text": "{{playername}}"
+}]),
+"id": "149",
+"next_id": "150",
+"parent_id": "148",
+"tags": PackedStringArray(),
+"text": "No creo…",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "No creo…",
+"type": "dialogue"
+},
 "15": {
 "id": "15",
 "is_snippet": false,
 "next_id": "end",
 "parent_id": "11",
+"type": "goto"
+},
+"150": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "150",
+"next_id": "152",
+"parent_id": "148",
+"tags": PackedStringArray(),
+"text": "Bueno, pero aqui te espero para mas chistes chistositos.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Bueno, pero aqui te espero para mas chistes chistositos.",
+"type": "dialogue"
+},
+"152": {
+"id": "152",
+"is_snippet": false,
+"next_id": "end",
+"type": "goto"
+},
+"154": {
+"id": "154",
+"next_id": "156",
+"text": "FINAL_1",
+"type": "title"
+},
+"156": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "156",
+"next_id": "157",
+"tags": PackedStringArray(),
+"text": "En la entrada del Día del Payaso, el Payasito Chistosito te estaba esperando.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "En la entrada del Día del Payaso, el Payasito Chistosito te estaba esperando.",
+"type": "dialogue"
+},
+"157": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "157",
+"next_id": "158",
+"tags": PackedStringArray(),
+"text": "¡Hola! ¿Qué dices si te cuento unos chistes en el Día del Payaso?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "¡Hola! ¿Qué dices si te cuento unos chistes en el Día del Payaso?",
+"type": "dialogue"
+},
+"158": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "158",
+"next_id": "159",
+"tags": PackedStringArray(),
+"text": "Dudas por un momento.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Dudas por un momento.",
+"type": "dialogue"
+},
+"159": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "159",
+"next_id": "160",
+"tags": PackedStringArray(),
+"text": "¡Andale! Te vas a reir con mis chistosadas!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "¡Andale! Te vas a reir con mis chistosadas!",
+"type": "dialogue"
+},
+"160": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "160",
+"next_id": "161",
+"tags": PackedStringArray(),
+"text": "Después de pensarlo un poco, aceptas, entrando con el, al Dia del Payaso.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Después de pensarlo un poco, aceptas, entrando con el, al Dia del Payaso.",
+"type": "dialogue"
+},
+"161": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "161",
+"next_id": "162",
+"tags": PackedStringArray(),
+"text": "Por cierto... Como te llamas?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Por cierto... Como te llamas?",
+"type": "dialogue"
+},
+"162": {
+"character": "FINAL 1",
+"character_replacements": Array[Dictionary]([]),
+"id": "162",
+"next_id": "164",
+"tags": PackedStringArray(),
+"text": "Las Risas No Faltaron…",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Las Risas No Faltaron…",
+"type": "dialogue"
+},
+"164": {
+"id": "164",
+"is_snippet": false,
+"next_id": "end",
 "type": "goto"
 },
 "17": {

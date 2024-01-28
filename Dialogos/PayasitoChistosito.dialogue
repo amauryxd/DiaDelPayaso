@@ -115,18 +115,50 @@ Chistosito: Me la pasé muy bien, ojalá y mañana podamos hacerlo otra vez!
 
 ~ Tercera_Interaccion
 
+No te encontraste al payasito chistosito en el teatro, de hecho estaba afuera, sentado en las escaleras de la escuela. 
+Chistosito: Ah, hola compa. 
+- Estas bien?
+- Que pasa? 
 
+Chistosito se ve derrotado. 
+Chistosito: Sabes, creo que mis chistes chistositos no dan risa :( 
+
+- Pues la verdad no.
+	{{playername}}: La neta no, pero puedes mejorar.
+- No, si dan risa.
+	{{playername}}: Pues, a mi si me dieron risa.
+
+Chistosito pausó por un momento, parándose con determinación y fuerza nueva. 
+
+Chistosito: Tienes razón, tengo que mejorar para ser el chistoso mas chistosito…
+
+Te sientes más cerca de Chistosito que nunca…
 
 => END 
 
 ~ Cuarta_Interaccion
 
+Otra vez en el teatro, ahí estaba el Payasito Chistosito, practicando sus chistes más chistosos. 
+Chistosito: Hola! Vamos a contar unos chistes bien chistosos.
 
+- Si
+	Chistosito: Eso!
+	Chistosito te contó unos chistes
+	Estaban chistosos
+- No
+	{{playername}}: No creo…
+	Chistosito: Bueno, pero aqui te espero para mas chistes chistositos.
 
 => END 
 
 ~ FINAL_1
 
-
+En la entrada del Día del Payaso, el Payasito Chistosito te estaba esperando. 
+Chistosito: ¡Hola! ¿Qué dices si te cuento unos chistes en el Día del Payaso?
+Dudas por un momento. 
+Chistosito: ¡Andale! Te vas a reir con mis chistosadas! 
+Después de pensarlo un poco, aceptas, entrando con el, al Dia del Payaso.
+Chistosito: Por cierto... Como te llamas?
+FINAL 1: Las Risas No Faltaron…
 
 => END
