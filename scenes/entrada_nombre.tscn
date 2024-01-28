@@ -1,6 +1,8 @@
-[gd_scene load_steps=2 format=3 uid="uid://clts4ad0fnylb"]
+[gd_scene load_steps=4 format=3 uid="uid://clts4ad0fnylb"]
 
 [ext_resource type="Script" path="res://Scripts/EntradaNombre.gd" id="1_e4a2b"]
+[ext_resource type="Texture2D" uid="uid://dvacim84drdk" path="res://Imgs/PlayerH/Frente/Frente frame 1.png" id="2_d5361"]
+[ext_resource type="Texture2D" uid="uid://bdll2vvpwdcuy" path="res://Imgs/PlayerM/Frente/Frente frame 1.png" id="3_evfvr"]
 
 [node name="EntradaNombre" type="Control"]
 layout_mode = 3
@@ -13,20 +15,46 @@ script = ExtResource("1_e4a2b")
 
 [node name="LineEdit" type="LineEdit" parent="."]
 layout_mode = 0
-offset_left = 143.0
-offset_top = 341.0
-offset_right = 1065.0
-offset_bottom = 486.0
+offset_left = 119.0
+offset_top = 476.0
+offset_right = 1041.0
+offset_bottom = 621.0
 theme_override_font_sizes/font_size = 50
 alignment = 1
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
-offset_left = 143.0
-offset_top = 139.0
-offset_right = 1065.0
-offset_bottom = 276.0
-theme_override_font_sizes/font_size = 100
+offset_left = 186.0
+offset_top = 365.0
+offset_right = 1108.0
+offset_bottom = 502.0
+theme_override_font_sizes/font_size = 80
 text = "Ingresa tu nombre:"
 
+[node name="Label2" type="Label" parent="."]
+layout_mode = 0
+offset_left = 210.0
+offset_top = 36.0
+offset_right = 1132.0
+offset_bottom = 173.0
+theme_override_font_sizes/font_size = 80
+text = "Elige tu personaje"
+
+[node name="CheckButton" type="CheckButton" parent="."]
+layout_mode = 0
+offset_left = 485.0
+offset_top = 231.0
+offset_right = 529.0
+offset_bottom = 255.0
+scale = Vector2(3.30564, 3.30564)
+
+[node name="FrenteFrame1" type="Sprite2D" parent="."]
+position = Vector2(357, 265)
+texture = ExtResource("2_d5361")
+
+[node name="FrenteFrame2" type="Sprite2D" parent="."]
+position = Vector2(732, 261)
+texture = ExtResource("3_evfvr")
+
 [connection signal="text_submitted" from="LineEdit" to="." method="_on_line_edit_text_submitted"]
+[connection signal="toggled" from="CheckButton" to="." method="_on_check_button_toggled"]

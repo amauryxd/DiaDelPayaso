@@ -1,15 +1,15 @@
 [gd_scene load_steps=3 format=3 uid="uid://18vwbo3ufq6y"]
 
 [ext_resource type="Script" path="res://Scripts/obstacle.gd" id="1_aoryx"]
-[ext_resource type="Texture2D" uid="uid://cvofb5mf3bosf" path="res://Imgs/quemada.jpg" id="1_jm2g0"]
+[ext_resource type="Texture2D" uid="uid://dhw3deuiv2cnm" path="res://Imgs/roca.png" id="2_1svh2"]
 
 [node name="Area2D" type="Area2D"]
-scale = Vector2(3.63159, 3.63159)
+scale = Vector2(2.35159, 2.35159)
 script = ExtResource("1_aoryx")
 
 [node name="Quemada" type="Sprite2D" parent="."]
 scale = Vector2(0.0361111, 0.0361111)
-texture = ExtResource("1_jm2g0")
+texture = ExtResource("2_1svh2")
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
 scale = Vector2(0.0361111, 0.0361111)

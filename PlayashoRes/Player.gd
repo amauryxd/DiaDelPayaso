@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-const SPEED = 300.0 # velocidad del jugador
+const SPEED = 500.0 # velocidad del jugador
 
 func _physics_process(delta):
 	#metemos la deteccion de inputs

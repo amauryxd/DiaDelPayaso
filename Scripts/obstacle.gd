@@ -1,6 +1,6 @@
 extends Area2D
 
-var speed = 20 #velocidad
+var speed = 18 #velocidad
 var velocity:Vector2 = Vector2() # tengo entendido que esta forma de declaracion sirve para los static body
 
 func _on_body_entered(body): #Funcion para detectar que es lo que colisiono contra el body

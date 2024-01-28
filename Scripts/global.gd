@@ -9,3 +9,5 @@ var score = 0
 var isOcupado = [false,false,false,false]
 
 var scoregobos = 0
+
+var isChica = false

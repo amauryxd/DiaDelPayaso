@@ -10,5 +10,5 @@ func _ready():
 func _on_timer_timeout():
 	var Obstacle_Scene=obstacle.instantiate() 
 	randomize()
-	Obstacle_Scene.global_position = Vector2(1218,randi()%600)
+	Obstacle_Scene.global_position = Vector2(1218,randi_range(104,646))#randi()%600)
 	$obstacle_container.add_child(Obstacle_Scene)

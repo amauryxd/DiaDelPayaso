@@ -13,4 +13,12 @@ func _process(delta):
 
 func _on_line_edit_text_submitted(new_text):
 	Global.playername = $LineEdit.text
-	get_tree().change_scene_to_file("res://scenes/top_down.tscn")
+	get_tree().change_scene_to_file("res://scenes/top_down2.tscn")
+
+
+
+
+
+
+func _on_check_button_toggled(toggled_on):
+	Global.isChica = !Global.isChica

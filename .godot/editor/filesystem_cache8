@@ -1,177 +1,213 @@
 3acdcc5cb6df755358dde907981ccea8
-::res://::1706433889
-icon.svg::CompressedTexture2D::7020142050255008074::1706433627::1706433627::1::::<><>::
-README.md::TextFile::-1::1706433627::0::1::::<><>::
-TestMain.gd::GDScript::-1::1706433627::0::1::::<>Node<>::
-::res://addons/::1706433627
-::res://addons/dialogue_manager/::1706433627
-constants.gd::GDScript::-1::1706433627::0::1::::<>Node<>::
-DialogueManager.cs::CSharpScript::-1::1706433627::0::1::::<><>::
-dialogue_label.gd::GDScript::-1::1706433627::0::1::::DialogueLabel<>RichTextLabel<>res://addons/dialogue_manager/assets/icon.svg::
-dialogue_label.tscn::PackedScene::5518490004210093266::1706433627::0::1::::<><>::res://addons/dialogue_manager/dialogue_label.gd
-dialogue_line.gd::GDScript::-1::1706433627::0::1::::DialogueLine<>RefCounted<>::
-dialogue_manager.gd::GDScript::-1::1706433627::0::1::::<>Node<>::
-dialogue_reponses_menu.gd::GDScript::-1::1706433627::0::1::::DialogueResponsesMenu<>VBoxContainer<>res://addons/dialogue_manager/assets/responses_menu.svg::
-dialogue_resource.gd::GDScript::-1::1706433627::0::1::::DialogueResource<>Resource<>res://addons/dialogue_manager/assets/icon.svg::
-dialogue_response.gd::GDScript::-1::1706433627::0::1::::DialogueResponse<>RefCounted<>::
-editor_translation_parser_plugin.gd::GDScript::-1::1706433627::0::1::::<>EditorTranslationParserPlugin<>::
-import_plugin.gd::GDScript::-1::1706433627::0::1::::<>EditorImportPlugin<>::
-plugin.cfg::TextFile::-1::1706433627::0::1::::<><>::
-plugin.gd::GDScript::-1::1706433627::0::1::::<>EditorPlugin<>::
-settings.gd::GDScript::-1::1706433627::0::1::::<>Node<>::
-test_scene.gd::GDScript::-1::1706433627::0::1::::BaseDialogueTestScene<>Node2D<>::
-test_scene.tscn::PackedScene::-1::1706433627::0::1::::<><>::res://addons/dialogue_manager/test_scene.gd
-::res://addons/dialogue_manager/assets/::1706433627
-icon.svg::CompressedTexture2D::9148339284877624195::1706433627::1706433627::1::::<><>::
-responses_menu.svg::CompressedTexture2D::8371359403825774630::1706433627::1706433627::1::::<><>::
-update.svg::CompressedTexture2D::9126631778427806641::1706433627::1706433627::1::::<><>::
-::res://addons/dialogue_manager/components/::1706433627
-code_edit.gd::GDScript::-1::1706433627::0::1::::<>CodeEdit<>::
-code_edit.tscn::PackedScene::5379618807048408118::1706433627::0::1::::<><>::res://addons/dialogue_manager/components/code_edit_syntax_highlighter.gd<>res://addons/dialogue_manager/components/code_edit.gd
-code_edit_syntax_highlighter.gd::GDScript::-1::1706433627::0::1::::<>SyntaxHighlighter<>::
-dialogue_cache.gd::GDScript::-1::1706433627::0::1::::<>Node<>::
-download_update_panel.gd::GDScript::-1::1706433627::0::1::::<>Control<>::
-download_update_panel.tscn::PackedScene::1130642722554629364::1706433627::0::1::::<><>::res://addons/dialogue_manager/components/download_update_panel.gd<>uid://d3baj6rygkb3f::::res://addons/dialogue_manager/assets/update.svg
-errors_panel.gd::GDScript::-1::1706433627::0::1::::<>HBoxContainer<>::
-errors_panel.tscn::PackedScene::6105315990352960875::1706433627::0::1::::<><>::res://addons/dialogue_manager/components/errors_panel.gd
-files_list.gd::GDScript::-1::1706433627::0::1::::<>VBoxContainer<>::
-files_list.tscn::PackedScene::8113335055803740416::1706433627::0::1::::<><>::res://addons/dialogue_manager/components/files_list.gd<>uid://d3lr2uas6ax8v::::res://addons/dialogue_manager/assets/icon.svg
-parser.gd::GDScript::-1::1706433627::0::1::::DialogueManagerParser<>Object<>::
-parse_result.gd::GDScript::-1::1706433627::0::1::::DialogueManagerParseResult<>RefCounted<>::
-resolved_line_data.gd::GDScript::-1::1706433627::0::1::::<>RefCounted<>::
-resolved_tag_data.gd::GDScript::-1::1706433627::0::1::::<>RefCounted<>::
-search_and_replace.gd::GDScript::-1::1706433627::0::1::::<>VBoxContainer<>::
-search_and_replace.tscn::PackedScene::458254375860855630::1706433627::0::1::::<><>::res://addons/dialogue_manager/components/search_and_replace.gd
-title_list.gd::GDScript::-1::1706433627::0::1::::<>VBoxContainer<>::
-title_list.tscn::PackedScene::6134415340044566558::1706433627::0::1::::<><>::res://addons/dialogue_manager/components/title_list.gd
-update_button.gd::GDScript::-1::1706433627::0::1::::<>Button<>::
-update_button.tscn::PackedScene::5825087957514786930::1706433627::0::1::::<><>::res://addons/dialogue_manager/components/update_button.gd<>uid://qdxrxv3c3hxk::::res://addons/dialogue_manager/components/download_update_panel.tscn
-::res://addons/dialogue_manager/example_balloon/::1706433627
-example_balloon.gd::GDScript::-1::1706433627::0::1::::<>CanvasLayer<>::
-example_balloon.tscn::PackedScene::2304415056852043862::1706433627::0::1::::<><>::res://addons/dialogue_manager/example_balloon/example_balloon.gd<>uid://ckvgyvclnwggo::::res://addons/dialogue_manager/dialogue_label.tscn<>res://addons/dialogue_manager/dialogue_reponses_menu.gd
-small_example_balloon.tscn::PackedScene::1883859960814163368::1706433627::0::1::::<><>::res://addons/dialogue_manager/example_balloon/example_balloon.gd<>uid://ckvgyvclnwggo::::res://addons/dialogue_manager/dialogue_label.tscn<>res://addons/dialogue_manager/dialogue_reponses_menu.gd
-::res://addons/dialogue_manager/l10n/::1706433627
-en.mo::Translation::-1::1706433627::0::1::::<><>::
-en.po::Translation::-1::1706433627::0::1::::<><>::
-zh.po::Translation::-1::1706433627::0::1::::<><>::
-zh_TW.po::Translation::-1::1706433627::0::1::::<><>::
-::res://addons/dialogue_manager/views/::1706433627
-main_view.gd::GDScript::-1::1706433627::0::1::::<>Control<>::
-main_view.tscn::PackedScene::4884668666408697448::1706433627::0::1::::<><>::res://addons/dialogue_manager/views/main_view.gd<>uid://civ6shmka5e8u::::res://addons/dialogue_manager/components/code_edit.tscn<>uid://dnufpcdrreva3::::res://addons/dialogue_manager/components/files_list.tscn<>uid://ctns6ouwwd68i::::res://addons/dialogue_manager/components/title_list.tscn<>uid://co8yl23idiwbi::::res://addons/dialogue_manager/components/update_button.tscn<>uid://gr8nakpbrhby::::res://addons/dialogue_manager/components/search_and_replace.tscn<>uid://cs8pwrxr5vxix::::res://addons/dialogue_manager/components/errors_panel.tscn<>res://addons/dialogue_manager/components/code_edit_syntax_highlighter.gd<>uid://cpg4lg1r3ff6m::::res://addons/dialogue_manager/views/settings_view.tscn
-settings_view.gd::GDScript::-1::1706433627::0::1::::<>TabContainer<>::
-settings_view.tscn::PackedScene::5839841081119266502::1706433627::0::1::::<><>::res://addons/dialogue_manager/views/settings_view.gd
-::res://addons/SpritesheetGenerator/::1706433627
-Checker.png::CompressedTexture2D::3320247170864332717::1706433627::1706433627::1::::<><>::
-plugin.cfg::TextFile::-1::1706433627::0::1::::<><>::
-SpritesheetFrame.tscn::PackedScene::5046698409720596777::1706433627::0::1::::<><>::
-SpriteSheetGenerator.gd::GDScript::-1::1706433627::0::1::::<>EditorPlugin<>::
-SpritesheetGenerator.tscn::PackedScene::2795273312823937666::1706433627::0::1::::<><>::uid://bnkl8rujlgv0h::::res://addons/SpritesheetGenerator/Checker.png
-::res://Audio/::1706433627
-Bgm.ogg::AudioStreamOggVorbis::4497019346861690133::1706433627::1706433627::1::::<><>::
-cacho.ogg::AudioStreamOggVorbis::3174403877390268191::1706433627::1706433627::1::::<><>::
-chistosito.ogg::AudioStreamOggVorbis::6719510778111762098::1706433627::1706433627::1::::<><>::
-menu.ogg::AudioStreamOggVorbis::5484776400057421466::1706433627::1706433627::1::::<><>::
-payasada.ogg::AudioStreamOggVorbis::3907616263674002849::1706433627::1706433627::1::::<><>::
-sichichita.ogg::AudioStreamOggVorbis::7744746291550520059::1706433627::1706433627::1::::<><>::
-::res://Dialogos/::1706433627
-PayachaGacha.dialogue::Resource::4833911942956871305::1706433627::1706433627::1::::<><>::
-PayachitaChinchichita.dialogue::Resource::5589613942485937210::1706433627::1706433627::1::::<><>::
-Payasada.dialogue::Resource::1363657722284805534::1706433627::1706433627::1::::<><>::
-PayasitoChistosito.dialogue::Resource::2406786479773755403::1706433627::1706433627::1::::<><>::
-Playasho.dialogue::Resource::4242105360241899138::1706433627::1706433627::1::::<><>::
-Start.dialogue::Resource::4108879045405271772::1706433627::1706433627::1::::<><>::
-Test.dialogue::Resource::5208372010917874161::1706433627::1706433627::1::::<><>::
-::res://Imgs/::1706433754
-aaaa.png::CompressedTexture2D::5912978331416381702::1706433627::1706433627::1::::<><>::
-arbolito uwu.png::CompressedTexture2D::7651259497629475808::1706433627::1706433627::1::::<><>::
-bg globo.png::CompressedTexture2D::6330733099920064162::1706433627::1706433627::1::::<><>::
-calle}.png::CompressedTexture2D::637752586485446555::1706433627::1706433627::1::::<><>::
-cocida.png::CompressedTexture2D::1478283188476081519::1706433627::1706433627::1::::<><>::
-cruda.png::CompressedTexture2D::2206820413572742899::1706433627::1706433627::1::::<><>::
-explosión globo.png::CompressedTexture2D::8123264703521975446::1706433627::1706433627::1::::<><>::
-globo fase 1.png::CompressedTexture2D::4158189682309607724::1706433627::1706433627::1::::<><>::
-globo fase 2.png::CompressedTexture2D::3578511820996599176::1706433627::1706433627::1::::<><>::
-globo fase 3.png::CompressedTexture2D::3234739075721128890::1706433627::1706433627::1::::<><>::
-globo fase 4.png::CompressedTexture2D::750894286294459647::1706433627::1706433627::1::::<><>::
-globo flacido.png::CompressedTexture2D::4925761775304304747::1706433627::1706433627::1::::<><>::
-pared con arbusto.png::CompressedTexture2D::8010448685011273954::1706433627::1706433627::1::::<><>::
-pared sin arbusto.png::CompressedTexture2D::7069035006724444397::1706433627::1706433627::1::::<><>::
-parrilla.png::CompressedTexture2D::2087198472191494589::1706433627::1706433627::1::::<><>::
-plato con carne.png::CompressedTexture2D::5963970124386373161::1706433627::1706433627::1::::<><>::
-plato.png::CompressedTexture2D::7522687348582628723::1706433627::1706433627::1::::<><>::
-Playaso chibi.png::CompressedTexture2D::8163277932049190971::1706433627::1706433627::1::::<><>::
-quemada.png::CompressedTexture2D::370931416569133611::1706433627::1706433627::1::::<><>::
-::res://Imgs/Sprites/::1706433627
-atril.png::CompressedTexture2D::113699711287376455::1706433627::1706433627::1::::<><>::
-butacas.png::CompressedTexture2D::418119078681772248::1706433627::1706433627::1::::<><>::
-calle con banqueta.png::CompressedTexture2D::6482933527070209261::1706433627::1706433627::1::::<><>::
-cama.png::CompressedTexture2D::686667213951756236::1706433627::1706433627::1::::<><>::
-computadora.png::CompressedTexture2D::303413371548949236::1706433627::1706433627::1::::<><>::
-cortina derecha.png::CompressedTexture2D::6240818970963883643::1706433627::1706433627::1::::<><>::
-cortina izquierda.png::CompressedTexture2D::4899899816875193820::1706433627::1706433627::1::::<><>::
-Entrada.png::CompressedTexture2D::2759937951855540698::1706433627::1706433627::1::::<><>::
-escritorio.png::CompressedTexture2D::5453857771492232892::1706433627::1706433627::1::::<><>::
-muro blanco solito.png::CompressedTexture2D::7229743660052696391::1706433627::1706433627::1::::<><>::
-negro.png::CompressedTexture2D::33398742638578398::1706433627::1706433627::1::::<><>::
-pared limpia sin nada.png::CompressedTexture2D::6888368217065258475::1706433627::1706433627::1::::<><>::
-Pared línea abajo.png::CompressedTexture2D::7424109535260152408::1706433627::1706433627::1::::<><>::
-Pared línea arriba.png::CompressedTexture2D::2149986790336102631::1706433627::1706433627::1::::<><>::
-pared madera grisaea.png::CompressedTexture2D::3168780245512408577::1706433627::1706433627::1::::<><>::
-pared madera.png::CompressedTexture2D::7844230363619427975::1706433627::1706433627::1::::<><>::
-pared salon de fiestas.png::CompressedTexture2D::2637919647922803167::1706433627::1706433627::1::::<><>::
-Parrilla.png::CompressedTexture2D::6179479240068836116::1706433627::1706433627::1::::<><>::
-pizarra.png::CompressedTexture2D::3680345310126537925::1706433627::1706433627::1::::<><>::
-puerta aula.png::CompressedTexture2D::1491032686564248278::1706433627::1706433627::1::::<><>::
-pupitre.png::CompressedTexture2D::1660503365365084450::1706433627::1706433627::1::::<><>::
-silla pov.png::CompressedTexture2D::5537373163036834722::1706433627::1706433627::1::::<><>::
-silla volteada.png::CompressedTexture2D::7659134611342002793::1706433627::1706433627::1::::<><>::
-silla.png::CompressedTexture2D::2012840278731277449::1706433627::1706433627::1::::<><>::
-Ventana.png::CompressedTexture2D::9038193192699866272::1706433627::1706433627::1::::<><>::
-::res://Imgs/Sprites/Tilemap/::1706433889
-Pisos.png::CompressedTexture2D::7934152009282193909::1706433627::1706433627::1::::<><>::
-::res://PlayashoRes/::1706433627
-area_2d.tscn::PackedScene::1894348820236564702::1706433627::0::1::::<><>::res://Scripts/obstacle.gd<>uid://cvofb5mf3bosf::::res://Imgs/quemada.jpg
-Player.gd::GDScript::-1::1706433627::0::1::::<>CharacterBody2D<>::
-Player.tscn::PackedScene::2114191096215179132::1706433627::0::1::::<><>::uid://c7auyjjupoyjy::::res://icon.svg<>res://PlayashoRes/Player.gd
-::res://Prefabs/::1706433627
-gobos.tscn::PackedScene::1867051345483751164::1706433627::0::1::::<><>::uid://ccgctu0vfampn::::res://Imgs/globo flacido.png<>res://Scripts/MiniJuegoSichichita_2.gd
-interactuable.tscn::PackedScene::9081528255311198353::1706433627::0::1::::<><>::res://Scripts/interactuableChido.gd
-object.tscn::PackedScene::5390677736475718477::1706433627::0::1::::<><>::res://Scripts/object.gd<>uid://6paalk3ekofb::::res://Imgs/cruda.png
-PayasadaUI.tscn::PackedScene::125055005043399747::1706433627::0::1::::<><>::res://Scripts/PayasadaUI.gd
-platform.tscn::PackedScene::5080436107727441228::1706433627::0::1::::<><>::res://Scripts/platform.gd
-Timer.gd::GDScript::-1::1706433627::0::1::::<>Timer<>::
-::res://scenes/::1706433889
-control.tscn::PackedScene::5546073867166612987::1706433627::0::1::::<><>::res://Scripts/Menu.gd<>uid://cke4p3wuuxndi::::res://Audio/menu.ogg
-divorcio.tscn::PackedScene::7197409229816892743::1706433627::0::1::::<><>::uid://ci2jw68wrdtkf::::res://Prefabs/object.tscn<>uid://cenabm0gouhbo::::res://Prefabs/platform.tscn<>uid://blhx76dgxe4md::::res://Audio/cacho.ogg
-entrada_nombre.tscn::PackedScene::5585286524402252015::1706433627::0::1::::<><>::res://Scripts/EntradaNombre.gd
-MiniJuegoPayasada.tscn::PackedScene::4640168253468917180::1706433627::0::1::::<><>::res://Scripts/global.gd<>uid://cqij5h67xccb3::::res://Imgs/aaaa.png<>uid://cenabm0gouhbo::::res://Prefabs/platform.tscn<>uid://ci2jw68wrdtkf::::res://Prefabs/object.tscn<>uid://dfgbtdfjgvjkt::::res://Imgs/plato.png<>res://Scripts/Spawner.gd<>uid://cq78ymnkwib1r::::res://Imgs/plato con carne.png<>uid://b1tvxexc72gl::::res://Prefabs/PayasadaUI.tscn<>uid://bvw44srk7iyll::::res://Audio/payasada.ogg<>uid://40b4bdoul4uj::::res://Imgs/parrilla.png
-MiniJuegoPlayasho.tscn::PackedScene::1259941750986022347::1706433627::0::1::::<><>::res://Scripts/MiniJuegoPlayasho.gd<>uid://5eeoh0pflxvo::::res://PlayashoRes/Player.tscn<>uid://18vwbo3ufq6y::::res://PlayashoRes/area_2d.tscn<>res://Scripts/CanvasLayer.gd
-MiniJuegoSichichita.tscn::PackedScene::8462158298243848640::1706433627::0::1::::<><>::uid://1uocexpqjed5::::res://Prefabs/gobos.tscn<>uid://cwgwiqdrag6eo::::res://Imgs/bg globo.png<>res://Scripts/Timer.gd
-top_down2.tscn::PackedScene::6478721847452414261::1706434682::0::1::::<><>::uid://c7auyjjupoyjy::::res://icon.svg<>res://Scripts/Player/playerMovement.gd<>res://Scripts/Interactuable.gd<>uid://d2nfpcy1t3rdx::::res://Prefabs/interactuable.tscn<>uid://totijoxg3ek1::::res://Dialogos/Payasada.dialogue<>uid://b5cnis4w7iguv::::res://Audio/Bgm.ogg<>uid://dokl83cn7salv::::res://Imgs/Playaso chibi.png<>uid://b1o54c7ytpkbq::::res://Dialogos/Playasho.dialogue<>uid://3xbgkhp3sj42::::res://Imgs/Sprites/silla.png<>uid://ck5lyynaxtulu::::res://Imgs/Sprites/silla pov.png<>uid://d11fyr6nx8433::::res://Imgs/Sprites/Ventana.png<>uid://dhalejy1p2jjc::::res://Imgs/arbolito uwu.png<>uid://cubnedalml42s::::res://Imgs/Sprites/Parrilla.png<>uid://j1vkq31fqhiq::::res://Imgs/Sprites/cama.png<>uid://bfk61lyeamsqs::::res://Imgs/Sprites/Entrada.png<>uid://vijdcvhidx3k::::res://Imgs/Sprites/puerta aula.png<>uid://cqqsb4locfy7s::::res://Tileset/new_tile_set.tres<>uid://cu6dm2od6ou00::::res://Imgs/Sprites/cortina derecha.png<>uid://cb2svtaweywca::::res://Imgs/Sprites/cortina izquierda.png<>uid://ek8f6a8bvqoa::::res://Imgs/Sprites/computadora.png<>uid://bso10qqoeob30::::res://Imgs/Sprites/pizarra.png<>uid://cjx5ighury1ca::::res://Imgs/Sprites/escritorio.png<>uid://dhee3fhdj3nmn::::res://Imgs/Sprites/silla volteada.png<>uid://bvcu88po3ouh::::res://Imgs/Sprites/atril.png
-top_down.tscn::PackedScene::6478721847452414261::1706433910::0::1::::<><>::uid://c7auyjjupoyjy::::res://icon.svg<>res://Scripts/Player/playerMovement.gd<>res://Scripts/Interactuable.gd<>uid://d2nfpcy1t3rdx::::res://Prefabs/interactuable.tscn<>uid://totijoxg3ek1::::res://Dialogos/Payasada.dialogue<>uid://b5cnis4w7iguv::::res://Audio/Bgm.ogg<>uid://dokl83cn7salv::::res://Imgs/Playaso chibi.png<>uid://b1o54c7ytpkbq::::res://Dialogos/Playasho.dialogue<>uid://cqqsb4locfy7s::::res://Tileset/new_tile_set.tres<>uid://3xbgkhp3sj42::::res://Imgs/Sprites/silla.png<>uid://ck5lyynaxtulu::::res://Imgs/Sprites/silla pov.png<>uid://d11fyr6nx8433::::res://Imgs/Sprites/Ventana.png<>uid://dhalejy1p2jjc::::res://Imgs/arbolito uwu.png<>uid://cubnedalml42s::::res://Imgs/Sprites/Parrilla.png<>uid://j1vkq31fqhiq::::res://Imgs/Sprites/cama.png<>uid://bfk61lyeamsqs::::res://Imgs/Sprites/Entrada.png<>uid://vijdcvhidx3k::::res://Imgs/Sprites/puerta aula.png
-::res://Scripts/::1706433627
-CanvasLayer.gd::GDScript::-1::1706433627::0::1::::<>CanvasLayer<>::
-EntradaNombre.gd::GDScript::-1::1706433627::0::1::::<>Control<>::
-global.gd::GDScript::-1::1706433627::0::1::::<>Node2D<>::
-Interactuable.gd::GDScript::-1::1706433627::0::1::::<>Area2D<>::
-interactuableChido.gd::GDScript::-1::1706433627::0::1::::<>Area2D<>::
-Menu.gd::GDScript::-1::1706433627::0::1::::<>Control<>::
-MiniJuegoPlayasho.gd::GDScript::-1::1706433627::0::1::::<>Node2D<>::
-MiniJuegoSichichita.gd::GDScript::-1::1706433627::0::1::::<>Area2D<>::
-MiniJuegoSichichita_2.gd::GDScript::-1::1706433627::0::1::::<>Area2D<>::
-MiniJuegoSichichita_3.gd::GDScript::-1::1706433627::0::1::::<>Area2D<>::
-MiniJuegoSichichita_4.gd::GDScript::-1::1706433627::0::1::::<>Area2D<>::
-MiniJuegoSichichita_6.gd::GDScript::-1::1706433627::0::1::::<>Area2D<>::
-MiniJuegoSichichta_5.gd::GDScript::-1::1706433627::0::1::::<>Area2D<>::
-Object.gd::GDScript::-1::1706433627::0::1::::<>Node2D<>::
-obstacle.gd::GDScript::-1::1706433627::0::1::::<>Area2D<>::
-PayasadaUI.gd::GDScript::-1::1706433627::0::1::::<>CanvasLayer<>::
-platform.gd::GDScript::-1::1706433627::0::1::::<>StaticBody2D<>::
-Spawner.gd::GDScript::-1::1706433627::0::1::::<>Sprite2D<>::
-temp.gd::GDScript::-1::1706433627::0::1::::<>Sprite2D<>::
-Timer.gd::GDScript::-1::1706433627::0::1::::<>Node2D<>::
-::res://Scripts/Player/::1706433627
-playerMovement.gd::GDScript::-1::1706433627::0::1::::<>CharacterBody2D<>::
-::res://Tileset/::1706433754
-new_tile_set.tres::TileSet::5929989142132374650::1706433910::0::1::::<><>::uid://dlbmlbaf0j4lt::::res://Imgs/Sprites/Tilemap/Pisos.png<>uid://f7smik4jn2rs::::res://Imgs/Sprites/butacas.png<>uid://bdt3fe1vg0uu6::::res://Imgs/Sprites/pared salon de fiestas.png<>uid://jc6xr4lcskt4::::res://Imgs/calle}.png<>uid://dmek6i7cg5oa1::::res://Imgs/pared con arbusto.png<>uid://c7yj8dwy710jh::::res://Imgs/pared sin arbusto.png<>uid://cymm76bfgm3kj::::res://Imgs/Sprites/calle con banqueta.png<>uid://dbae27ad86400::::res://Imgs/Sprites/muro blanco solito.png<>uid://qgcpycjtjgg::::res://Imgs/Sprites/negro.png<>uid://c5e1ohmiw7d84::::res://Imgs/Sprites/pared limpia sin nada.png<>uid://dd1j88jh1vweq::::res://Imgs/Sprites/Pared línea abajo.png<>uid://5vp76m3wih2v::::res://Imgs/Sprites/Pared línea arriba.png<>uid://ble8l26f734j2::::res://Imgs/Sprites/pared madera grisaea.png<>uid://dj02lfg8r1edr::::res://Imgs/Sprites/pared madera.png
-OIP.jpg::CompressedTexture2D::3819146533099828355::1706433627::1706433627::1::::<><>::
+::res://::1706435063
+icon.svg::CompressedTexture2D::7020142050255008074::1706388252::1706388252::1::::<><>::
+README.md::TextFile::-1::1706388252::0::1::::<><>::
+TestMain.gd::GDScript::-1::1706388252::0::1::::<>Node<>::
+::res://addons/::1706426379
+::res://addons/dialogue_manager/::1706388252
+constants.gd::GDScript::-1::1706388252::0::1::::<>Node<>::
+DialogueManager.cs::CSharpScript::-1::1706388252::0::1::::<><>::
+dialogue_label.gd::GDScript::-1::1706388252::0::1::::DialogueLabel<>RichTextLabel<>res://addons/dialogue_manager/assets/icon.svg::
+dialogue_label.tscn::PackedScene::5518490004210093266::1706388252::0::1::::<><>::res://addons/dialogue_manager/dialogue_label.gd
+dialogue_line.gd::GDScript::-1::1706388252::0::1::::DialogueLine<>RefCounted<>::
+dialogue_manager.gd::GDScript::-1::1706388252::0::1::::<>Node<>::
+dialogue_reponses_menu.gd::GDScript::-1::1706388252::0::1::::DialogueResponsesMenu<>VBoxContainer<>res://addons/dialogue_manager/assets/responses_menu.svg::
+dialogue_resource.gd::GDScript::-1::1706388252::0::1::::DialogueResource<>Resource<>res://addons/dialogue_manager/assets/icon.svg::
+dialogue_response.gd::GDScript::-1::1706388252::0::1::::DialogueResponse<>RefCounted<>::
+editor_translation_parser_plugin.gd::GDScript::-1::1706388252::0::1::::<>EditorTranslationParserPlugin<>::
+import_plugin.gd::GDScript::-1::1706388252::0::1::::<>EditorImportPlugin<>::
+plugin.cfg::TextFile::-1::1706388252::0::1::::<><>::
+plugin.gd::GDScript::-1::1706388252::0::1::::<>EditorPlugin<>::
+settings.gd::GDScript::-1::1706388252::0::1::::<>Node<>::
+test_scene.gd::GDScript::-1::1706388252::0::1::::BaseDialogueTestScene<>Node2D<>::
+test_scene.tscn::PackedScene::-1::1706388252::0::1::::<><>::res://addons/dialogue_manager/test_scene.gd
+::res://addons/dialogue_manager/assets/::1706389368
+icon.svg::CompressedTexture2D::9148339284877624195::1706388252::1706389368::1::::<><>::
+responses_menu.svg::CompressedTexture2D::8371359403825774630::1706388252::1706389368::1::::<><>::
+update.svg::CompressedTexture2D::9126631778427806641::1706388252::1706388252::1::::<><>::
+::res://addons/dialogue_manager/components/::1706388252
+code_edit.gd::GDScript::-1::1706388252::0::1::::<>CodeEdit<>::
+code_edit.tscn::PackedScene::5379618807048408118::1706388252::0::1::::<><>::res://addons/dialogue_manager/components/code_edit_syntax_highlighter.gd<>res://addons/dialogue_manager/components/code_edit.gd
+code_edit_syntax_highlighter.gd::GDScript::-1::1706388252::0::1::::<>SyntaxHighlighter<>::
+dialogue_cache.gd::GDScript::-1::1706388252::0::1::::<>Node<>::
+download_update_panel.gd::GDScript::-1::1706388252::0::1::::<>Control<>::
+download_update_panel.tscn::PackedScene::1130642722554629364::1706388252::0::1::::<><>::res://addons/dialogue_manager/components/download_update_panel.gd<>uid://d3baj6rygkb3f::::res://addons/dialogue_manager/assets/update.svg
+errors_panel.gd::GDScript::-1::1706388252::0::1::::<>HBoxContainer<>::
+errors_panel.tscn::PackedScene::6105315990352960875::1706388252::0::1::::<><>::res://addons/dialogue_manager/components/errors_panel.gd
+files_list.gd::GDScript::-1::1706388252::0::1::::<>VBoxContainer<>::
+files_list.tscn::PackedScene::8113335055803740416::1706388252::0::1::::<><>::res://addons/dialogue_manager/components/files_list.gd<>uid://d3lr2uas6ax8v::::res://addons/dialogue_manager/assets/icon.svg
+parser.gd::GDScript::-1::1706388252::0::1::::DialogueManagerParser<>Object<>::
+parse_result.gd::GDScript::-1::1706388252::0::1::::DialogueManagerParseResult<>RefCounted<>::
+resolved_line_data.gd::GDScript::-1::1706388252::0::1::::<>RefCounted<>::
+resolved_tag_data.gd::GDScript::-1::1706388252::0::1::::<>RefCounted<>::
+search_and_replace.gd::GDScript::-1::1706388252::0::1::::<>VBoxContainer<>::
+search_and_replace.tscn::PackedScene::458254375860855630::1706388252::0::1::::<><>::res://addons/dialogue_manager/components/search_and_replace.gd
+title_list.gd::GDScript::-1::1706388252::0::1::::<>VBoxContainer<>::
+title_list.tscn::PackedScene::6134415340044566558::1706388252::0::1::::<><>::res://addons/dialogue_manager/components/title_list.gd
+update_button.gd::GDScript::-1::1706388252::0::1::::<>Button<>::
+update_button.tscn::PackedScene::5825087957514786930::1706388252::0::1::::<><>::res://addons/dialogue_manager/components/update_button.gd<>uid://qdxrxv3c3hxk::::res://addons/dialogue_manager/components/download_update_panel.tscn
+::res://addons/dialogue_manager/example_balloon/::1706388252
+example_balloon.gd::GDScript::-1::1706388252::0::1::::<>CanvasLayer<>::
+example_balloon.tscn::PackedScene::2304415056852043862::1706388252::0::1::::<><>::res://addons/dialogue_manager/example_balloon/example_balloon.gd<>uid://ckvgyvclnwggo::::res://addons/dialogue_manager/dialogue_label.tscn<>res://addons/dialogue_manager/dialogue_reponses_menu.gd
+small_example_balloon.tscn::PackedScene::1883859960814163368::1706388252::0::1::::<><>::res://addons/dialogue_manager/example_balloon/example_balloon.gd<>uid://ckvgyvclnwggo::::res://addons/dialogue_manager/dialogue_label.tscn<>res://addons/dialogue_manager/dialogue_reponses_menu.gd
+::res://addons/dialogue_manager/l10n/::1706388252
+en.mo::Translation::-1::1706388252::0::1::::<><>::
+en.po::Translation::-1::1706388252::0::1::::<><>::
+zh.po::Translation::-1::1706388252::0::1::::<><>::
+zh_TW.po::Translation::-1::1706388252::0::1::::<><>::
+::res://addons/dialogue_manager/views/::1706388252
+main_view.gd::GDScript::-1::1706388252::0::1::::<>Control<>::
+main_view.tscn::PackedScene::4884668666408697448::1706388252::0::1::::<><>::res://addons/dialogue_manager/views/main_view.gd<>uid://civ6shmka5e8u::::res://addons/dialogue_manager/components/code_edit.tscn<>uid://dnufpcdrreva3::::res://addons/dialogue_manager/components/files_list.tscn<>uid://ctns6ouwwd68i::::res://addons/dialogue_manager/components/title_list.tscn<>uid://co8yl23idiwbi::::res://addons/dialogue_manager/components/update_button.tscn<>uid://gr8nakpbrhby::::res://addons/dialogue_manager/components/search_and_replace.tscn<>uid://cs8pwrxr5vxix::::res://addons/dialogue_manager/components/errors_panel.tscn<>res://addons/dialogue_manager/components/code_edit_syntax_highlighter.gd<>uid://cpg4lg1r3ff6m::::res://addons/dialogue_manager/views/settings_view.tscn
+settings_view.gd::GDScript::-1::1706388252::0::1::::<>TabContainer<>::
+settings_view.tscn::PackedScene::5839841081119266502::1706388252::0::1::::<><>::res://addons/dialogue_manager/views/settings_view.gd
+::res://addons/SpritesheetGenerator/::1706426379
+Checker.png::CompressedTexture2D::3320247170864332717::1706426379::1706426379::1::::<><>::
+plugin.cfg::TextFile::-1::1706426379::0::1::::<><>::
+SpritesheetFrame.tscn::PackedScene::5046698409720596777::1706426379::0::1::::<><>::
+SpriteSheetGenerator.gd::GDScript::-1::1706426379::0::1::::<>EditorPlugin<>::
+SpritesheetGenerator.tscn::PackedScene::2795273312823937666::1706426379::0::1::::<><>::uid://bnkl8rujlgv0h::::res://addons/SpritesheetGenerator/Checker.png
+::res://Audio/::1706434911
+Bgm.ogg::AudioStreamOggVorbis::4497019346861690133::1706426379::1706426379::1::::<><>::
+cacho.ogg::AudioStreamOggVorbis::3174403877390268191::1706426379::1706426379::1::::<><>::
+chistosito.ogg::AudioStreamOggVorbis::6719510778111762098::1706426379::1706426379::1::::<><>::
+menu.ogg::AudioStreamOggVorbis::5484776400057421466::1706426379::1706426379::1::::<><>::
+payasada.ogg::AudioStreamOggVorbis::3907616263674002849::1706426379::1706426379::1::::<><>::
+playasho.ogg::AudioStreamOggVorbis::2875476739229591476::1706434911::1706434911::1::::<><>::
+sichichita.ogg::AudioStreamOggVorbis::7744746291550520059::1706426379::1706426379::1::::<><>::
+::res://Dialogos/::1706426379
+PayachaGacha.dialogue::Resource::4833911942956871305::1706388252::1706388252::1::::<><>::
+PayachitaChinchichita.dialogue::Resource::5589613942485937210::1706388252::1706388252::1::::<><>::
+Payasada.dialogue::Resource::1363657722284805534::1706388252::1706388252::1::::<><>::
+PayasitoChistosito.dialogue::Resource::2406786479773755403::1706426379::1706402527::1::::<><>::
+Playasho.dialogue::Resource::4242105360241899138::1706388252::1706388252::1::::<><>::
+Start.dialogue::Resource::4108879045405271772::1706388252::1706388252::1::::<><>::
+Test.dialogue::Resource::5208372010917874161::1706388252::1706388252::1::::<><>::
+::res://Imgs/::1706434911
+aaaa.png::CompressedTexture2D::5912978331416381702::1706426379::1706426379::1::::<><>::
+arbolito uwu.png::CompressedTexture2D::7651259497629475808::1706426379::1706426379::1::::<><>::
+bg globo.png::CompressedTexture2D::6330733099920064162::1706430376::1706430376::1::::<><>::
+bg surf.png::CompressedTexture2D::5294281705985519628::1706434911::1706434911::1::::<><>::
+calle}.png::CompressedTexture2D::637752586485446555::1706434908::1706434908::1::::<><>::
+cocida.png::CompressedTexture2D::1478283188476081519::1706426379::1706426379::1::::<><>::
+cruda.png::CompressedTexture2D::2206820413572742899::1706426379::1706426379::1::::<><>::
+explosión globo.png::CompressedTexture2D::8123264703521975446::1706430376::1706430376::1::::<><>::
+globo fase 1.png::CompressedTexture2D::4158189682309607724::1706430376::1706430376::1::::<><>::
+globo fase 2.png::CompressedTexture2D::3578511820996599176::1706430376::1706430376::1::::<><>::
+globo fase 3.png::CompressedTexture2D::3234739075721128890::1706430376::1706430376::1::::<><>::
+globo fase 4.png::CompressedTexture2D::750894286294459647::1706430376::1706430376::1::::<><>::
+globo flacido.png::CompressedTexture2D::4925761775304304747::1706430376::1706430376::1::::<><>::
+ola.png::CompressedTexture2D::4261812687042892239::1706434911::1706434911::1::::<><>::
+pared con arbusto.png::CompressedTexture2D::8010448685011273954::1706426379::1706426379::1::::<><>::
+pared sin arbusto.png::CompressedTexture2D::7069035006724444397::1706426379::1706426379::1::::<><>::
+parrilla.png::CompressedTexture2D::2087198472191494589::1706426379::1706426379::1::::<><>::
+plato con carne.png::CompressedTexture2D::5963970124386373161::1706426379::1706426379::1::::<><>::
+plato.png::CompressedTexture2D::7522687348582628723::1706426379::1706426379::1::::<><>::
+Playaso chibi.png::CompressedTexture2D::8163277932049190971::1706426379::1706426379::1::::<><>::
+quemada.png::CompressedTexture2D::370931416569133611::1706426379::1706426379::1::::<><>::
+roca.png::CompressedTexture2D::7697705941696119926::1706434911::1706434911::1::::<><>::
+::res://Imgs/PlayerH/::1706434911
+::res://Imgs/PlayerH/Atrás/::1706434911
+Atrás frame 1.png::CompressedTexture2D::8118909950880836843::1706434911::1706434911::1::::<><>::
+Atrás frame 2.png::CompressedTexture2D::5015107861548941216::1706434911::1706434911::1::::<><>::
+Atrás frame 3.png::CompressedTexture2D::7590073081721317003::1706434911::1706434911::1::::<><>::
+::res://Imgs/PlayerH/Derecha_/::1706434911
+Derecha frame 1.png::CompressedTexture2D::7164597215463290711::1706434911::1706434911::1::::<><>::
+Derecha frame 2.png::CompressedTexture2D::6789544624636755365::1706434911::1706434911::1::::<><>::
+::res://Imgs/PlayerH/Frente/::1706434911
+Frente frame 1.png::CompressedTexture2D::253922475599876796::1706434911::1706434911::1::::<><>::
+Frente frame 2.png::CompressedTexture2D::2241008464166207699::1706434911::1706434911::1::::<><>::
+Frente frame 3.png::CompressedTexture2D::7545404735219557132::1706434911::1706434911::1::::<><>::
+::res://Imgs/PlayerH/Izquierda/::1706434911
+Izquierda frame 1.png::CompressedTexture2D::2390487669323921782::1706434911::1706434911::1::::<><>::
+Izquierda frame 2.png::CompressedTexture2D::3189082035829884946::1706434911::1706434911::1::::<><>::
+::res://Imgs/PlayerM/::1706434911
+::res://Imgs/PlayerM/Atrás/::1706434911
+Atrás frame 1.png::CompressedTexture2D::580817423672363184::1706434911::1706434911::1::::<><>::
+Atrás frame 2.png::CompressedTexture2D::2512915236011364779::1706434911::1706434911::1::::<><>::
+Atrás frame 3.png::CompressedTexture2D::2350222548556382238::1706434911::1706434911::1::::<><>::
+::res://Imgs/PlayerM/Derecha/::1706434911
+Derecha frame 1.png::CompressedTexture2D::1965354077356911368::1706434911::1706434911::1::::<><>::
+Derecha frame 2.png::CompressedTexture2D::4079937096135526093::1706434911::1706434911::1::::<><>::
+Derecha frame 3.png::CompressedTexture2D::5918022569704600622::1706434911::1706434911::1::::<><>::
+::res://Imgs/PlayerM/Frente/::1706434911
+Frente frame 1.png::CompressedTexture2D::2620412609400016480::1706434911::1706434911::1::::<><>::
+Frente frame 2.png::CompressedTexture2D::2823023639986966215::1706434911::1706434911::1::::<><>::
+Frente frame 3.png::CompressedTexture2D::2818244908645305162::1706434911::1706434911::1::::<><>::
+::res://Imgs/PlayerM/Izquierda/::1706434911
+Izquierda frame 1.png::CompressedTexture2D::7101961308601471554::1706434911::1706434911::1::::<><>::
+Izquierda frame 2.png::CompressedTexture2D::649266463082218435::1706434911::1706434911::1::::<><>::
+Izquierda frame 3.png::CompressedTexture2D::701439296084897918::1706434911::1706434911::1::::<><>::
+::res://Imgs/Sprites/::1706434908
+atril.png::CompressedTexture2D::113699711287376455::1706434908::1706434908::1::::<><>::
+butacas.png::CompressedTexture2D::418119078681772248::1706434908::1706434908::1::::<><>::
+calle con banqueta.png::CompressedTexture2D::6482933527070209261::1706434908::1706434908::1::::<><>::
+cama.png::CompressedTexture2D::686667213951756236::1706426379::1706426379::1::::<><>::
+computadora.png::CompressedTexture2D::303413371548949236::1706426379::1706426379::1::::<><>::
+cortina derecha.png::CompressedTexture2D::6240818970963883643::1706426379::1706426379::1::::<><>::
+cortina izquierda.png::CompressedTexture2D::4899899816875193820::1706426379::1706426379::1::::<><>::
+Entrada.png::CompressedTexture2D::2759937951855540698::1706426379::1706426379::1::::<><>::
+escritorio.png::CompressedTexture2D::5453857771492232892::1706426379::1706426379::1::::<><>::
+muro blanco solito.png::CompressedTexture2D::7229743660052696391::1706434908::1706434908::1::::<><>::
+negro.png::CompressedTexture2D::33398742638578398::1706434908::1706434908::1::::<><>::
+pared limpia sin nada.png::CompressedTexture2D::6888368217065258475::1706434908::1706434908::1::::<><>::
+Pared línea abajo.png::CompressedTexture2D::7424109535260152408::1706434908::1706434908::1::::<><>::
+Pared línea arriba.png::CompressedTexture2D::2149986790336102631::1706434908::1706434908::1::::<><>::
+pared madera grisaea.png::CompressedTexture2D::3168780245512408577::1706434908::1706434908::1::::<><>::
+pared madera.png::CompressedTexture2D::7844230363619427975::1706434908::1706434908::1::::<><>::
+pared salon de fiestas.png::CompressedTexture2D::2637919647922803167::1706434908::1706434908::1::::<><>::
+Parrilla.png::CompressedTexture2D::6179479240068836116::1706426379::1706426379::1::::<><>::
+pizarra.png::CompressedTexture2D::3680345310126537925::1706426379::1706426379::1::::<><>::
+puerta aula.png::CompressedTexture2D::1491032686564248278::1706426379::1706426379::1::::<><>::
+pupitre.png::CompressedTexture2D::1660503365365084450::1706426379::1706426379::1::::<><>::
+silla pov.png::CompressedTexture2D::5537373163036834722::1706426379::1706426379::1::::<><>::
+silla volteada.png::CompressedTexture2D::7659134611342002793::1706434908::1706434908::1::::<><>::
+silla.png::CompressedTexture2D::2012840278731277449::1706426379::1706426379::1::::<><>::
+Ventana.png::CompressedTexture2D::9038193192699866272::1706426379::1706426379::1::::<><>::
+::res://Imgs/Sprites/Tilemap/::1706426379
+Pisos.png::CompressedTexture2D::7934152009282193909::1706426379::1706426379::1::::<><>::
+::res://PlayashoRes/::1706434911
+area_2d.tscn::PackedScene::1894348820236564702::1706434911::0::1::::<><>::res://Scripts/obstacle.gd<>uid://dhw3deuiv2cnm::::res://Imgs/roca.png
+Player.gd::GDScript::-1::1706434911::0::1::::<>CharacterBody2D<>::
+Player.tscn::PackedScene::2114191096215179132::1706434911::0::1::::<><>::res://PlayashoRes/Player.gd<>uid://dokl83cn7salv::::res://Imgs/Playaso chibi.png
+::res://Prefabs/::1706434846
+gobos.tscn::PackedScene::1867051345483751164::1706434846::0::1::::<><>::uid://ccgctu0vfampn::::res://Imgs/globo flacido.png<>res://Scripts/MiniJuegoSichichita_2.gd
+interactuable.tscn::PackedScene::9081528255311198353::1706405885::0::1::::<><>::res://Scripts/interactuableChido.gd
+object.tscn::PackedScene::5390677736475718477::1706434846::0::1::::<><>::res://Scripts/object.gd<>uid://6paalk3ekofb::::res://Imgs/cruda.png
+PayasadaUI.tscn::PackedScene::125055005043399747::1706405885::0::1::::<><>::res://Scripts/PayasadaUI.gd
+platform.tscn::PackedScene::5080436107727441228::1706434846::0::1::::<><>::res://Scripts/platform.gd
+Timer.gd::GDScript::-1::1706405885::0::1::::<>Timer<>::
+::res://scenes/::1706434911
+control.tscn::PackedScene::5546073867166612987::1706434846::0::1::::<><>::res://Scripts/Menu.gd<>uid://cke4p3wuuxndi::::res://Audio/menu.ogg
+divorcio.tscn::PackedScene::7197409229816892743::1706426379::0::1::::<><>::uid://ci2jw68wrdtkf::::res://Prefabs/object.tscn<>uid://cenabm0gouhbo::::res://Prefabs/platform.tscn<>uid://blhx76dgxe4md::::res://Audio/cacho.ogg
+entrada_nombre.tscn::PackedScene::5585286524402252015::1706434847::0::1::::<><>::res://Scripts/EntradaNombre.gd
+MiniJuegoPayasada.tscn::PackedScene::4640168253468917180::1706434846::0::1::::<><>::res://Scripts/global.gd<>uid://cqij5h67xccb3::::res://Imgs/aaaa.png<>uid://cenabm0gouhbo::::res://Prefabs/platform.tscn<>uid://ci2jw68wrdtkf::::res://Prefabs/object.tscn<>uid://dfgbtdfjgvjkt::::res://Imgs/plato.png<>res://Scripts/Spawner.gd<>uid://cq78ymnkwib1r::::res://Imgs/plato con carne.png<>uid://b1tvxexc72gl::::res://Prefabs/PayasadaUI.tscn<>uid://bvw44srk7iyll::::res://Audio/payasada.ogg<>uid://40b4bdoul4uj::::res://Imgs/parrilla.png
+MiniJuegoPlayasho.tscn::PackedScene::1259941750986022347::1706434911::0::1::::<><>::res://Scripts/MiniJuegoPlayasho.gd<>uid://5eeoh0pflxvo::::res://PlayashoRes/Player.tscn<>uid://choubtnt3ftuq::::res://Imgs/bg surf.png<>uid://18vwbo3ufq6y::::res://PlayashoRes/area_2d.tscn<>uid://b1ypox0aaeyl0::::res://Imgs/ola.png<>res://Scripts/CanvasLayer.gd<>uid://bg75xge11e5q3::::res://Audio/playasho.ogg
+MiniJuegoSichichita.tscn::PackedScene::8462158298243848640::1706434846::0::1::::<><>::uid://1uocexpqjed5::::res://Prefabs/gobos.tscn<>uid://cwgwiqdrag6eo::::res://Imgs/bg globo.png<>res://Scripts/Timer.gd
+top_down2.tscn::PackedScene::6478721847452414261::1706434908::0::1::::<><>::uid://c7auyjjupoyjy::::res://icon.svg<>res://Scripts/Player/playerMovement.gd<>res://Scripts/Interactuable.gd<>uid://d2nfpcy1t3rdx::::res://Prefabs/interactuable.tscn<>uid://totijoxg3ek1::::res://Dialogos/Payasada.dialogue<>uid://b5cnis4w7iguv::::res://Audio/Bgm.ogg<>uid://dokl83cn7salv::::res://Imgs/Playaso chibi.png<>uid://b1o54c7ytpkbq::::res://Dialogos/Playasho.dialogue<>uid://3xbgkhp3sj42::::res://Imgs/Sprites/silla.png<>uid://ck5lyynaxtulu::::res://Imgs/Sprites/silla pov.png<>uid://d11fyr6nx8433::::res://Imgs/Sprites/Ventana.png<>uid://dhalejy1p2jjc::::res://Imgs/arbolito uwu.png<>uid://cubnedalml42s::::res://Imgs/Sprites/Parrilla.png<>uid://j1vkq31fqhiq::::res://Imgs/Sprites/cama.png<>uid://bfk61lyeamsqs::::res://Imgs/Sprites/Entrada.png<>uid://vijdcvhidx3k::::res://Imgs/Sprites/puerta aula.png<>uid://cqqsb4locfy7s::::res://Tileset/TilesetGod.tres<>uid://cu6dm2od6ou00::::res://Imgs/Sprites/cortina derecha.png<>uid://cb2svtaweywca::::res://Imgs/Sprites/cortina izquierda.png<>uid://ek8f6a8bvqoa::::res://Imgs/Sprites/computadora.png<>uid://bso10qqoeob30::::res://Imgs/Sprites/pizarra.png<>uid://cjx5ighury1ca::::res://Imgs/Sprites/escritorio.png<>uid://dhee3fhdj3nmn::::res://Imgs/Sprites/silla volteada.png<>uid://bvcu88po3ouh::::res://Imgs/Sprites/atril.png
+top_down.tscn::PackedScene::-1::1706434911::0::1::::<><>::
+::res://Scripts/::1706434911
+CanvasLayer.gd::GDScript::-1::1706405885::0::1::::<>CanvasLayer<>::
+EntradaNombre.gd::GDScript::-1::1706405885::0::1::::<>Control<>::
+global.gd::GDScript::-1::1706434911::0::1::::<>Node2D<>::
+Interactuable.gd::GDScript::-1::1706426379::0::1::::<>Area2D<>::
+interactuableChido.gd::GDScript::-1::1706405885::0::1::::<>Area2D<>::
+Menu.gd::GDScript::-1::1706405885::0::1::::<>Control<>::
+MiniJuegoPlayasho.gd::GDScript::-1::1706434911::0::1::::<>Node2D<>::
+MiniJuegoSichichita.gd::GDScript::-1::1706405885::0::1::::<>Area2D<>::
+MiniJuegoSichichita_2.gd::GDScript::-1::1706430376::0::1::::<>Area2D<>::
+MiniJuegoSichichita_3.gd::GDScript::-1::1706405885::0::1::::<>Area2D<>::
+MiniJuegoSichichita_4.gd::GDScript::-1::1706405885::0::1::::<>Area2D<>::
+MiniJuegoSichichita_6.gd::GDScript::-1::1706405885::0::1::::<>Area2D<>::
+MiniJuegoSichichta_5.gd::GDScript::-1::1706405885::0::1::::<>Area2D<>::
+Object.gd::GDScript::-1::1706426379::0::1::::<>Node2D<>::
+obstacle.gd::GDScript::-1::1706434911::0::1::::<>Area2D<>::
+PayasadaUI.gd::GDScript::-1::1706405885::0::1::::<>CanvasLayer<>::
+platform.gd::GDScript::-1::1706426379::0::1::::<>StaticBody2D<>::
+Spawner.gd::GDScript::-1::1706405885::0::1::::<>Sprite2D<>::
+temp.gd::GDScript::-1::1706405885::0::1::::<>Sprite2D<>::
+Timer.gd::GDScript::-1::1706430376::0::1::::<>Node2D<>::
+::res://Scripts/Player/::1706434911
+playerMovement.gd::GDScript::-1::1706434911::0::1::::<>CharacterBody2D<>::
+::res://Tileset/::1706434908
+OIP.jpg::CompressedTexture2D::3819146533099828355::1706388252::1706388252::1::::<><>::
+TilesetGod.tres::TileSet::5929989142132374650::1706434908::0::1::::<><>::uid://dlbmlbaf0j4lt::::res://Imgs/Sprites/Tilemap/Pisos.png<>uid://f7smik4jn2rs::::res://Imgs/Sprites/butacas.png<>uid://bdt3fe1vg0uu6::::res://Imgs/Sprites/pared salon de fiestas.png<>uid://jc6xr4lcskt4::::res://Imgs/calle}.png<>uid://dmek6i7cg5oa1::::res://Imgs/pared con arbusto.png<>uid://c7yj8dwy710jh::::res://Imgs/pared sin arbusto.png<>uid://cymm76bfgm3kj::::res://Imgs/Sprites/calle con banqueta.png<>uid://dbae27ad86400::::res://Imgs/Sprites/muro blanco solito.png<>uid://qgcpycjtjgg::::res://Imgs/Sprites/negro.png<>uid://c5e1ohmiw7d84::::res://Imgs/Sprites/pared limpia sin nada.png<>uid://dd1j88jh1vweq::::res://Imgs/Sprites/Pared línea abajo.png<>uid://5vp76m3wih2v::::res://Imgs/Sprites/Pared línea arriba.png<>uid://ble8l26f734j2::::res://Imgs/Sprites/pared madera grisaea.png<>uid://dj02lfg8r1edr::::res://Imgs/Sprites/pared madera.png

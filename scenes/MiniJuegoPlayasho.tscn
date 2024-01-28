@@ -1,25 +1,42 @@
-[gd_scene load_steps=5 format=3 uid="uid://r7lb6m80x4sl"]
+[gd_scene load_steps=9 format=3 uid="uid://r7lb6m80x4sl"]
 
 [ext_resource type="Script" path="res://Scripts/MiniJuegoPlayasho.gd" id="1_6hgf0"]
 [ext_resource type="PackedScene" uid="uid://5eeoh0pflxvo" path="res://PlayashoRes/Player.tscn" id="1_ddhto"]
+[ext_resource type="Texture2D" uid="uid://choubtnt3ftuq" path="res://Imgs/bg surf.png" id="2_um2he"]
 [ext_resource type="PackedScene" uid="uid://18vwbo3ufq6y" path="res://PlayashoRes/area_2d.tscn" id="2_umq7k"]
+[ext_resource type="Texture2D" uid="uid://b1ypox0aaeyl0" path="res://Imgs/ola.png" id="3_2aj1a"]
 [ext_resource type="Script" path="res://Scripts/CanvasLayer.gd" id="4_4i1ye"]
+[ext_resource type="AudioStream" uid="uid://bg75xge11e5q3" path="res://Audio/playasho.ogg" id="6_2usko"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pxluh"]
+size = Vector2(269.545, 20)
 
 [node name="MiniJuegoPlayasho" type="Node2D"]
 script = ExtResource("1_6hgf0")
 metadata/_edit_vertical_guides_ = [10.0, 1157.0]
 metadata/_edit_horizontal_guides_ = [-4.0, 647.0]
 
+[node name="BgSurf" type="Sprite2D" parent="."]
+position = Vector2(578, 357)
+scale = Vector2(1.07037, 1)
+texture = ExtResource("2_um2he")
+
+[node name="Ola" type="Sprite2D" parent="."]
+position = Vector2(373, 376.5)
+scale = Vector2(1, 1.10366)
+texture = ExtResource("3_2aj1a")
+flip_h = true
+
 [node name="Player" parent="." instance=ExtResource("1_ddhto")]
-position = Vector2(197, 300)
+position = Vector2(326, 362)
 
 [node name="Area2D" parent="." instance=ExtResource("2_umq7k")]
-position = Vector2(879, 519)
+position = Vector2(1399, 525)
 
 [node name="obstacle_container" type="Node2D" parent="."]
 
 [node name="Timer" type="Timer" parent="."]
-wait_time = 3.0
+wait_time = 2.5
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 script = ExtResource("4_4i1ye")
@@ -29,12 +46,34 @@ offset_left = 10.0
 offset_top = 8.0
 offset_right = 915.0
 offset_bottom = 145.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 50
 text = "Tiempo restante: 0"
 
 [node name="Timer" type="Timer" parent="CanvasLayer/Label"]
 wait_time = 60.0
 one_shot = true
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(492, 149)
+scale = Vector2(4.4, 4.4)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(18.6364, 0)
+shape = SubResource("RectangleShape2D_pxluh")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="."]
+position = Vector2(494, 693)
+scale = Vector2(4.4, 4.4)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2"]
+position = Vector2(18.6364, 0)
+shape = SubResource("RectangleShape2D_pxluh")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_2usko")
+volume_db = -10.0
+autoplay = true
 
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
 [connection signal="timeout" from="CanvasLayer/Label/Timer" to="CanvasLayer" method="_on_timer_timeout"]
