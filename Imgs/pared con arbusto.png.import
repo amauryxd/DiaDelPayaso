@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://0b3j3ix1g7jo"
-path="res://.godot/imported/Pared.png-129eca03355691c46c3650412e94c7d8.ctex"
+uid="uid://dmek6i7cg5oa1"
+path="res://.godot/imported/pared con arbusto.png-d6a70a228610980eabe1268fad9b9bde.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Imgs/Sprites/Tilemap/Pared.png"
-dest_files=["res://.godot/imported/Pared.png-129eca03355691c46c3650412e94c7d8.ctex"]
+source_file="res://Imgs/pared con arbusto.png"
+dest_files=["res://.godot/imported/pared con arbusto.png-d6a70a228610980eabe1268fad9b9bde.ctex"]
 
 [params]
 

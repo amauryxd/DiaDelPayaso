@@ -1,13 +1,1 @@
-res://scenes/control.tscn
-res://scenes/MiniJuegoPayasada.tscn
-res://Prefabs/object.tscn
-res://scenes/MiniJuegoSichichita.tscn
-res://Prefabs/PayasadaUI.tscn
-res://Prefabs/platform.tscn
-res://scenes/MiniJuegoPlayasho.tscn
-res://scenes/divorcio.tscn
-res://scenes/entrada_nombre.tscn
 res://scenes/top_down.tscn
-res://Prefabs/interactuable.tscn
-res://Scripts/Interactuable.gd
-res://Scripts/interactuableChido.gd

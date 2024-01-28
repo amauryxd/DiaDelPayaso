@@ -1,5 +1,5 @@
-<<<<<<< Updated upstream
-=======
+Camera2D
+TileMap
 Label
 Panel
 VBoxContainer
@@ -7,23 +7,8 @@ Button
 Control
 MarginContainer
 Container
->>>>>>> Stashed changes
 CollisionShape2D
 Sprite2D
 Area2D
 Label
 LineEdit
-Button
-MarginContainer
-VBoxContainer
-Timer
-CanvasLayer
-<<<<<<< Updated upstream
-Panel
-Control
-Container
-RichTextLabel
-=======
-TextEdit
-CharacterBody2D
->>>>>>> Stashed changes
