@@ -1,6 +1,6 @@
 extends Node2D
 
-var time_left = 10
+var time_left = 30
 var timer_running = true
 var time_label # Referencia al nodo Label
 var panel # Referencia al nodo Panel
@@ -35,4 +35,4 @@ func _process(delta):
 		else:
 			# Actualizar el texto del Label (Time) con el tiempo restante
 			time_label.text = "Tiempo: " + str(int(time_left))
-			print("Tiempo: ", time_left)
+			#print("Tiempo: ", time_left)

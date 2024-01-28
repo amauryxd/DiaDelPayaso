@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://1uocexpqjed5"]
+
+[ext_resource type="Texture2D" uid="uid://ccgctu0vfampn" path="res://Imgs/globo flacido.png" id="1_nnuk0"]
+[ext_resource type="Script" path="res://Scripts/MiniJuegoSichichita_2.gd" id="2_a8qit"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5ceyq"]
+size = Vector2(128, 128)
+
+[node name="Sprite2D_2" type="Sprite2D"]
+position = Vector2(263, 522)
+texture = ExtResource("1_nnuk0")
+
+[node name="Area2D_2" type="Area2D" parent="."]
+script = ExtResource("2_a8qit")
+
+[node name="CollisionShape2D_2" type="CollisionShape2D" parent="Area2D_2"]
+shape = SubResource("RectangleShape2D_5ceyq")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.5
+one_shot = true
+
+[connection signal="timeout" from="Timer" to="Area2D_2" method="_on_timer_timeout"]
