@@ -1,3 +1,5 @@
+ParallaxLayer
+ParallaxBackground
 CheckButton
 Button
 AnimationPlayer
@@ -11,5 +13,3 @@ VBoxContainer
 Control
 MarginContainer
 Container
-CollisionShape2D
-Area2D

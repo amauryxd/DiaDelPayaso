@@ -13,3 +13,4 @@ res://scenes/entrada_nombre.tscn
 res://Scripts/Player/playerMovement.gd
 res://Scripts/EntradaNombre.gd
 res://Scripts/global.gd
+res://Scripts/ParallaxBackground.gd

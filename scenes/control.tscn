@@ -1,7 +1,12 @@
-[gd_scene load_steps=3 format=3 uid="uid://clata5nytrsq2"]
+[gd_scene load_steps=8 format=3 uid="uid://clata5nytrsq2"]
 
 [ext_resource type="Script" path="res://Scripts/Menu.gd" id="1_mb31r"]
 [ext_resource type="AudioStream" uid="uid://cke4p3wuuxndi" path="res://Audio/menu.ogg" id="2_5cpey"]
+[ext_resource type="Texture2D" uid="uid://choubtnt3ftuq" path="res://Imgs/bg surf.png" id="2_ge5n8"]
+[ext_resource type="Texture2D" uid="uid://chpk7oxhm43ca" path="res://Imgs/Payasa gacha/Payasa gacha neutral.png" id="3_1eeuf"]
+[ext_resource type="Texture2D" uid="uid://bykb6i4r8pcm2" path="res://Imgs/Payasada render/PAYASADA neutral.png" id="4_lma7r"]
+[ext_resource type="Texture2D" uid="uid://b3hcvt6ot3io1" path="res://Imgs/Playaso render/Playaso neutral.png" id="6_05jhm"]
+[ext_resource type="Texture2D" uid="uid://dtvrwi6bxvrr7" path="res://Imgs/Payasirta sin chichita/payasita sin chichita sin chichitas feli.png" id="7_o2ra5"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -12,42 +17,83 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_mb31r")
 
+[node name="PayasaGachaNeutral" type="Sprite2D" parent="."]
+position = Vector2(808, 577)
+scale = Vector2(0.355556, 0.355556)
+texture = ExtResource("3_1eeuf")
+
+[node name="PayasadaNeutral" type="Sprite2D" parent="."]
+position = Vector2(276, 573)
+scale = Vector2(0.30875, 0.30875)
+texture = ExtResource("4_lma7r")
+
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 0
-offset_left = 101.0
-offset_top = 204.0
-offset_right = 156.0
-offset_bottom = 305.0
-scale = Vector2(17.3164, 4.05023)
+offset_left = 445.0
+offset_top = 188.0
+offset_right = 743.0
+offset_bottom = 631.0
 
 [node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
 layout_mode = 2
 
 [node name="Button" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
+theme_override_font_sizes/font_size = 100
 text = "play"
 
 [node name="credis" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
+theme_override_font_sizes/font_size = 100
 text = "credis"
 
 [node name="salir" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
+theme_override_font_sizes/font_size = 100
 text = "salir"
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
-offset_left = 250.0
-offset_right = 988.0
-offset_bottom = 137.0
+offset_left = -89.0
+offset_top = 3.0
+offset_right = 1272.0
+offset_bottom = 700.0
+theme_override_colors/font_color = Color(0.227451, 0.227451, 0.227451, 1)
 theme_override_font_sizes/font_size = 100
-text = "Dia Del Payaso "
+text = "Dia del payaso"
 horizontal_alignment = 1
 
 [node name="menumusic" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("2_5cpey")
 volume_db = -10.0
 autoplay = true
+
+[node name="PlayasoNeutral" type="Sprite2D" parent="."]
+position = Vector2(1132, 498)
+texture = ExtResource("6_05jhm")
+
+[node name="PayasitaSinChichitaSinChichitasFeli" type="Sprite2D" parent="."]
+position = Vector2(79, 509)
+scale = Vector2(0.265385, 0.265385)
+texture = ExtResource("7_o2ra5")
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+scroll_offset = Vector2(1, 0)
+scroll_base_offset = Vector2(1, 0)
+scroll_limit_begin = Vector2(1, 0)
+scroll_ignore_camera_zoom = true
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(1, 0)
+motion_offset = Vector2(1, 0)
+motion_mirroring = Vector2(1147.39, 0)
+
+[node name="BgSurf" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2(3.00006, -13)
+scale = Vector2(1.06389, 1)
+texture = ExtResource("2_ge5n8")
+centered = false
+offset = Vector2(1, 0)
 
 [connection signal="pressed" from="MarginContainer/VBoxContainer/Button" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="MarginContainer/VBoxContainer/credis" to="." method="_on_credis_pressed"]

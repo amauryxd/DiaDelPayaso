@@ -1,5 +1,5 @@
 3acdcc5cb6df755358dde907981ccea8
-::res://::1706435063
+::res://::1706438403
 icon.svg::CompressedTexture2D::7020142050255008074::1706388252::1706388252::1::::<><>::
 README.md::TextFile::-1::1706388252::0::1::::<><>::
 TestMain.gd::GDScript::-1::1706388252::0::1::::<>Node<>::
@@ -82,7 +82,7 @@ PayasitoChistosito.dialogue::Resource::2406786479773755403::1706426379::17064025
 Playasho.dialogue::Resource::4242105360241899138::1706388252::1706388252::1::::<><>::
 Start.dialogue::Resource::4108879045405271772::1706388252::1706388252::1::::<><>::
 Test.dialogue::Resource::5208372010917874161::1706388252::1706388252::1::::<><>::
-::res://Imgs/::1706434911
+::res://Imgs/::1706438455
 aaaa.png::CompressedTexture2D::5912978331416381702::1706426379::1706426379::1::::<><>::
 arbolito uwu.png::CompressedTexture2D::7651259497629475808::1706426379::1706426379::1::::<><>::
 bg globo.png::CompressedTexture2D::6330733099920064162::1706430376::1706430376::1::::<><>::
@@ -105,6 +105,27 @@ plato.png::CompressedTexture2D::7522687348582628723::1706426379::1706426379::1::
 Playaso chibi.png::CompressedTexture2D::8163277932049190971::1706426379::1706426379::1::::<><>::
 quemada.png::CompressedTexture2D::370931416569133611::1706426379::1706426379::1::::<><>::
 roca.png::CompressedTexture2D::7697705941696119926::1706434911::1706434911::1::::<><>::
+::res://Imgs/Payasa gacha/::1706438455
+Payasa gacha chibi.png::CompressedTexture2D::8418136056716755960::1706438455::1706438455::1::::<><>::
+Payasa gacha feliz.png::CompressedTexture2D::8921441335096507963::1706438455::1706438455::1::::<><>::
+Payasa gacha neutral.png::CompressedTexture2D::5295794025688606588::1706438455::1706438455::1::::<><>::
+::res://Imgs/Payasada render/::1706438404
+chibi payasada.png::CompressedTexture2D::5885617583983323715::1706438385::1706438404::1::::<><>::
+PAYASADA enojada funny.png::CompressedTexture2D::7169181498246724632::1706438385::1706438404::1::::<><>::
+PAYASADA enojada.png::CompressedTexture2D::1323064610209592328::1706438385::1706438404::1::::<><>::
+PAYASADA neutral.png::CompressedTexture2D::4091713250953517091::1706438385::1706438404::1::::<><>::
+PAYASADA triste.png::CompressedTexture2D::1919113426151827905::1706438385::1706438404::1::::<><>::
+::res://Imgs/Payasirta sin chichita/::1706438403
+Chibi payasita sin chichita.png::CompressedTexture2D::4628177614059285403::1706438212::1706438390::1::::<><>::
+chinchi chin chichita.png::CompressedTexture2D::8097294872447624196::1706438212::1706438390::1::::<><>::
+Payasita sin chichita neutral.png::CompressedTexture2D::6801348684214509253::1706438212::1706438391::1::::<><>::
+payasita sin chichita sin chichitas feli.png::CompressedTexture2D::8537273957532866206::1706438212::1706438390::1::::<><>::
+::res://Imgs/Playaso render/::1706438389
+Playaso chibi.png::CompressedTexture2D::8787774491994033059::1706438162::1706438162::1::::<><>::
+Playaso enojado.png::CompressedTexture2D::8262780221791768904::1706438162::1706438162::1::::<><>::
+Playaso feliz.png::CompressedTexture2D::9020087726023136812::1706438162::1706438162::1::::<><>::
+Playaso neutral.png::CompressedTexture2D::4366318931989148198::1706438162::1706438162::1::::<><>::
+playaso triste.png::CompressedTexture2D::8150938749810848034::1706438162::1706438162::1::::<><>::
 ::res://Imgs/PlayerH/::1706434911
 ::res://Imgs/PlayerH/Atrás/::1706434911
 Atrás frame 1.png::CompressedTexture2D::8118909950880836843::1706434911::1706434911::1::::<><>::
@@ -165,30 +186,30 @@ silla.png::CompressedTexture2D::2012840278731277449::1706426379::1706426379::1::
 Ventana.png::CompressedTexture2D::9038193192699866272::1706426379::1706426379::1::::<><>::
 ::res://Imgs/Sprites/Tilemap/::1706426379
 Pisos.png::CompressedTexture2D::7934152009282193909::1706426379::1706426379::1::::<><>::
-::res://PlayashoRes/::1706434911
-area_2d.tscn::PackedScene::1894348820236564702::1706434911::0::1::::<><>::res://Scripts/obstacle.gd<>uid://dhw3deuiv2cnm::::res://Imgs/roca.png
+::res://PlayashoRes/::1706437590
+area_2d.tscn::PackedScene::1894348820236564702::1706437590::0::1::::<><>::res://Scripts/obstacle.gd<>uid://dhw3deuiv2cnm::::res://Imgs/roca.png
 Player.gd::GDScript::-1::1706434911::0::1::::<>CharacterBody2D<>::
-Player.tscn::PackedScene::2114191096215179132::1706434911::0::1::::<><>::res://PlayashoRes/Player.gd<>uid://dokl83cn7salv::::res://Imgs/Playaso chibi.png
-::res://Prefabs/::1706434846
-gobos.tscn::PackedScene::1867051345483751164::1706434846::0::1::::<><>::uid://ccgctu0vfampn::::res://Imgs/globo flacido.png<>res://Scripts/MiniJuegoSichichita_2.gd
+Player.tscn::PackedScene::2114191096215179132::1706437590::0::1::::<><>::res://PlayashoRes/Player.gd<>uid://dokl83cn7salv::::res://Imgs/Playaso chibi.png
+::res://Prefabs/::1706437590
+gobos.tscn::PackedScene::1867051345483751164::1706437590::0::1::::<><>::uid://ccgctu0vfampn::::res://Imgs/globo flacido.png<>res://Scripts/MiniJuegoSichichita_2.gd
 interactuable.tscn::PackedScene::9081528255311198353::1706405885::0::1::::<><>::res://Scripts/interactuableChido.gd
-object.tscn::PackedScene::5390677736475718477::1706434846::0::1::::<><>::res://Scripts/object.gd<>uid://6paalk3ekofb::::res://Imgs/cruda.png
+object.tscn::PackedScene::5390677736475718477::1706437590::0::1::::<><>::res://Scripts/object.gd<>uid://6paalk3ekofb::::res://Imgs/cruda.png
 PayasadaUI.tscn::PackedScene::125055005043399747::1706405885::0::1::::<><>::res://Scripts/PayasadaUI.gd
-platform.tscn::PackedScene::5080436107727441228::1706434846::0::1::::<><>::res://Scripts/platform.gd
+platform.tscn::PackedScene::5080436107727441228::1706437590::0::1::::<><>::res://Scripts/platform.gd
 Timer.gd::GDScript::-1::1706405885::0::1::::<>Timer<>::
-::res://scenes/::1706434911
-control.tscn::PackedScene::5546073867166612987::1706434846::0::1::::<><>::res://Scripts/Menu.gd<>uid://cke4p3wuuxndi::::res://Audio/menu.ogg
+::res://scenes/::1706437708
+control.tscn::PackedScene::5546073867166612987::1706437708::0::1::::<><>::res://Scripts/Menu.gd<>uid://cke4p3wuuxndi::::res://Audio/menu.ogg
 divorcio.tscn::PackedScene::7197409229816892743::1706426379::0::1::::<><>::uid://ci2jw68wrdtkf::::res://Prefabs/object.tscn<>uid://cenabm0gouhbo::::res://Prefabs/platform.tscn<>uid://blhx76dgxe4md::::res://Audio/cacho.ogg
-entrada_nombre.tscn::PackedScene::5585286524402252015::1706434847::0::1::::<><>::res://Scripts/EntradaNombre.gd
-MiniJuegoPayasada.tscn::PackedScene::4640168253468917180::1706434846::0::1::::<><>::res://Scripts/global.gd<>uid://cqij5h67xccb3::::res://Imgs/aaaa.png<>uid://cenabm0gouhbo::::res://Prefabs/platform.tscn<>uid://ci2jw68wrdtkf::::res://Prefabs/object.tscn<>uid://dfgbtdfjgvjkt::::res://Imgs/plato.png<>res://Scripts/Spawner.gd<>uid://cq78ymnkwib1r::::res://Imgs/plato con carne.png<>uid://b1tvxexc72gl::::res://Prefabs/PayasadaUI.tscn<>uid://bvw44srk7iyll::::res://Audio/payasada.ogg<>uid://40b4bdoul4uj::::res://Imgs/parrilla.png
-MiniJuegoPlayasho.tscn::PackedScene::1259941750986022347::1706434911::0::1::::<><>::res://Scripts/MiniJuegoPlayasho.gd<>uid://5eeoh0pflxvo::::res://PlayashoRes/Player.tscn<>uid://choubtnt3ftuq::::res://Imgs/bg surf.png<>uid://18vwbo3ufq6y::::res://PlayashoRes/area_2d.tscn<>uid://b1ypox0aaeyl0::::res://Imgs/ola.png<>res://Scripts/CanvasLayer.gd<>uid://bg75xge11e5q3::::res://Audio/playasho.ogg
-MiniJuegoSichichita.tscn::PackedScene::8462158298243848640::1706434846::0::1::::<><>::uid://1uocexpqjed5::::res://Prefabs/gobos.tscn<>uid://cwgwiqdrag6eo::::res://Imgs/bg globo.png<>res://Scripts/Timer.gd
-top_down2.tscn::PackedScene::6478721847452414261::1706434908::0::1::::<><>::uid://c7auyjjupoyjy::::res://icon.svg<>res://Scripts/Player/playerMovement.gd<>res://Scripts/Interactuable.gd<>uid://d2nfpcy1t3rdx::::res://Prefabs/interactuable.tscn<>uid://totijoxg3ek1::::res://Dialogos/Payasada.dialogue<>uid://b5cnis4w7iguv::::res://Audio/Bgm.ogg<>uid://dokl83cn7salv::::res://Imgs/Playaso chibi.png<>uid://b1o54c7ytpkbq::::res://Dialogos/Playasho.dialogue<>uid://3xbgkhp3sj42::::res://Imgs/Sprites/silla.png<>uid://ck5lyynaxtulu::::res://Imgs/Sprites/silla pov.png<>uid://d11fyr6nx8433::::res://Imgs/Sprites/Ventana.png<>uid://dhalejy1p2jjc::::res://Imgs/arbolito uwu.png<>uid://cubnedalml42s::::res://Imgs/Sprites/Parrilla.png<>uid://j1vkq31fqhiq::::res://Imgs/Sprites/cama.png<>uid://bfk61lyeamsqs::::res://Imgs/Sprites/Entrada.png<>uid://vijdcvhidx3k::::res://Imgs/Sprites/puerta aula.png<>uid://cqqsb4locfy7s::::res://Tileset/TilesetGod.tres<>uid://cu6dm2od6ou00::::res://Imgs/Sprites/cortina derecha.png<>uid://cb2svtaweywca::::res://Imgs/Sprites/cortina izquierda.png<>uid://ek8f6a8bvqoa::::res://Imgs/Sprites/computadora.png<>uid://bso10qqoeob30::::res://Imgs/Sprites/pizarra.png<>uid://cjx5ighury1ca::::res://Imgs/Sprites/escritorio.png<>uid://dhee3fhdj3nmn::::res://Imgs/Sprites/silla volteada.png<>uid://bvcu88po3ouh::::res://Imgs/Sprites/atril.png
-top_down.tscn::PackedScene::-1::1706434911::0::1::::<><>::
-::res://Scripts/::1706434911
+entrada_nombre.tscn::PackedScene::5585286524402252015::1706437590::0::1::::<><>::res://Scripts/EntradaNombre.gd<>uid://dvacim84drdk::::res://Imgs/PlayerH/Frente/Frente frame 1.png<>uid://bdll2vvpwdcuy::::res://Imgs/PlayerM/Frente/Frente frame 1.png
+MiniJuegoPayasada.tscn::PackedScene::4640168253468917180::1706437590::0::1::::<><>::res://Scripts/global.gd<>uid://cqij5h67xccb3::::res://Imgs/aaaa.png<>uid://cenabm0gouhbo::::res://Prefabs/platform.tscn<>uid://ci2jw68wrdtkf::::res://Prefabs/object.tscn<>uid://dfgbtdfjgvjkt::::res://Imgs/plato.png<>res://Scripts/Spawner.gd<>uid://cq78ymnkwib1r::::res://Imgs/plato con carne.png<>uid://b1tvxexc72gl::::res://Prefabs/PayasadaUI.tscn<>uid://bvw44srk7iyll::::res://Audio/payasada.ogg<>uid://40b4bdoul4uj::::res://Imgs/parrilla.png
+MiniJuegoPlayasho.tscn::PackedScene::1259941750986022347::1706437590::0::1::::<><>::res://Scripts/MiniJuegoPlayasho.gd<>uid://5eeoh0pflxvo::::res://PlayashoRes/Player.tscn<>uid://choubtnt3ftuq::::res://Imgs/bg surf.png<>uid://18vwbo3ufq6y::::res://PlayashoRes/area_2d.tscn<>uid://b1ypox0aaeyl0::::res://Imgs/ola.png<>res://Scripts/CanvasLayer.gd<>uid://bg75xge11e5q3::::res://Audio/playasho.ogg
+MiniJuegoSichichita.tscn::PackedScene::8462158298243848640::1706437590::0::1::::<><>::uid://1uocexpqjed5::::res://Prefabs/gobos.tscn<>uid://cwgwiqdrag6eo::::res://Imgs/bg globo.png<>res://Scripts/Timer.gd
+top_down2.tscn::PackedScene::6478721847452414261::1706437590::0::1::::<><>::uid://c7auyjjupoyjy::::res://icon.svg<>res://Scripts/Player/playerMovement.gd<>uid://66tc11rmni8j::::res://Imgs/PlayerH/Frente/Frente frame 2.png<>res://Scripts/Interactuable.gd<>uid://dvacim84drdk::::res://Imgs/PlayerH/Frente/Frente frame 1.png<>uid://dfrbyi6agvja7::::res://Imgs/PlayerH/Frente/Frente frame 3.png<>uid://bab78n7o16rry::::res://Imgs/PlayerH/Izquierda/Izquierda frame 1.png<>uid://d2nfpcy1t3rdx::::res://Prefabs/interactuable.tscn<>uid://blo2yk1gyb8nm::::res://Imgs/PlayerH/Izquierda/Izquierda frame 2.png<>uid://totijoxg3ek1::::res://Dialogos/Payasada.dialogue<>uid://b5cnis4w7iguv::::res://Audio/Bgm.ogg<>uid://dact4tabay2pn::::res://Imgs/PlayerH/Derecha_/Derecha frame 1.png<>uid://dokl83cn7salv::::res://Imgs/Playaso chibi.png<>uid://c3y52qb0lugvt::::res://Imgs/PlayerH/Derecha_/Derecha frame 2.png<>uid://b1o54c7ytpkbq::::res://Dialogos/Playasho.dialogue<>uid://dnw4i4mxmmbg2::::res://Imgs/PlayerH/Atrás/Atrás frame 1.png<>uid://cdpmdgnjiq6rc::::res://Imgs/PlayerH/Atrás/Atrás frame 2.png<>uid://dgexnoktdyoln::::res://Imgs/PlayerH/Atrás/Atrás frame 3.png<>uid://3xbgkhp3sj42::::res://Imgs/Sprites/silla.png<>uid://bdll2vvpwdcuy::::res://Imgs/PlayerM/Frente/Frente frame 1.png<>uid://bghq10wnbamg2::::res://Imgs/PlayerM/Frente/Frente frame 2.png<>uid://ck5lyynaxtulu::::res://Imgs/Sprites/silla pov.png<>uid://bgfgc1w11lc5o::::res://Imgs/PlayerM/Frente/Frente frame 3.png<>uid://c8gijargkxj3o::::res://Imgs/PlayerM/Izquierda/Izquierda frame 1.png<>uid://d11fyr6nx8433::::res://Imgs/Sprites/Ventana.png<>uid://jirlakfqv684::::res://Imgs/PlayerM/Izquierda/Izquierda frame 2.png<>uid://dhalejy1p2jjc::::res://Imgs/arbolito uwu.png<>uid://cubnedalml42s::::res://Imgs/Sprites/Parrilla.png<>uid://j81uq0rb4osk::::res://Imgs/PlayerM/Izquierda/Izquierda frame 3.png<>uid://j1vkq31fqhiq::::res://Imgs/Sprites/cama.png<>uid://ijl8ixu2euy7::::res://Imgs/PlayerM/Atrás/Atrás frame 1.png<>uid://bb2jl15po72d0::::res://Imgs/PlayerM/Atrás/Atrás frame 2.png<>uid://bfk61lyeamsqs::::res://Imgs/Sprites/Entrada.png<>uid://vijdcvhidx3k::::res://Imgs/Sprites/puerta aula.png<>uid://8qp27iac3m4u::::res://Imgs/PlayerM/Atrás/Atrás frame 3.png<>uid://3abdhiyd478o::::res://Imgs/PlayerM/Derecha/Derecha frame 1.png<>uid://byel7543l7870::::res://Imgs/PlayerM/Derecha/Derecha frame 2.png<>uid://cqky747qab0jq::::res://Imgs/PlayerM/Derecha/Derecha frame 3.png<>uid://cqqsb4locfy7s::::res://Tileset/TilesetGod.tres<>uid://cu6dm2od6ou00::::res://Imgs/Sprites/cortina derecha.png<>uid://cb2svtaweywca::::res://Imgs/Sprites/cortina izquierda.png<>uid://ek8f6a8bvqoa::::res://Imgs/Sprites/computadora.png<>uid://bso10qqoeob30::::res://Imgs/Sprites/pizarra.png<>uid://cjx5ighury1ca::::res://Imgs/Sprites/escritorio.png<>uid://dhee3fhdj3nmn::::res://Imgs/Sprites/silla volteada.png<>uid://bvcu88po3ouh::::res://Imgs/Sprites/atril.png
+top_down.tscn::PackedScene::6478721847452414261::1706435297::0::1::::<><>::uid://c7auyjjupoyjy::::res://icon.svg<>res://Scripts/Player/playerMovement.gd<>uid://66tc11rmni8j::::res://Imgs/PlayerH/Frente/Frente frame 2.png<>res://Scripts/Interactuable.gd<>uid://dvacim84drdk::::res://Imgs/PlayerH/Frente/Frente frame 1.png<>uid://dfrbyi6agvja7::::res://Imgs/PlayerH/Frente/Frente frame 3.png<>uid://d2nfpcy1t3rdx::::res://Prefabs/interactuable.tscn<>uid://dact4tabay2pn::::res://Imgs/PlayerH/Derecha_/Derecha frame 1.png<>uid://c3y52qb0lugvt::::res://Imgs/PlayerH/Derecha_/Derecha frame 2.png<>uid://totijoxg3ek1::::res://Dialogos/Payasada.dialogue<>uid://b5cnis4w7iguv::::res://Audio/Bgm.ogg<>uid://bab78n7o16rry::::res://Imgs/PlayerH/Izquierda/Izquierda frame 1.png<>uid://dokl83cn7salv::::res://Imgs/Playaso chibi.png<>uid://blo2yk1gyb8nm::::res://Imgs/PlayerH/Izquierda/Izquierda frame 2.png<>uid://b1o54c7ytpkbq::::res://Dialogos/Playasho.dialogue<>uid://dnw4i4mxmmbg2::::res://Imgs/PlayerH/Atrás/Atrás frame 1.png<>uid://dlbmlbaf0j4lt::::res://Imgs/Sprites/Tilemap/Pisos.png<>uid://cdpmdgnjiq6rc::::res://Imgs/PlayerH/Atrás/Atrás frame 2.png<>uid://dmek6i7cg5oa1::::res://Imgs/pared con arbusto.png<>uid://dgexnoktdyoln::::res://Imgs/PlayerH/Atrás/Atrás frame 3.png<>uid://3xbgkhp3sj42::::res://Imgs/Sprites/silla.png<>uid://bdll2vvpwdcuy::::res://Imgs/PlayerM/Frente/Frente frame 1.png<>uid://c7yj8dwy710jh::::res://Imgs/pared sin arbusto.png<>uid://bghq10wnbamg2::::res://Imgs/PlayerM/Frente/Frente frame 2.png<>uid://bgfgc1w11lc5o::::res://Imgs/PlayerM/Frente/Frente frame 3.png<>uid://ck5lyynaxtulu::::res://Imgs/Sprites/silla pov.png<>uid://d11fyr6nx8433::::res://Imgs/Sprites/Ventana.png<>uid://ijl8ixu2euy7::::res://Imgs/PlayerM/Atrás/Atrás frame 1.png<>uid://bb2jl15po72d0::::res://Imgs/PlayerM/Atrás/Atrás frame 2.png<>uid://dhalejy1p2jjc::::res://Imgs/arbolito uwu.png<>uid://8qp27iac3m4u::::res://Imgs/PlayerM/Atrás/Atrás frame 3.png<>uid://cubnedalml42s::::res://Imgs/Sprites/Parrilla.png<>uid://j1vkq31fqhiq::::res://Imgs/Sprites/cama.png<>uid://3abdhiyd478o::::res://Imgs/PlayerM/Derecha/Derecha frame 1.png<>uid://byel7543l7870::::res://Imgs/PlayerM/Derecha/Derecha frame 2.png<>uid://bfk61lyeamsqs::::res://Imgs/Sprites/Entrada.png<>uid://vijdcvhidx3k::::res://Imgs/Sprites/puerta aula.png<>uid://cqky747qab0jq::::res://Imgs/PlayerM/Derecha/Derecha frame 3.png<>uid://c8gijargkxj3o::::res://Imgs/PlayerM/Izquierda/Izquierda frame 1.png<>uid://jirlakfqv684::::res://Imgs/PlayerM/Izquierda/Izquierda frame 2.png<>uid://j81uq0rb4osk::::res://Imgs/PlayerM/Izquierda/Izquierda frame 3.png
+::res://Scripts/::1706437209
 CanvasLayer.gd::GDScript::-1::1706405885::0::1::::<>CanvasLayer<>::
-EntradaNombre.gd::GDScript::-1::1706405885::0::1::::<>Control<>::
-global.gd::GDScript::-1::1706434911::0::1::::<>Node2D<>::
+EntradaNombre.gd::GDScript::-1::1706437209::0::1::::<>Control<>::
+global.gd::GDScript::-1::1706437137::0::1::::<>Node2D<>::
 Interactuable.gd::GDScript::-1::1706426379::0::1::::<>Area2D<>::
 interactuableChido.gd::GDScript::-1::1706405885::0::1::::<>Area2D<>::
 Menu.gd::GDScript::-1::1706405885::0::1::::<>Control<>::
@@ -206,8 +227,8 @@ platform.gd::GDScript::-1::1706426379::0::1::::<>StaticBody2D<>::
 Spawner.gd::GDScript::-1::1706405885::0::1::::<>Sprite2D<>::
 temp.gd::GDScript::-1::1706405885::0::1::::<>Sprite2D<>::
 Timer.gd::GDScript::-1::1706430376::0::1::::<>Node2D<>::
-::res://Scripts/Player/::1706434911
-playerMovement.gd::GDScript::-1::1706434911::0::1::::<>CharacterBody2D<>::
-::res://Tileset/::1706434908
+::res://Scripts/Player/::1706436469
+playerMovement.gd::GDScript::-1::1706436469::0::1::::<>CharacterBody2D<>::
+::res://Tileset/::1706435752
 OIP.jpg::CompressedTexture2D::3819146533099828355::1706388252::1706388252::1::::<><>::
-TilesetGod.tres::TileSet::5929989142132374650::1706434908::0::1::::<><>::uid://dlbmlbaf0j4lt::::res://Imgs/Sprites/Tilemap/Pisos.png<>uid://f7smik4jn2rs::::res://Imgs/Sprites/butacas.png<>uid://bdt3fe1vg0uu6::::res://Imgs/Sprites/pared salon de fiestas.png<>uid://jc6xr4lcskt4::::res://Imgs/calle}.png<>uid://dmek6i7cg5oa1::::res://Imgs/pared con arbusto.png<>uid://c7yj8dwy710jh::::res://Imgs/pared sin arbusto.png<>uid://cymm76bfgm3kj::::res://Imgs/Sprites/calle con banqueta.png<>uid://dbae27ad86400::::res://Imgs/Sprites/muro blanco solito.png<>uid://qgcpycjtjgg::::res://Imgs/Sprites/negro.png<>uid://c5e1ohmiw7d84::::res://Imgs/Sprites/pared limpia sin nada.png<>uid://dd1j88jh1vweq::::res://Imgs/Sprites/Pared línea abajo.png<>uid://5vp76m3wih2v::::res://Imgs/Sprites/Pared línea arriba.png<>uid://ble8l26f734j2::::res://Imgs/Sprites/pared madera grisaea.png<>uid://dj02lfg8r1edr::::res://Imgs/Sprites/pared madera.png
+TilesetGod.tres::TileSet::5929989142132374650::1706435752::0::1::::<><>::uid://dlbmlbaf0j4lt::::res://Imgs/Sprites/Tilemap/Pisos.png<>uid://f7smik4jn2rs::::res://Imgs/Sprites/butacas.png<>uid://bdt3fe1vg0uu6::::res://Imgs/Sprites/pared salon de fiestas.png<>uid://jc6xr4lcskt4::::res://Imgs/calle}.png<>uid://dmek6i7cg5oa1::::res://Imgs/pared con arbusto.png<>uid://c7yj8dwy710jh::::res://Imgs/pared sin arbusto.png<>uid://cymm76bfgm3kj::::res://Imgs/Sprites/calle con banqueta.png<>uid://dbae27ad86400::::res://Imgs/Sprites/muro blanco solito.png<>uid://qgcpycjtjgg::::res://Imgs/Sprites/negro.png<>uid://c5e1ohmiw7d84::::res://Imgs/Sprites/pared limpia sin nada.png<>uid://dd1j88jh1vweq::::res://Imgs/Sprites/Pared línea abajo.png<>uid://5vp76m3wih2v::::res://Imgs/Sprites/Pared línea arriba.png<>uid://ble8l26f734j2::::res://Imgs/Sprites/pared madera grisaea.png<>uid://dj02lfg8r1edr::::res://Imgs/Sprites/pared madera.png
