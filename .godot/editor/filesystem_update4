@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 res://scenes/MiniJuegoPayasada.tscn
 res://Prefabs/platform.tscn
 res://Scripts/Spawner.gd
@@ -21,3 +22,14 @@ res://scenes/entrada_nombre.tscn
 res://Scripts/Interactuable.gd
 res://Prefabs/interactuable.tscn
 res://Scripts/interactuableChido.gd
+=======
+res://scenes/MiniJuegoSichichita.tscn
+res://Scripts/Timer.gd
+res://Scripts/MiniJuegoSichichita.gd
+res://Scripts/MiniJuegoSichichita_2.gd
+res://scripts/MiniJuegoSichichita_3.gd
+res://Scripts/MiniJuegoSichichita_4.gd
+res://Scripts/MiniJuegoSichichta_5.gd
+res://Scripts/MiniJuegoSichichita_6.gd
+res://Scripts/Change_Scene.gd
+>>>>>>> Stashed changes

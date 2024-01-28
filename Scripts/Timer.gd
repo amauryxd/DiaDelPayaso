@@ -1,6 +1,6 @@
 extends Node2D
 
-var time_left = 5
+var time_left = 10
 var timer_running = true
 var time_label # Referencia al nodo Label
 var panel # Referencia al nodo Panel

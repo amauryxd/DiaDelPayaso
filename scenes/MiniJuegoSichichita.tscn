@@ -1,9 +1,13 @@
-[gd_scene load_steps=7 format=3 uid="uid://dstermr4tmkbg"]
+[gd_scene load_steps=11 format=3 uid="uid://dstermr4tmkbg"]
 
 [ext_resource type="Texture2D" uid="uid://c7auyjjupoyjy" path="res://icon.svg" id="1_bcaat"]
 [ext_resource type="Script" path="res://Scripts/MiniJuegoSichichita.gd" id="1_c00nx"]
 [ext_resource type="Script" path="res://Scripts/Timer.gd" id="3_isupq"]
 [ext_resource type="Script" path="res://Scripts/MiniJuegoSichichita_2.gd" id="4_usyk1"]
+[ext_resource type="Script" path="res://scripts/MiniJuegoSichichita_3.gd" id="5_fl8v0"]
+[ext_resource type="Script" path="res://Scripts/MiniJuegoSichichita_4.gd" id="6_62gno"]
+[ext_resource type="Script" path="res://Scripts/MiniJuegoSichichta_5.gd" id="7_a1glg"]
+[ext_resource type="Script" path="res://Scripts/MiniJuegoSichichita_6.gd" id="8_1rsx3"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_b3len"]
 size = Vector2(126, 127)
@@ -26,15 +30,24 @@ text = "Tiempo: 60"
 horizontal_alignment = 2
 
 [node name="Score" type="Label" parent="."]
-offset_left = 31.0
+offset_left = 28.0
 offset_top = 18.0
-offset_right = 118.0
+offset_right = 115.0
 offset_bottom = 41.0
-scale = Vector2(4, 4)
+scale = Vector2(3, 3)
 text = "Puntaje: 00"
 
+[node name="Instructions" type="Label" parent="."]
+offset_left = 26.0
+offset_top = 166.0
+offset_right = 209.0
+offset_bottom = 215.0
+scale = Vector2(2.5, 2.5)
+text = "Inflá los globos lo más grande que puedas."
+autowrap_mode = 2
+
 [node name="Sprite2D_1" type="Sprite2D" parent="."]
-position = Vector2(312, 570)
+position = Vector2(161, 776)
 texture = ExtResource("1_bcaat")
 
 [node name="Area2D_1" type="Area2D" parent="Sprite2D_1"]
@@ -45,7 +58,7 @@ position = Vector2(0, 0.5)
 shape = SubResource("RectangleShape2D_b3len")
 
 [node name="Sprite2D_2" type="Sprite2D" parent="."]
-position = Vector2(951, 570)
+position = Vector2(297, 776)
 texture = ExtResource("1_bcaat")
 
 [node name="Area2D_2" type="Area2D" parent="Sprite2D_2"]
@@ -54,19 +67,69 @@ script = ExtResource("4_usyk1")
 [node name="CollisionShape2D_2" type="CollisionShape2D" parent="Sprite2D_2/Area2D_2"]
 shape = SubResource("RectangleShape2D_5ceyq")
 
+[node name="Sprite2D_3" type="Sprite2D" parent="."]
+position = Vector2(810, 777)
+texture = ExtResource("1_bcaat")
+
+[node name="Area2D_1" type="Area2D" parent="Sprite2D_3"]
+script = ExtResource("5_fl8v0")
+
+[node name="CollisionShape2D_1" type="CollisionShape2D" parent="Sprite2D_3/Area2D_1"]
+position = Vector2(0, 0.5)
+shape = SubResource("RectangleShape2D_b3len")
+
+[node name="Sprite2D_4" type="Sprite2D" parent="."]
+position = Vector2(946, 777)
+texture = ExtResource("1_bcaat")
+
+[node name="Area2D_2" type="Area2D" parent="Sprite2D_4"]
+script = ExtResource("6_62gno")
+
+[node name="CollisionShape2D_2" type="CollisionShape2D" parent="Sprite2D_4/Area2D_2"]
+shape = SubResource("RectangleShape2D_5ceyq")
+
+[node name="Sprite2D_5" type="Sprite2D" parent="."]
+position = Vector2(1421, 779)
+texture = ExtResource("1_bcaat")
+
+[node name="Area2D_1" type="Area2D" parent="Sprite2D_5"]
+script = ExtResource("7_a1glg")
+
+[node name="CollisionShape2D_1" type="CollisionShape2D" parent="Sprite2D_5/Area2D_1"]
+position = Vector2(0, 0.5)
+shape = SubResource("RectangleShape2D_b3len")
+
+[node name="Sprite2D_6" type="Sprite2D" parent="."]
+position = Vector2(1557, 779)
+texture = ExtResource("1_bcaat")
+
+[node name="Area2D_2" type="Area2D" parent="Sprite2D_6"]
+script = ExtResource("8_1rsx3")
+
+[node name="CollisionShape2D_2" type="CollisionShape2D" parent="Sprite2D_6/Area2D_2"]
+shape = SubResource("RectangleShape2D_5ceyq")
+
 [node name="Control" type="Control" parent="."]
 layout_mode = 3
-anchors_preset = 0
-offset_left = 334.0
-offset_top = 197.0
-offset_right = 1553.0
-offset_bottom = 882.0
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -4.0
+offset_top = 5.0
+offset_right = 1912.0
+offset_bottom = 1090.0
+grow_horizontal = 2
+grow_vertical = 2
 size_flags_stretch_ratio = 8.0
 
 [node name="Panel" type="Panel" parent="Control"]
 layout_mode = 0
-offset_right = 1219.0
-offset_bottom = 692.0
+offset_left = 335.0
+offset_top = 185.0
+offset_right = 1554.0
+offset_bottom = 877.0
 
 [node name="Label" type="Label" parent="Control/Panel"]
 layout_mode = 1
@@ -98,3 +161,5 @@ text = "Continuar con la historia"
 
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
 [connection signal="input_event" from="Sprite2D_1/Area2D_1" to="Sprite2D_1" method="_on_area_2d_input_event"]
+[connection signal="input_event" from="Sprite2D_3/Area2D_1" to="Sprite2D_3" method="_on_area_2d_input_event"]
+[connection signal="input_event" from="Sprite2D_5/Area2D_1" to="Sprite2D_5" method="_on_area_2d_input_event"]
