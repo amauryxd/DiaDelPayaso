@@ -1,79 +1,966 @@
 [gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_pootj"]
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_ck2jq"]
 
 [resource]
-script = ExtResource("1_pootj")
+script = ExtResource("1_ck2jq")
 using_states = PackedStringArray()
 titles = {
-"Cuarta_Interaccion": "25",
-"FINAL_1": "31",
-"Primera_Interaccion": "5",
-"Segunda_Interaccion": "11",
-"Tercera_Interaccion": "19"
+"Cuarta_Interaccion": "126",
+"FINAL_1": "132",
+"Primera_Interaccion": "3",
+"Segunda_Interaccion_1": "28",
+"Segunda_Interaccion_2": "44",
+"Segunda_Interaccion_3": "61",
+"Segunda_Interaccion_4": "79",
+"Segunda_Interaccion_5": "98",
+"Tercera_Interaccion": "120"
 }
-character_names = PackedStringArray()
-first_title = "5"
+character_names = PackedStringArray("Chistosito", "{{playername}}")
+first_title = "3"
 lines = {
 "1": {
 "id": "1",
-"next_id": "5",
+"next_id": "3",
 "text": "Primera_Interaccion",
 "type": "title"
 },
+"100": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "100",
+"next_id": "101",
+"next_id_after": "112",
+"responses": PackedStringArray("100", "103", "106", "109"),
+"tags": PackedStringArray(),
+"text": "Del suelo.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Del suelo.",
+"type": "response"
+},
+"101": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "101",
+"next_id": "102",
+"parent_id": "100",
+"tags": PackedStringArray(),
+"text": "NOP! ¡Vuelve a intentar!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "NOP! ¡Vuelve a intentar!",
+"type": "dialogue"
+},
+"102": {
+"id": "102",
+"is_snippet": false,
+"next_id": "98",
+"parent_id": "100",
+"type": "goto"
+},
+"103": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "103",
+"next_id": "104",
+"next_id_after": "112",
+"tags": PackedStringArray(),
+"text": "De la tienda.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "De la tienda.",
+"type": "response"
+},
+"104": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "104",
+"next_id": "105",
+"parent_id": "103",
+"tags": PackedStringArray(),
+"text": "NOP! ¡Vuelve a intentar!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "NOP! ¡Vuelve a intentar!",
+"type": "dialogue"
+},
+"105": {
+"id": "105",
+"is_snippet": false,
+"next_id": "98",
+"parent_id": "103",
+"type": "goto"
+},
+"106": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "106",
+"next_id": "107",
+"next_id_after": "112",
+"tags": PackedStringArray(),
+"text": "Caolín, feldespato y cuarzo.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Caolín, feldespato y cuarzo.",
+"type": "response"
+},
+"107": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "107",
+"next_id": "108",
+"parent_id": "106",
+"tags": PackedStringArray(),
+"text": "NOP! ¡Vuelve a intentar!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "NOP! ¡Vuelve a intentar!",
+"type": "dialogue"
+},
+"108": {
+"id": "108",
+"is_snippet": false,
+"next_id": "98",
+"parent_id": "106",
+"type": "goto"
+},
+"109": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "109",
+"next_id": "110",
+"next_id_after": "112",
+"tags": PackedStringArray(),
+"text": "De las porceovejas.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "De las porceovejas.",
+"type": "response"
+},
 "11": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
 "id": "11",
+"next_id": "12",
+"next_id_after": "17",
+"tags": PackedStringArray(),
+"text": "En un momento te respondo.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "En un momento te respondo.",
+"type": "response"
+},
+"110": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "110",
+"next_id": "112",
+"parent_id": "109",
+"tags": PackedStringArray(),
+"text": "Yay! Los adivinaste todos!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Yay! Los adivinaste todos!",
+"type": "dialogue"
+},
+"112": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "112",
+"next_id": "114",
+"tags": PackedStringArray(),
+"text": "Me la pasé muy bien, ojalá y mañana podamos hacerlo otra vez!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Me la pasé muy bien, ojalá y mañana podamos hacerlo otra vez!",
+"type": "dialogue"
+},
+"114": {
+"id": "114",
 "is_snippet": false,
 "next_id": "end",
 "type": "goto"
 },
-"15": {
-"id": "15",
-"next_id": "19",
+"116": {
+"id": "116",
+"next_id": "120",
 "text": "Tercera_Interaccion",
 "type": "title"
 },
-"19": {
-"id": "19",
+"12": {
+"character": "{{playername}}",
+"character_replacements": Array[Dictionary]([{
+"expression": Array[Dictionary]([{
+"type": "variable",
+"value": "playername"
+}]),
+"value_in_text": "{{playername}}"
+}]),
+"id": "12",
+"next_id": "13",
+"parent_id": "11",
+"tags": PackedStringArray(),
+"text": "Uh.. ahora te respondo…",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Uh.. ahora te respondo…",
+"type": "dialogue"
+},
+"120": {
+"id": "120",
 "is_snippet": false,
 "next_id": "end",
 "type": "goto"
 },
-"21": {
-"id": "21",
-"next_id": "25",
+"122": {
+"id": "122",
+"next_id": "126",
 "text": "Cuarta_Interaccion",
 "type": "title"
 },
-"25": {
-"id": "25",
+"126": {
+"id": "126",
 "is_snippet": false,
 "next_id": "end",
 "type": "goto"
 },
-"27": {
-"id": "27",
-"next_id": "31",
+"128": {
+"id": "128",
+"next_id": "132",
 "text": "FINAL_1",
 "type": "title"
 },
-"31": {
-"id": "31",
+"13": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "13",
+"next_id": "14",
+"parent_id": "11",
+"tags": PackedStringArray(),
+"text": "Tomas un momento y te retiras",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Tomas un momento y te retiras",
+"type": "dialogue"
+},
+"132": {
+"id": "132",
 "is_snippet": false,
 "next_id": "end",
 "type": "goto"
 },
-"5": {
-"id": "5",
+"14": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "14",
+"next_id": "15",
+"parent_id": "11",
+"tags": PackedStringArray(),
+"text": "Okay! Pero me debes de contestar!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Okay! Pero me debes de contestar!",
+"type": "dialogue"
+},
+"15": {
+"id": "15",
 "is_snippet": false,
 "next_id": "end",
+"parent_id": "11",
+"type": "goto"
+},
+"17": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "17",
+"next_id": "19",
+"tags": PackedStringArray(),
+"text": "CHICHA!!!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "CHICHA!!!",
+"type": "dialogue"
+},
+"19": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "19",
+"next_id": "20",
+"tags": PackedStringArray(),
+"text": "Chistosito se ríe, un poco, esperando que tu te rías con él.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Chistosito se ríe, un poco, esperando que tu te rías con él.",
+"type": "dialogue"
+},
+"20": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "20",
+"next_id": "21",
+"tags": PackedStringArray(),
+"text": "Hm, parece que le sabes a los buenos chistes! Entonces, si quieres podemos vernos mañana para contar más!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Hm, parece que le sabes a los buenos chistes! Entonces, si quieres podemos vernos mañana para contar más!",
+"type": "dialogue"
+},
+"21": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "21",
+"next_id": "24",
+"tags": PackedStringArray(),
+"text": "Y con eso, Chistosito se salió del salón.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Y con eso, Chistosito se salió del salón.",
+"type": "dialogue"
+},
+"24": {
+"id": "24",
+"is_snippet": false,
+"next_id": "end",
+"type": "goto"
+},
+"26": {
+"id": "26",
+"next_id": "28",
+"text": "Segunda_Interaccion_1",
+"type": "title"
+},
+"28": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "28",
+"next_id": "29",
+"tags": PackedStringArray(),
+"text": "Al entrar al teatro, te encuentras al payasito chistosito; estaba en el medio del escenario.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Al entrar al teatro, te encuentras al payasito chistosito; estaba en el medio del escenario.",
+"type": "dialogue"
+},
+"29": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "29",
+"next_id": "30",
+"tags": PackedStringArray(),
+"text": "Al verte llegar, rápidamente te llamaba.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Al verte llegar, rápidamente te llamaba.",
+"type": "dialogue"
+},
+"3": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "3",
+"next_id": "5",
+"tags": PackedStringArray(),
+"text": "En una silla, un payaso estaba viendote, invitandote a que te acerques.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "En una silla, un payaso estaba viendote, invitandote a que te acerques.",
+"type": "dialogue"
+},
+"30": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "30",
+"next_id": "31",
+"tags": PackedStringArray(),
+"text": "¡Hey! Ven, prepárate. Tengo varios chistes chistositos, y tu tienes que adivinarlos.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "¡Hey! Ven, prepárate. Tengo varios chistes chistositos, y tu tienes que adivinarlos.",
+"type": "dialogue"
+},
+"31": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "31",
+"next_id": "32",
+"next_id_after": "40",
+"responses": PackedStringArray("31", "34"),
+"tags": PackedStringArray(),
+"text": "Si",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Si",
+"type": "response"
+},
+"32": {
+"character": "{{playername}}",
+"character_replacements": Array[Dictionary]([{
+"expression": Array[Dictionary]([{
+"type": "variable",
+"value": "playername"
+}]),
+"value_in_text": "{{playername}}"
+}]),
+"id": "32",
+"next_id": "33",
+"parent_id": "31",
+"tags": PackedStringArray(),
+"text": "Ok, hagamoslo!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Ok, hagamoslo!",
+"type": "dialogue"
+},
+"33": {
+"id": "33",
+"is_snippet": false,
+"next_id": "44",
+"parent_id": "31",
+"type": "goto"
+},
+"34": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "34",
+"next_id": "35",
+"next_id_after": "40",
+"tags": PackedStringArray(),
+"text": "No",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "No",
+"type": "response"
+},
+"35": {
+"character": "{{playername}}",
+"character_replacements": Array[Dictionary]([{
+"expression": Array[Dictionary]([{
+"type": "variable",
+"value": "playername"
+}]),
+"value_in_text": "{{playername}}"
+}]),
+"id": "35",
+"next_id": "36",
+"parent_id": "34",
+"tags": PackedStringArray(),
+"text": "Espera, se me olvidó algo.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Espera, se me olvidó algo.",
+"type": "dialogue"
+},
+"36": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "36",
+"next_id": "37",
+"parent_id": "34",
+"tags": PackedStringArray(),
+"text": "¡Ok! ¡Aquí te espero!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "¡Ok! ¡Aquí te espero!",
+"type": "dialogue"
+},
+"37": {
+"id": "37",
+"is_snippet": false,
+"next_id": "end",
+"parent_id": "34",
+"type": "goto"
+},
+"40": {
+"id": "40",
+"is_snippet": false,
+"next_id": "end",
+"type": "goto"
+},
+"42": {
+"id": "42",
+"next_id": "44",
+"text": "Segunda_Interaccion_2",
+"type": "title"
+},
+"44": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "44",
+"next_id": "45",
+"tags": PackedStringArray(),
+"text": "Ok, primer chiste!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Ok, primer chiste!",
+"type": "dialogue"
+},
+"45": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "45",
+"next_id": "46",
+"tags": PackedStringArray(),
+"text": "¿Qué le dice un jardinero a otro?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "¿Qué le dice un jardinero a otro?",
+"type": "dialogue"
+},
+"46": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "46",
+"next_id": "47",
+"next_id_after": "61",
+"responses": PackedStringArray("46", "49", "52", "55"),
+"tags": PackedStringArray(),
+"text": "Bonito día.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Bonito día.",
+"type": "response"
+},
+"47": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "47",
+"next_id": "48",
+"parent_id": "46",
+"tags": PackedStringArray(),
+"text": "NOP! ¡Vuelve a intentar!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "NOP! ¡Vuelve a intentar!",
+"type": "dialogue"
+},
+"48": {
+"id": "48",
+"is_snippet": false,
+"next_id": "44",
+"parent_id": "46",
+"type": "goto"
+},
+"49": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "49",
+"next_id": "50",
+"next_id_after": "61",
+"tags": PackedStringArray(),
+"text": "Terrible, podemos.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Terrible, podemos.",
+"type": "response"
+},
+"5": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "5",
+"next_id": "7",
+"tags": PackedStringArray(),
+"text": "¡Hola! Soy el Payasito Chistosito! Sabías que la salchicha es 30% sal?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "¡Hola! Soy el Payasito Chistosito! Sabías que la salchicha es 30% sal?",
+"type": "dialogue"
+},
+"50": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "50",
+"next_id": "51",
+"parent_id": "49",
+"tags": PackedStringArray(),
+"text": "NOP! ¡Vuelve a intentar!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "NOP! ¡Vuelve a intentar!",
+"type": "dialogue"
+},
+"51": {
+"id": "51",
+"is_snippet": false,
+"next_id": "44",
+"parent_id": "49",
+"type": "goto"
+},
+"52": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "52",
+"next_id": "53",
+"next_id_after": "61",
+"tags": PackedStringArray(),
+"text": "Nos vemos cuando podamos.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Nos vemos cuando podamos.",
+"type": "response"
+},
+"53": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "53",
+"next_id": "54",
+"parent_id": "52",
+"tags": PackedStringArray(),
+"text": "Bien! El que sigue!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Bien! El que sigue!",
+"type": "dialogue"
+},
+"54": {
+"id": "54",
+"is_snippet": false,
+"next_id": "61",
+"parent_id": "52",
+"type": "goto"
+},
+"55": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "55",
+"next_id": "56",
+"next_id_after": "61",
+"tags": PackedStringArray(),
+"text": "No se dijeron nada",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "No se dijeron nada",
+"type": "response"
+},
+"56": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "56",
+"next_id": "57",
+"parent_id": "55",
+"tags": PackedStringArray(),
+"text": "NOP! ¡Vuelve a intentar!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "NOP! ¡Vuelve a intentar!",
+"type": "dialogue"
+},
+"57": {
+"id": "57",
+"is_snippet": false,
+"next_id": "44",
+"parent_id": "55",
+"type": "goto"
+},
+"59": {
+"id": "59",
+"next_id": "61",
+"text": "Segunda_Interaccion_3",
+"type": "title"
+},
+"61": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "61",
+"next_id": "62",
+"tags": PackedStringArray(),
+"text": "Segundo chiste!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Segundo chiste!",
+"type": "dialogue"
+},
+"62": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "62",
+"next_id": "64",
+"tags": PackedStringArray(),
+"text": "Como se llama un boomerang que no vuelve?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Como se llama un boomerang que no vuelve?",
+"type": "dialogue"
+},
+"64": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "64",
+"next_id": "65",
+"next_id_after": "79",
+"responses": PackedStringArray("64", "67", "70", "73"),
+"tags": PackedStringArray(),
+"text": "Una tremenda basura.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Una tremenda basura.",
+"type": "response"
+},
+"65": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "65",
+"next_id": "66",
+"parent_id": "64",
+"tags": PackedStringArray(),
+"text": "NOP! ¡Vuelve a intentar!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "NOP! ¡Vuelve a intentar!",
+"type": "dialogue"
+},
+"66": {
+"id": "66",
+"is_snippet": false,
+"next_id": "61",
+"parent_id": "64",
+"type": "goto"
+},
+"67": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "67",
+"next_id": "68",
+"next_id_after": "79",
+"tags": PackedStringArray(),
+"text": "Palo.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Palo.",
+"type": "response"
+},
+"68": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "68",
+"next_id": "69",
+"parent_id": "67",
+"tags": PackedStringArray(),
+"text": "Bien! El que sigue!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Bien! El que sigue!",
+"type": "dialogue"
+},
+"69": {
+"id": "69",
+"is_snippet": false,
+"next_id": "79",
+"parent_id": "67",
 "type": "goto"
 },
 "7": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
 "id": "7",
-"next_id": "11",
-"text": "Segunda_Interaccion",
+"next_id": "17",
+"next_id_after": "17",
+"responses": PackedStringArray("7", "9", "11"),
+"tags": PackedStringArray(),
+"text": "Y el otro 70?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Y el otro 70?",
+"type": "response"
+},
+"70": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "70",
+"next_id": "71",
+"next_id_after": "79",
+"tags": PackedStringArray(),
+"text": "Luis.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Luis.",
+"type": "response"
+},
+"71": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "71",
+"next_id": "72",
+"parent_id": "70",
+"tags": PackedStringArray(),
+"text": "NOP! ¡Vuelve a intentar!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "NOP! ¡Vuelve a intentar!",
+"type": "dialogue"
+},
+"72": {
+"id": "72",
+"is_snippet": false,
+"next_id": "61",
+"parent_id": "70",
+"type": "goto"
+},
+"73": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "73",
+"next_id": "74",
+"next_id_after": "79",
+"tags": PackedStringArray(),
+"text": "Boomerangn’t.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Boomerangn’t.",
+"type": "response"
+},
+"74": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "74",
+"next_id": "75",
+"parent_id": "73",
+"tags": PackedStringArray(),
+"text": "NOP! ¡Vuelve a intentar!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "NOP! ¡Vuelve a intentar!",
+"type": "dialogue"
+},
+"75": {
+"id": "75",
+"is_snippet": false,
+"next_id": "61",
+"parent_id": "73",
+"type": "goto"
+},
+"77": {
+"id": "77",
+"next_id": "79",
+"text": "Segunda_Interaccion_4",
 "type": "title"
+},
+"79": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "79",
+"next_id": "80",
+"tags": PackedStringArray(),
+"text": "¡Tercero!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "¡Tercero!",
+"type": "dialogue"
+},
+"80": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "80",
+"next_id": "82",
+"tags": PackedStringArray(),
+"text": "¿Qué es rojo y malo para tus dientes?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "¿Qué es rojo y malo para tus dientes?",
+"type": "dialogue"
+},
+"82": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "82",
+"next_id": "83",
+"next_id_after": "98",
+"responses": PackedStringArray("82", "85", "88", "91"),
+"tags": PackedStringArray(),
+"text": "Un ladrillo.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Un ladrillo.",
+"type": "response"
+},
+"83": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "83",
+"next_id": "84",
+"parent_id": "82",
+"tags": PackedStringArray(),
+"text": "Bien! Ya solo 1 mas!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Bien! Ya solo 1 mas!",
+"type": "dialogue"
+},
+"84": {
+"id": "84",
+"is_snippet": false,
+"next_id": "98",
+"parent_id": "82",
+"type": "goto"
+},
+"85": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "85",
+"next_id": "86",
+"next_id_after": "98",
+"tags": PackedStringArray(),
+"text": "Un tomate.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Un tomate.",
+"type": "response"
+},
+"86": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "86",
+"next_id": "87",
+"parent_id": "85",
+"tags": PackedStringArray(),
+"text": "NOP! ¡Vuelve a intentar!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "NOP! ¡Vuelve a intentar!",
+"type": "dialogue"
+},
+"87": {
+"id": "87",
+"is_snippet": false,
+"next_id": "79",
+"parent_id": "85",
+"type": "goto"
+},
+"88": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "88",
+"next_id": "89",
+"next_id_after": "98",
+"tags": PackedStringArray(),
+"text": "Medio Perro.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Medio Perro.",
+"type": "response"
+},
+"89": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "89",
+"next_id": "90",
+"parent_id": "88",
+"tags": PackedStringArray(),
+"text": "NOP! ¡Vuelve a intentar!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "NOP! ¡Vuelve a intentar!",
+"type": "dialogue"
+},
+"9": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "9",
+"next_id": "17",
+"next_id_after": "17",
+"tags": PackedStringArray(),
+"text": "Y lo demás?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Y lo demás?",
+"type": "response"
+},
+"90": {
+"id": "90",
+"is_snippet": false,
+"next_id": "79",
+"parent_id": "88",
+"type": "goto"
+},
+"91": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "91",
+"next_id": "92",
+"next_id_after": "98",
+"tags": PackedStringArray(),
+"text": "Una Cubeta de Pintura Roja.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Una Cubeta de Pintura Roja.",
+"type": "response"
+},
+"92": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "92",
+"next_id": "93",
+"parent_id": "91",
+"tags": PackedStringArray(),
+"text": "NOP! ¡Vuelve a intentar!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "NOP! ¡Vuelve a intentar!",
+"type": "dialogue"
+},
+"93": {
+"id": "93",
+"is_snippet": false,
+"next_id": "79",
+"parent_id": "91",
+"type": "goto"
+},
+"96": {
+"id": "96",
+"next_id": "98",
+"text": "Segunda_Interaccion_5",
+"type": "title"
+},
+"98": {
+"character": "Chistosito",
+"character_replacements": Array[Dictionary]([]),
+"id": "98",
+"next_id": "100",
+"tags": PackedStringArray(),
+"text": "¿De dónde sale la porcelana?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "¿De dónde sale la porcelana?",
+"type": "dialogue"
 }
 }
 metadata/dialogue_manager_version = "2.32.3"

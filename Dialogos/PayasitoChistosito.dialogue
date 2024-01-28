@@ -1,16 +1,117 @@
 ~ Primera_Interaccion
 
+En una silla, un payaso estaba viendote, invitandote a que te acerques.
+
+Chistosito: ¡Hola! Soy el Payasito Chistosito! Sabías que la salchicha es 30% sal?
+
+- Y el otro 70?
+
+- Y lo demás?
+
+- En un momento te respondo.
+	{{playername}}: Uh.. ahora te respondo…
+	Tomas un momento y te retiras
+	Chistosito: Okay! Pero me debes de contestar!
+	=> END
+
+Chistosito: CHICHA!!!
+
+Chistosito se ríe, un poco, esperando que tu te rías con él. 
+Chistosito: Hm, parece que le sabes a los buenos chistes! Entonces, si quieres podemos vernos mañana para contar más!
+Y con eso, Chistosito se salió del salón.
 
 
 => END
 
-~ Segunda_Interaccion
+~ Segunda_Interaccion_1
 
+Al entrar al teatro, te encuentras al payasito chistosito; estaba en el medio del escenario. 
+Al verte llegar, rápidamente te llamaba. 
+Chistosito: ¡Hey! Ven, prepárate. Tengo varios chistes chistositos, y tu tienes que adivinarlos. 
+- Si
+	{{playername}}: Ok, hagamoslo!
+	=> Segunda_Interaccion_2
+- No
+	{{playername}}: Espera, se me olvidó algo.
+	Chistosito: ¡Ok! ¡Aquí te espero!
+	=> END
 
 
 => END
 
+~ Segunda_Interaccion_2
 
+Chistosito: Ok, primer chiste! 
+Chistosito: ¿Qué le dice un jardinero a otro? 
+- Bonito día.
+	Chistosito: NOP! ¡Vuelve a intentar!
+	=> Segunda_Interaccion_2
+- Terrible, podemos.
+	Chistosito: NOP! ¡Vuelve a intentar!
+	=> Segunda_Interaccion_2
+- Nos vemos cuando podamos.
+	Chistosito: Bien! El que sigue!
+	=> Segunda_Interaccion_3
+- No se dijeron nada
+	Chistosito: NOP! ¡Vuelve a intentar!
+	=> Segunda_Interaccion_2
+
+~ Segunda_Interaccion_3
+
+Chistosito: Segundo chiste!
+Chistosito: Como se llama un boomerang que no vuelve?
+
+- Una tremenda basura.
+	Chistosito: NOP! ¡Vuelve a intentar!
+	=> Segunda_Interaccion_3
+- Palo.
+	Chistosito: Bien! El que sigue!
+	=> Segunda_Interaccion_4
+- Luis.
+	Chistosito: NOP! ¡Vuelve a intentar!
+	=> Segunda_Interaccion_3
+- Boomerangn’t.
+	Chistosito: NOP! ¡Vuelve a intentar!
+	=> Segunda_Interaccion_3
+
+~ Segunda_Interaccion_4
+
+Chistosito: ¡Tercero!
+Chistosito: ¿Qué es rojo y malo para tus dientes?
+
+- Un ladrillo.
+	Chistosito: Bien! Ya solo 1 mas!
+	=> Segunda_Interaccion_5
+- Un tomate.
+	Chistosito: NOP! ¡Vuelve a intentar!
+	=> Segunda_Interaccion_4
+- Medio Perro.
+	Chistosito: NOP! ¡Vuelve a intentar!
+	=> Segunda_Interaccion_4
+- Una Cubeta de Pintura Roja.
+	Chistosito: NOP! ¡Vuelve a intentar!
+	=> Segunda_Interaccion_4
+
+
+~ Segunda_Interaccion_5
+
+Chistosito: ¿De dónde sale la porcelana?
+
+- Del suelo.
+	Chistosito: NOP! ¡Vuelve a intentar!
+	=> Segunda_Interaccion_5
+- De la tienda.
+	Chistosito: NOP! ¡Vuelve a intentar!
+	=> Segunda_Interaccion_5
+- Caolín, feldespato y cuarzo.
+	Chistosito: NOP! ¡Vuelve a intentar!
+	=> Segunda_Interaccion_5
+- De las porceovejas.
+	Chistosito: Yay! Los adivinaste todos! 
+
+Chistosito: Me la pasé muy bien, ojalá y mañana podamos hacerlo otra vez!
+
+=> END
 
 ~ Tercera_Interaccion
 
