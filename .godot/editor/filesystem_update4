@@ -1,10 +1,3 @@
-res://scenes/MiniJuegoSichichita.tscn
 res://scenes/top_down.tscn
-res://scenes/control.tscn
-res://scenes/MiniJuegoPayasada.tscn
-res://Prefabs/object.tscn
-res://Prefabs/platform.tscn
-res://Scripts/MiniJuegoSichichita_2.gd
-res://Prefabs/gobos.tscn
-res://Scripts/Timer.gd
-res://Scripts/global.gd
+res://Tileset/new_tile_set.tres
+res://scenes/top_down2.tscn

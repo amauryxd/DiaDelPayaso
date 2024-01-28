@@ -1,8 +1,8 @@
+TileMap
 Timer
 Panel
 Sprite2D
 Camera2D
-TileMap
 Label
 VBoxContainer
 Button
@@ -12,4 +12,3 @@ Container
 CollisionShape2D
 Area2D
 Label
-LineEdit
