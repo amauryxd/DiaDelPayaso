@@ -32,15 +32,19 @@ Playasho: Soy el Payaso de Playa, pero me dicen el Playasho.
 
 ~ Segunda_Interaccion
 
+set pla = true
 Saliendo del campus, ves a Playasho descansando en las escaleras, al caminar cerca de el, se para y se acerca a ti.
 Playasho: {{playername}}! Por fin, te he estado esperando. Que dices, quieres ir a surfear un rato?
 - Si
 	Una sonrisa pinta su rostro. 
 	Playasho: Perfecto! Ven, vamos!
 	#Iniciar Minijuego Playasho
+	set pla = false
+	do _CHMinijuegoPlayasho()
 - No por ahora
 	Playasho regresa a una expresión neutral y se sienta.
 	Playasho: Está bien, pero si cambias de opinión, aquí te espero!
+set pla = false
 
 => END
 

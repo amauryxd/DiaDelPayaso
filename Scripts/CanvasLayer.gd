@@ -13,4 +13,5 @@ func _process(delta):
 
 
 func _on_timer_timeout():
-	print("mamastek")
+	#print("mamastek")
+	get_tree().change_scene_to_file("res://scenes/top_down2.tscn")

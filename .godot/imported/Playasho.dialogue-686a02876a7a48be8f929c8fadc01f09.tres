@@ -1,16 +1,16 @@
 [gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_sgyqo"]
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_oqaq4"]
 
 [resource]
-script = ExtResource("1_sgyqo")
+script = ExtResource("1_oqaq4")
 using_states = PackedStringArray()
 titles = {
-"Cuarta_Interaccion": "76",
-"Final_1": "88",
+"Cuarta_Interaccion": "80",
+"Final_1": "92",
 "Primera_Interaccion": "3",
 "Segunda_Interaccion": "35",
-"Tercera_Interaccion": "49"
+"Tercera_Interaccion": "53"
 }
 character_names = PackedStringArray("???", "Playasho", "{{playername}}", "FINAL 1")
 first_title = "3"
@@ -298,21 +298,38 @@ lines = {
 "type": "title"
 },
 "35": {
+"id": "35",
+"mutation": {
+"expression": Array[Dictionary]([{
+"type": "variable",
+"value": "pla"
+}, {
+"type": "assignment",
+"value": "="
+}, {
+"type": "variable",
+"value": "true"
+}])
+},
+"next_id": "36",
+"type": "mutation"
+},
+"36": {
 "character": "",
 "character_replacements": Array[Dictionary]([]),
-"id": "35",
-"next_id": "36",
+"id": "36",
+"next_id": "37",
 "tags": PackedStringArray(),
 "text": "Saliendo del campus, ves a Playasho descansando en las escaleras, al caminar cerca de el, se para y se acerca a ti.",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "Saliendo del campus, ves a Playasho descansando en las escaleras, al caminar cerca de el, se para y se acerca a ti.",
 "type": "dialogue"
 },
-"36": {
+"37": {
 "character": "Playasho",
 "character_replacements": Array[Dictionary]([]),
-"id": "36",
-"next_id": "37",
+"id": "37",
+"next_id": "38",
 "tags": PackedStringArray(),
 "text": "{{playername}}! Por fin, te he estado esperando. Que dices, quieres ir a surfear un rato?",
 "text_replacements": Array[Dictionary]([{
@@ -325,101 +342,132 @@ lines = {
 "translation_key": "{{playername}}! Por fin, te he estado esperando. Que dices, quieres ir a surfear un rato?",
 "type": "dialogue"
 },
-"37": {
+"38": {
 "character": "",
 "character_replacements": Array[Dictionary]([]),
-"id": "37",
-"next_id": "38",
-"next_id_after": "45",
-"responses": PackedStringArray("37", "41"),
+"id": "38",
+"next_id": "39",
+"next_id_after": "47",
+"responses": PackedStringArray("38", "44"),
 "tags": PackedStringArray(),
 "text": "Si",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "Si",
 "type": "response"
 },
-"38": {
+"39": {
 "character": "",
 "character_replacements": Array[Dictionary]([]),
-"id": "38",
-"next_id": "39",
-"parent_id": "37",
+"id": "39",
+"next_id": "40",
+"parent_id": "38",
 "tags": PackedStringArray(),
 "text": "Una sonrisa pinta su rostro.",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "Una sonrisa pinta su rostro.",
 "type": "dialogue"
 },
-"39": {
+"40": {
 "character": "Playasho",
 "character_replacements": Array[Dictionary]([]),
-"id": "39",
-"next_id": "45",
-"parent_id": "37",
+"id": "40",
+"next_id": "42",
+"parent_id": "38",
 "tags": PackedStringArray(),
 "text": "Perfecto! Ven, vamos!",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "Perfecto! Ven, vamos!",
 "type": "dialogue"
 },
-"41": {
+"42": {
+"id": "42",
+"mutation": {
+"expression": Array[Dictionary]([{
+"type": "variable",
+"value": "pla"
+}, {
+"type": "assignment",
+"value": "="
+}, {
+"type": "variable",
+"value": "false"
+}])
+},
+"next_id": "43",
+"parent_id": "38",
+"type": "mutation"
+},
+"43": {
+"id": "43",
+"mutation": {
+"expression": Array[Dictionary]([{
+"function": "_CHMinijuegoPlayasho",
+"type": "function",
+"value": Array[Array]([])
+}])
+},
+"next_id": "47",
+"parent_id": "38",
+"type": "mutation"
+},
+"44": {
 "character": "",
 "character_replacements": Array[Dictionary]([]),
-"id": "41",
-"next_id": "42",
-"next_id_after": "45",
+"id": "44",
+"next_id": "45",
+"next_id_after": "47",
 "tags": PackedStringArray(),
 "text": "No por ahora",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "No por ahora",
 "type": "response"
 },
-"42": {
+"45": {
 "character": "",
 "character_replacements": Array[Dictionary]([]),
-"id": "42",
-"next_id": "43",
-"parent_id": "41",
+"id": "45",
+"next_id": "46",
+"parent_id": "44",
 "tags": PackedStringArray(),
 "text": "Playasho regresa a una expresión neutral y se sienta.",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "Playasho regresa a una expresión neutral y se sienta.",
 "type": "dialogue"
 },
-"43": {
+"46": {
 "character": "Playasho",
 "character_replacements": Array[Dictionary]([]),
-"id": "43",
-"next_id": "45",
-"parent_id": "41",
+"id": "46",
+"next_id": "47",
+"parent_id": "44",
 "tags": PackedStringArray(),
 "text": "Está bien, pero si cambias de opinión, aquí te espero!",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "Está bien, pero si cambias de opinión, aquí te espero!",
 "type": "dialogue"
 },
-"45": {
-"id": "45",
+"47": {
+"id": "47",
+"mutation": {
+"expression": Array[Dictionary]([{
+"type": "variable",
+"value": "pla"
+}, {
+"type": "assignment",
+"value": "="
+}, {
+"type": "variable",
+"value": "false"
+}])
+},
+"next_id": "49",
+"type": "mutation"
+},
+"49": {
+"id": "49",
 "is_snippet": false,
 "next_id": "end",
 "type": "goto"
-},
-"47": {
-"id": "47",
-"next_id": "49",
-"text": "Tercera_Interaccion",
-"type": "title"
-},
-"49": {
-"character": "",
-"character_replacements": Array[Dictionary]([]),
-"id": "49",
-"next_id": "50",
-"tags": PackedStringArray(),
-"text": "Abres las puertas del gran salón de oratoria, bastante vacío por el momento, con la excepción de alguien en el podio, Playasho. Él te mira, un poco cansado.",
-"text_replacements": Array[Dictionary]([]),
-"translation_key": "Abres las puertas del gran salón de oratoria, bastante vacío por el momento, con la excepción de alguien en el podio, Playasho. Él te mira, un poco cansado.",
-"type": "dialogue"
 },
 "5": {
 "character": "???",
@@ -432,31 +480,48 @@ lines = {
 "translation_key": "Ah, hola! Eres el nuevo estudiante huh?",
 "type": "dialogue"
 },
-"50": {
+"51": {
+"id": "51",
+"next_id": "53",
+"text": "Tercera_Interaccion",
+"type": "title"
+},
+"53": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "53",
+"next_id": "54",
+"tags": PackedStringArray(),
+"text": "Abres las puertas del gran salón de oratoria, bastante vacío por el momento, con la excepción de alguien en el podio, Playasho. Él te mira, un poco cansado.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Abres las puertas del gran salón de oratoria, bastante vacío por el momento, con la excepción de alguien en el podio, Playasho. Él te mira, un poco cansado.",
+"type": "dialogue"
+},
+"54": {
 "character": "Playasho",
 "character_replacements": Array[Dictionary]([]),
-"id": "50",
-"next_id": "51",
+"id": "54",
+"next_id": "55",
 "tags": PackedStringArray(),
 "text": "Ah, ¡Hola! No esperaba que nadie viniese a verme..",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "Ah, ¡Hola! No esperaba que nadie viniese a verme..",
 "type": "dialogue"
 },
-"51": {
+"55": {
 "character": "",
 "character_replacements": Array[Dictionary]([]),
-"id": "51",
-"next_id": "52",
-"next_id_after": "59",
-"responses": PackedStringArray("51", "54"),
+"id": "55",
+"next_id": "56",
+"next_id_after": "63",
+"responses": PackedStringArray("55", "58"),
 "tags": PackedStringArray(),
 "text": "Que haces aqui?",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "Que haces aqui?",
 "type": "response"
 },
-"52": {
+"56": {
 "character": "{{playername}}",
 "character_replacements": Array[Dictionary]([{
 "expression": Array[Dictionary]([{
@@ -465,40 +530,40 @@ lines = {
 }]),
 "value_in_text": "{{playername}}"
 }]),
-"id": "52",
-"next_id": "53",
-"parent_id": "51",
+"id": "56",
+"next_id": "57",
+"parent_id": "55",
 "tags": PackedStringArray(),
 "text": "¿Qué… haces aquí?",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "¿Qué… haces aquí?",
 "type": "dialogue"
 },
-"53": {
+"57": {
 "character": "Playasho",
 "character_replacements": Array[Dictionary]([]),
-"id": "53",
-"next_id": "59",
-"parent_id": "51",
+"id": "57",
+"next_id": "63",
+"parent_id": "55",
 "tags": PackedStringArray(),
 "text": "Práctico, para mi futuro…",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "Práctico, para mi futuro…",
 "type": "dialogue"
 },
-"54": {
+"58": {
 "character": "",
 "character_replacements": Array[Dictionary]([]),
-"id": "54",
-"next_id": "55",
-"next_id_after": "59",
+"id": "58",
+"next_id": "59",
+"next_id_after": "63",
 "tags": PackedStringArray(),
 "text": "No te ves muy bien.",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "No te ves muy bien.",
 "type": "response"
 },
-"55": {
+"59": {
 "character": "{{playername}}",
 "character_replacements": Array[Dictionary]([{
 "expression": Array[Dictionary]([{
@@ -507,144 +572,109 @@ lines = {
 }]),
 "value_in_text": "{{playername}}"
 }]),
-"id": "55",
-"next_id": "56",
-"parent_id": "54",
+"id": "59",
+"next_id": "60",
+"parent_id": "58",
 "tags": PackedStringArray(),
 "text": "Hola Playasho, no te ves muy bien…",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "Hola Playasho, no te ves muy bien…",
 "type": "dialogue"
 },
-"56": {
+"60": {
 "character": "",
 "character_replacements": Array[Dictionary]([]),
-"id": "56",
-"next_id": "57",
-"parent_id": "54",
+"id": "60",
+"next_id": "61",
+"parent_id": "58",
 "tags": PackedStringArray(),
 "text": "Playasho suspira",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "Playasho suspira",
 "type": "dialogue"
 },
-"57": {
+"61": {
 "character": "Playasho",
 "character_replacements": Array[Dictionary]([]),
-"id": "57",
-"next_id": "59",
-"parent_id": "54",
+"id": "61",
+"next_id": "63",
+"parent_id": "58",
 "tags": PackedStringArray(),
 "text": "No, la verdad es que no estoy…",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "No, la verdad es que no estoy…",
 "type": "dialogue"
 },
-"59": {
+"63": {
 "character": "",
 "character_replacements": Array[Dictionary]([]),
-"id": "59",
-"next_id": "60",
+"id": "63",
+"next_id": "64",
 "tags": PackedStringArray(),
 "text": "Playasho se toma un momento, mirandote.",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "Playasho se toma un momento, mirandote.",
 "type": "dialogue"
 },
-"60": {
+"64": {
 "character": "",
 "character_replacements": Array[Dictionary]([]),
-"id": "60",
-"next_id": "62",
+"id": "64",
+"next_id": "66",
 "tags": PackedStringArray(),
 "text": "Verás, la gente piensa que soy un poco tonto, pero en realidad me esfuerzo mucho, yo quiero ser un diputado, ayudar a que Payasolandia sea un lugar mejor! Pero creo que es un sueño tonto…",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "Verás, la gente piensa que soy un poco tonto, pero en realidad me esfuerzo mucho, yo quiero ser un diputado, ayudar a que Payasolandia sea un lugar mejor! Pero creo que es un sueño tonto…",
 "type": "dialogue"
 },
-"62": {
+"66": {
 "character": "",
 "character_replacements": Array[Dictionary]([]),
-"id": "62",
-"next_id": "63",
-"next_id_after": "69",
-"responses": PackedStringArray("62", "65"),
+"id": "66",
+"next_id": "67",
+"next_id_after": "73",
+"responses": PackedStringArray("66", "69"),
 "tags": PackedStringArray(),
 "text": "Tus sueños son válidos",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "Tus sueños son válidos",
 "type": "response"
 },
-"63": {
+"67": {
 "character": "",
 "character_replacements": Array[Dictionary]([]),
-"id": "63",
-"next_id": "64",
-"parent_id": "62",
+"id": "67",
+"next_id": "68",
+"parent_id": "66",
 "tags": PackedStringArray(),
 "text": "A Playasho le crece una sonrisa.",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "A Playasho le crece una sonrisa.",
 "type": "dialogue"
 },
-"64": {
+"68": {
 "character": "Playasho",
 "character_replacements": Array[Dictionary]([]),
-"id": "64",
-"next_id": "69",
-"parent_id": "62",
+"id": "68",
+"next_id": "73",
+"parent_id": "66",
 "tags": PackedStringArray(),
 "text": "Gracias por pensar eso, te aprecio…",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "Gracias por pensar eso, te aprecio…",
 "type": "dialogue"
 },
-"65": {
+"69": {
 "character": "",
 "character_replacements": Array[Dictionary]([]),
-"id": "65",
-"next_id": "66",
-"next_id_after": "69",
+"id": "69",
+"next_id": "70",
+"next_id_after": "73",
 "tags": PackedStringArray(),
 "text": "Vas a llegar lejos.",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "Vas a llegar lejos.",
 "type": "response"
-},
-"66": {
-"character": "",
-"character_replacements": Array[Dictionary]([]),
-"id": "66",
-"next_id": "67",
-"parent_id": "65",
-"tags": PackedStringArray(),
-"text": "Playasho se ríe ligeramente.",
-"text_replacements": Array[Dictionary]([]),
-"translation_key": "Playasho se ríe ligeramente.",
-"type": "dialogue"
-},
-"67": {
-"character": "Playasho",
-"character_replacements": Array[Dictionary]([]),
-"id": "67",
-"next_id": "69",
-"parent_id": "65",
-"tags": PackedStringArray(),
-"text": "Esperemos que sí…",
-"text_replacements": Array[Dictionary]([]),
-"translation_key": "Esperemos que sí…",
-"type": "dialogue"
-},
-"69": {
-"character": "Playasho",
-"character_replacements": Array[Dictionary]([]),
-"id": "69",
-"next_id": "70",
-"tags": PackedStringArray(),
-"text": "Bueno, dejemos eso atrás, déjame practicar un rato y luego caminamos, ¿te parece?",
-"text_replacements": Array[Dictionary]([]),
-"translation_key": "Bueno, dejemos eso atrás, déjame practicar un rato y luego caminamos, ¿te parece?",
-"type": "dialogue"
 },
 "7": {
 "character": "",
@@ -661,41 +691,76 @@ lines = {
 "character": "",
 "character_replacements": Array[Dictionary]([]),
 "id": "70",
-"next_id": "72",
+"next_id": "71",
+"parent_id": "69",
+"tags": PackedStringArray(),
+"text": "Playasho se ríe ligeramente.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Playasho se ríe ligeramente.",
+"type": "dialogue"
+},
+"71": {
+"character": "Playasho",
+"character_replacements": Array[Dictionary]([]),
+"id": "71",
+"next_id": "73",
+"parent_id": "69",
+"tags": PackedStringArray(),
+"text": "Esperemos que sí…",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Esperemos que sí…",
+"type": "dialogue"
+},
+"73": {
+"character": "Playasho",
+"character_replacements": Array[Dictionary]([]),
+"id": "73",
+"next_id": "74",
+"tags": PackedStringArray(),
+"text": "Bueno, dejemos eso atrás, déjame practicar un rato y luego caminamos, ¿te parece?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Bueno, dejemos eso atrás, déjame practicar un rato y luego caminamos, ¿te parece?",
+"type": "dialogue"
+},
+"74": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "74",
+"next_id": "76",
 "tags": PackedStringArray(),
 "text": "Asientes, escuchándolo practicar, dando notas donde crees que puede mejorar, te sientes más cerca de Playasho que nunca.",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "Asientes, escuchándolo practicar, dando notas donde crees que puede mejorar, te sientes más cerca de Playasho que nunca.",
 "type": "dialogue"
 },
-"72": {
-"id": "72",
+"76": {
+"id": "76",
 "is_snippet": false,
 "next_id": "end",
 "type": "goto"
 },
-"74": {
-"id": "74",
-"next_id": "76",
+"78": {
+"id": "78",
+"next_id": "80",
 "text": "Cuarta_Interaccion",
 "type": "title"
 },
-"76": {
+"80": {
 "character": "",
 "character_replacements": Array[Dictionary]([]),
-"id": "76",
-"next_id": "77",
+"id": "80",
+"next_id": "81",
 "tags": PackedStringArray(),
 "text": "Caminas hacia la alberca, observando que Playasho estaba a punto de meterse a nadar.",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "Caminas hacia la alberca, observando que Playasho estaba a punto de meterse a nadar.",
 "type": "dialogue"
 },
-"77": {
+"81": {
 "character": "Playasho",
 "character_replacements": Array[Dictionary]([]),
-"id": "77",
-"next_id": "79",
+"id": "81",
+"next_id": "83",
 "tags": PackedStringArray(),
 "text": "Hey! Como estas, {{playername}}, quieres nadar un rato?",
 "text_replacements": Array[Dictionary]([{
@@ -708,94 +773,60 @@ lines = {
 "translation_key": "Hey! Como estas, {{playername}}, quieres nadar un rato?",
 "type": "dialogue"
 },
-"79": {
+"83": {
 "character": "",
 "character_replacements": Array[Dictionary]([]),
-"id": "79",
-"next_id": "80",
-"next_id_after": "84",
-"responses": PackedStringArray("79", "81"),
+"id": "83",
+"next_id": "84",
+"next_id_after": "88",
+"responses": PackedStringArray("83", "85"),
 "tags": PackedStringArray(),
 "text": "Si",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "Si",
 "type": "response"
 },
-"80": {
+"84": {
 "character": "",
 "character_replacements": Array[Dictionary]([]),
-"id": "80",
-"next_id": "84",
-"parent_id": "79",
+"id": "84",
+"next_id": "88",
+"parent_id": "83",
 "tags": PackedStringArray(),
 "text": "Playasho sonríe, y él y tú nadan por un tiempo, hasta que la noche llega.",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "Playasho sonríe, y él y tú nadan por un tiempo, hasta que la noche llega.",
 "type": "dialogue"
 },
-"81": {
+"85": {
 "character": "",
 "character_replacements": Array[Dictionary]([]),
-"id": "81",
-"next_id": "82",
-"next_id_after": "84",
+"id": "85",
+"next_id": "86",
+"next_id_after": "88",
 "tags": PackedStringArray(),
 "text": "No",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "No",
 "type": "response"
 },
-"82": {
+"86": {
 "character": "Playasho",
 "character_replacements": Array[Dictionary]([]),
-"id": "82",
-"next_id": "84",
-"parent_id": "81",
+"id": "86",
+"next_id": "88",
+"parent_id": "85",
 "tags": PackedStringArray(),
 "text": "Bueno, no pasa nada, voy a estar nadando un tiempo, por si quieres acompañarme!",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "Bueno, no pasa nada, voy a estar nadando un tiempo, por si quieres acompañarme!",
 "type": "dialogue"
 },
-"84": {
-"id": "84",
+"88": {
+"id": "88",
 "is_snippet": false,
 "next_id": "end",
 "type": "goto"
-},
-"86": {
-"id": "86",
-"next_id": "88",
-"text": "Final_1",
-"type": "title"
-},
-"88": {
-"character": "",
-"character_replacements": Array[Dictionary]([]),
-"id": "88",
-"next_id": "89",
-"tags": PackedStringArray(),
-"text": "En la entrada de la escuela, logras ver al playasho, sosteniendo un ramo de rosas; en el segundo en el que te ve, levanta la mano y pide que te acerques.",
-"text_replacements": Array[Dictionary]([]),
-"translation_key": "En la entrada de la escuela, logras ver al playasho, sosteniendo un ramo de rosas; en el segundo en el que te ve, levanta la mano y pide que te acerques.",
-"type": "dialogue"
-},
-"89": {
-"character": "Playasho",
-"character_replacements": Array[Dictionary]([]),
-"id": "89",
-"next_id": "90",
-"tags": PackedStringArray(),
-"text": "Hey, {{playername}}! Gracias por confiar en mí… Y por eso, me gustaría que estuvieras conmigo en el Día del Payaso.",
-"text_replacements": Array[Dictionary]([{
-"expression": Array[Dictionary]([{
-"type": "variable",
-"value": "playername"
-}]),
-"value_in_text": "{{playername}}"
-}]),
-"translation_key": "Hey, {{playername}}! Gracias por confiar en mí… Y por eso, me gustaría que estuvieras conmigo en el Día del Payaso.",
-"type": "dialogue"
 },
 "9": {
 "character": "Playasho",
@@ -809,29 +840,63 @@ lines = {
 "type": "dialogue"
 },
 "90": {
+"id": "90",
+"next_id": "92",
+"text": "Final_1",
+"type": "title"
+},
+"92": {
 "character": "",
 "character_replacements": Array[Dictionary]([]),
-"id": "90",
-"next_id": "91",
+"id": "92",
+"next_id": "93",
+"tags": PackedStringArray(),
+"text": "En la entrada de la escuela, logras ver al playasho, sosteniendo un ramo de rosas; en el segundo en el que te ve, levanta la mano y pide que te acerques.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "En la entrada de la escuela, logras ver al playasho, sosteniendo un ramo de rosas; en el segundo en el que te ve, levanta la mano y pide que te acerques.",
+"type": "dialogue"
+},
+"93": {
+"character": "Playasho",
+"character_replacements": Array[Dictionary]([]),
+"id": "93",
+"next_id": "94",
+"tags": PackedStringArray(),
+"text": "Hey, {{playername}}! Gracias por confiar en mí… Y por eso, me gustaría que estuvieras conmigo en el Día del Payaso.",
+"text_replacements": Array[Dictionary]([{
+"expression": Array[Dictionary]([{
+"type": "variable",
+"value": "playername"
+}]),
+"value_in_text": "{{playername}}"
+}]),
+"translation_key": "Hey, {{playername}}! Gracias por confiar en mí… Y por eso, me gustaría que estuvieras conmigo en el Día del Payaso.",
+"type": "dialogue"
+},
+"94": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "94",
+"next_id": "95",
 "tags": PackedStringArray(),
 "text": "Tomas el ramo y te metes junto con Playasho, listos para disfrutar de un día entero lleno de risas…",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "Tomas el ramo y te metes junto con Playasho, listos para disfrutar de un día entero lleno de risas…",
 "type": "dialogue"
 },
-"91": {
+"95": {
 "character": "FINAL 1",
 "character_replacements": Array[Dictionary]([]),
-"id": "91",
-"next_id": "93",
+"id": "95",
+"next_id": "97",
 "tags": PackedStringArray(),
 "text": "Las Risas No Faltaron…",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "Las Risas No Faltaron…",
 "type": "dialogue"
 },
-"93": {
-"id": "93",
+"97": {
+"id": "97",
 "is_snippet": false,
 "next_id": "end",
 "type": "goto"

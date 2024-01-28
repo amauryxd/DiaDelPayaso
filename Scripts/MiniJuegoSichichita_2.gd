@@ -10,7 +10,9 @@ var explota = false
 var score_label : Label
 
 func _process(delta):
-	print($"../Timer".time_left)
+	#print($"../Timer".time_left)
+	if Global.scoregobos > 14:
+		get_tree().change_scene_to_file("res://scenes/top_down2.tscn")
 
 func _ready():
 	sprite = $".." # Obtener la referencia al Sprite2D_1

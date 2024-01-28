@@ -33,6 +33,7 @@ Te acercas a la payasa sentada a tu lado, te mira de forma ligeramente agresiva,
 
 ~ Segunda_Interaccion
 
+set paya = true
 A lo lejos en el pasillo, logras ver a la Payasada. Corres a saludarla y puedes jurar que su rostro usualmente fruncido cambia a uno de alegría por medio segundo.
 
 Payasada: ¡Hola-! Digo… que tal, {{playername}}. Justo iba a salir a hacer una carnita asada, ¿le entras?
@@ -40,10 +41,13 @@ Payasada: ¡Hola-! Digo… que tal, {{playername}}. Justo iba a salir a hacer un
 - Si
 	Asientes con gusto, con un poco de preocupación, pues sería tu primera carne asada.
 	#Iniciar Minijuego Payasada
+	set paya = false
+	do PayasadaGame()
 - Por ahora no.
 	{{playername}}: Lo siento Payasada, pero tengo algo que hacer.
 	Un poco molesta, se voltea a ver otro lado
 	Payasada: Está bien, pero si cambias de opinión, aquí voy a estar.
+set paya = false
 
 => END
 

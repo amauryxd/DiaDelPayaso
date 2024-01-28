@@ -1,6 +1,5 @@
-res://scenes/top_down2.tscn
-res://Tileset/TilesetGod.tres
 res://scenes/control.tscn
+res://Tileset/TilesetGod.tres
 res://scenes/MiniJuegoPayasada.tscn
 res://Prefabs/object.tscn
 res://Prefabs/platform.tscn
@@ -10,7 +9,13 @@ res://scenes/MiniJuegoPlayasho.tscn
 res://PlayashoRes/Player.tscn
 res://PlayashoRes/area_2d.tscn
 res://scenes/entrada_nombre.tscn
-res://Scripts/Player/playerMovement.gd
-res://Scripts/EntradaNombre.gd
+res://scenes/top_down2.tscn
 res://Scripts/global.gd
-res://Scripts/ParallaxBackground.gd
+res://Scripts/Timer.gd
+res://Scripts/Player/playerMovement.gd
+res://Scripts/PayasadaUI.gd
+res://Prefabs/PayasadaUI.tscn
+res://Scripts/CanvasLayer.gd
+res://Scripts/obstacle.gd
+res://Scripts/MiniJuegoSichichita_2.gd
+res://Scripts/top_down2.gd

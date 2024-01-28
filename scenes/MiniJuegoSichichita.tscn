@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://dstermr4tmkbg"]
+[gd_scene load_steps=5 format=3 uid="uid://dstermr4tmkbg"]
 
 [ext_resource type="PackedScene" uid="uid://1uocexpqjed5" path="res://Prefabs/gobos.tscn" id="2_cadki"]
 [ext_resource type="Texture2D" uid="uid://cwgwiqdrag6eo" path="res://Imgs/bg globo.png" id="2_f12rx"]
 [ext_resource type="Script" path="res://Scripts/Timer.gd" id="3_isupq"]
+[ext_resource type="AudioStream" uid="uid://dilu3s6o6wgnj" path="res://Audio/sichichita.ogg" id="4_sset8"]
 
 [node name="MiniJuegoSichichita" type="Node2D"]
 script = ExtResource("3_isupq")
@@ -111,4 +112,10 @@ offset_bottom = -21.176
 theme_override_font_sizes/font_size = 46
 text = "Continuar con la historia"
 
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_sset8")
+volume_db = -10.0
+autoplay = true
+
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="pressed" from="Control/Panel/Button" to="." method="_on_button_pressed"]

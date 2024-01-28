@@ -21,15 +21,19 @@ Chinchi: Si me ayudas, te recompenso, ya sabes lo que dicen, sin globos no hay f
 
 ~ Segunda_Interaccion
 
+set sichi = true
 A la mitad del salón de fiestas, estaba Sinchi, inflando globo tras globo. 
 Al verte, se alegró bastante.
 Sinchi: Ah! Hola {{playername}}! Gracias por venir. Entonces, ¿me vas a ayudar? Prometo recompensarte~
 - Si
 	Asientes, escalofríos corren por tu espalda al escuchar la forma en como habla.
 	# Iniciar juego chicha
+	set sichi = false
+	do sichiGame()
 - No
 	{{playername}}: Hm, espera un momento, tengo algo que hacer…
 	Sinchi: Oki! ¡Estaré aquí hasta noche, por si me quieres ayudar!
+set sichi = false
 
 => END
 

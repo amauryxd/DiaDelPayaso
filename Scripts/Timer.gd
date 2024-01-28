@@ -24,7 +24,7 @@ func _process(delta):
 		time_left -= delta
 		# Verificar si el tiempo ha llegado a cero
 		if time_left <= 0:
-			print("¡Se acabó!")
+			#print("¡Se acabó!")
 			# Más acciones cc el tiempo llege a 0.
 			time_label.text = "¡Se acabó!"
 			timer_running = false
@@ -36,3 +36,6 @@ func _process(delta):
 			# Actualizar el texto del Label (Time) con el tiempo restante
 			time_label.text = "Tiempo: " + str(int(time_left))
 			#print("Tiempo: ", time_left)
+
+func _on_button_pressed():
+	get_tree().change_scene_to_file("res://scenes/top_down2.tscn")

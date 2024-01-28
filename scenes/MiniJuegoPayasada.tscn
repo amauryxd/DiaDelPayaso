@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://b7dy5msicfvmi"]
+[gd_scene load_steps=14 format=3 uid="uid://b7dy5msicfvmi"]
 
 [ext_resource type="Script" path="res://Scripts/global.gd" id="1_arogd"]
 [ext_resource type="Texture2D" uid="uid://cqij5h67xccb3" path="res://Imgs/aaaa.png" id="2_kg2ok"]
@@ -10,12 +10,17 @@
 [ext_resource type="PackedScene" uid="uid://b1tvxexc72gl" path="res://Prefabs/PayasadaUI.tscn" id="6_ausj0"]
 [ext_resource type="AudioStream" uid="uid://bvw44srk7iyll" path="res://Audio/payasada.ogg" id="7_ufd53"]
 [ext_resource type="Texture2D" uid="uid://40b4bdoul4uj" path="res://Imgs/parrilla.png" id="8_b4dcq"]
+[ext_resource type="Texture2D" uid="uid://2lvrurmi6ehl" path="res://Imgs/Payasada render/PAYASADA triste.png" id="11_00bud"]
+[ext_resource type="Texture2D" uid="uid://bykb6i4r8pcm2" path="res://Imgs/Payasada render/PAYASADA neutral.png" id="12_yujvy"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_f0p44"]
 size = Vector2(20.1159, 20.1159)
 
 [node name="MiniJuegoPayasada" type="Node2D"]
 script = ExtResource("1_arogd")
+
+[node name="cambio" type="Timer" parent="."]
+one_shot = true
 
 [node name="Aaaa" type="Sprite2D" parent="."]
 position = Vector2(560, 342)
@@ -83,7 +88,54 @@ isPlato = true
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("7_ufd53")
 volume_db = -5.0
+autoplay = true
 
+[node name="Perdiste" type="Panel" parent="."]
+visible = false
+custom_minimum_size = Vector2(1500, 100)
+offset_left = -113.0
+offset_top = -487.0
+offset_right = 1387.0
+offset_bottom = 1068.0
+
+[node name="Label" type="Label" parent="Perdiste"]
+layout_mode = 0
+offset_left = 401.0
+offset_top = 647.0
+offset_right = 903.0
+offset_bottom = 784.0
+theme_override_font_sizes/font_size = 100
+text = "Perdiste :c"
+
+[node name="PayasadaTriste" type="Sprite2D" parent="Perdiste"]
+position = Vector2(620, 955)
+scale = Vector2(0.24, 0.24)
+texture = ExtResource("11_00bud")
+
+[node name="Ganaste" type="Panel" parent="."]
+visible = false
+custom_minimum_size = Vector2(1500, 100)
+offset_left = -113.0
+offset_top = -487.0
+offset_right = 1387.0
+offset_bottom = 1068.0
+
+[node name="Label" type="Label" parent="Ganaste"]
+layout_mode = 0
+offset_left = 401.0
+offset_top = 647.0
+offset_right = 903.0
+offset_bottom = 784.0
+theme_override_font_sizes/font_size = 100
+text = "ganaste :D"
+
+[node name="PayasadaNeutral" type="Sprite2D" parent="Ganaste"]
+position = Vector2(617, 954)
+scale = Vector2(0.240002, 0.240002)
+texture = ExtResource("12_yujvy")
+
+[connection signal="timeout" from="cambio" to="." method="_on_cambio_timeout"]
+[connection signal="timeout" from="cambio" to="PayasadaUi" method="_on_cambio_timeout"]
 [connection signal="area_entered" from="Spawner/Area2D" to="Spawner" method="_on_area_2d_area_entered"]
 [connection signal="area_exited" from="Spawner/Area2D" to="Spawner" method="_on_area_2d_area_exited"]
 [connection signal="body_entered" from="Spawner/Area2D" to="." method="_on_area_2d_body_entered"]
