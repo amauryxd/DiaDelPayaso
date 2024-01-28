@@ -1,0 +1,79 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_pootj"]
+
+[resource]
+script = ExtResource("1_pootj")
+using_states = PackedStringArray()
+titles = {
+"Cuarta_Interaccion": "25",
+"FINAL_1": "31",
+"Primera_Interaccion": "5",
+"Segunda_Interaccion": "11",
+"Tercera_Interaccion": "19"
+}
+character_names = PackedStringArray()
+first_title = "5"
+lines = {
+"1": {
+"id": "1",
+"next_id": "5",
+"text": "Primera_Interaccion",
+"type": "title"
+},
+"11": {
+"id": "11",
+"is_snippet": false,
+"next_id": "end",
+"type": "goto"
+},
+"15": {
+"id": "15",
+"next_id": "19",
+"text": "Tercera_Interaccion",
+"type": "title"
+},
+"19": {
+"id": "19",
+"is_snippet": false,
+"next_id": "end",
+"type": "goto"
+},
+"21": {
+"id": "21",
+"next_id": "25",
+"text": "Cuarta_Interaccion",
+"type": "title"
+},
+"25": {
+"id": "25",
+"is_snippet": false,
+"next_id": "end",
+"type": "goto"
+},
+"27": {
+"id": "27",
+"next_id": "31",
+"text": "FINAL_1",
+"type": "title"
+},
+"31": {
+"id": "31",
+"is_snippet": false,
+"next_id": "end",
+"type": "goto"
+},
+"5": {
+"id": "5",
+"is_snippet": false,
+"next_id": "end",
+"type": "goto"
+},
+"7": {
+"id": "7",
+"next_id": "11",
+"text": "Segunda_Interaccion",
+"type": "title"
+}
+}
+metadata/dialogue_manager_version = "2.32.3"
