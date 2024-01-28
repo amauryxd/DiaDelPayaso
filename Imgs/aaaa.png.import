@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cvofb5mf3bosf"
-path="res://.godot/imported/quemada.jpg-361ba79938fa7e0f3c51e17d1476815b.ctex"
+uid="uid://cqij5h67xccb3"
+path="res://.godot/imported/aaaa.png-ca2db53c763086ed007310fbb891fcef.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Imgs/quemada.jpg"
-dest_files=["res://.godot/imported/quemada.jpg-361ba79938fa7e0f3c51e17d1476815b.ctex"]
+source_file="res://Imgs/aaaa.png"
+dest_files=["res://.godot/imported/aaaa.png-ca2db53c763086ed007310fbb891fcef.ctex"]
 
 [params]
 

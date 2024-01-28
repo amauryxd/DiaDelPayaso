@@ -3,7 +3,6 @@
 [ext_resource type="Texture2D" uid="uid://c7auyjjupoyjy" path="res://icon.svg" id="1_aa0in"]
 [ext_resource type="Script" path="res://Scripts/Player/playerMovement.gd" id="1_klhgr"]
 [ext_resource type="Script" path="res://Scripts/Interactuable.gd" id="3_n22fd"]
-[ext_resource type="Texture2D" uid="uid://cvofb5mf3bosf" path="res://Imgs/quemada.jpg" id="4_se3sr"]
 [ext_resource type="PackedScene" uid="uid://d2nfpcy1t3rdx" path="res://Prefabs/interactuable.tscn" id="5_8bf1i"]
 [ext_resource type="Resource" uid="uid://totijoxg3ek1" path="res://Dialogos/Payasada.dialogue" id="6_y31dc"]
 [ext_resource type="AudioStream" uid="uid://b5cnis4w7iguv" path="res://Audio/Bgm.ogg" id="7_1okx7"]
@@ -29,6 +28,9 @@ size = Vector2(203, 215)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_t8g88"]
 size = Vector2(103, 114)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_42opv"]
+load_path = "res://.godot/imported/quemada.jpg-361ba79938fa7e0f3c51e17d1476815b.ctex"
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_hrjjt"]
 radius = 23.493
@@ -1375,7 +1377,7 @@ texture = ExtResource("1_aa0in")
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(270, 244)
 scale = Vector2(0.279998, 0.279998)
-texture = ExtResource("4_se3sr")
+texture = SubResource("CompressedTexture2D_42opv")
 
 [node name="Interactuable" parent="Sprite2D" instance=ExtResource("5_8bf1i")]
 position = Vector2(-737, -277)

@@ -7,7 +7,7 @@ extends StaticBody2D
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	modulate = Color(Color.MEDIUM_PURPLE,0.7)
+	modulate = Color(Color.WHITE,0.2)
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -19,11 +19,11 @@ func _process(delta):
 
 
 
-func _on_area_2d_area_entered(area):
-	Global.isOcupado[num] = true
+#func _on_area_2d_area_entered(area):
+	#Global.isOcupado[num] = true
 	
 
 
 
-func _on_area_2d_area_exited(area):
-	Global.isOcupado[num] = false
+#func _on_area_2d_area_exited(area):
+	#Global.isOcupado[num] = false

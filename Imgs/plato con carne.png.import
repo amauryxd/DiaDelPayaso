@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cs6b2at6gwg0f"
-path="res://.godot/imported/cocida.jpg-fecabe2a29a54dbebc2263cea6532bf3.ctex"
+uid="uid://cq78ymnkwib1r"
+path="res://.godot/imported/plato con carne.png-7b924db394f815f55a58088a8a5c34f8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Imgs/cocida.jpg"
-dest_files=["res://.godot/imported/cocida.jpg-fecabe2a29a54dbebc2263cea6532bf3.ctex"]
+source_file="res://Imgs/plato con carne.png"
+dest_files=["res://.godot/imported/plato con carne.png-7b924db394f815f55a58088a8a5c34f8.ctex"]
 
 [params]
 
@@ -30,5 +30,5 @@ process/premult_alpha=false
 process/normal_map_invert_y=false
 process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
-process/size_limit=0
+process/size_limit=240
 detect_3d/compress_to=1

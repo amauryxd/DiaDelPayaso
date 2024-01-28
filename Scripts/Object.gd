@@ -34,9 +34,9 @@ func _process(delta):
 		#print("isCruda ",isCruda)
 		#print("isCocida ",isCocida)
 	if isCocida:
-		$Sprite2D.texture = load("res://Imgs/cocida.jpg")
+		$Sprite2D.texture = load("res://Imgs/cocida.png")
 	if isQuemada:
-		$Sprite2D.texture = load("res://Imgs/quemada.jpg")
+		$Sprite2D.texture = load("res://Imgs/quemada.png")
 
 
 
@@ -58,7 +58,7 @@ func _on_area_2d_body_entered(body:StaticBody2D):
 	if body.is_in_group('dropable') && body.divorcio == 1:
 		#print("Si se puede")
 		is_inside_dropable = true
-		body.modulate = Color(Color.REBECCA_PURPLE, 1)
+		body.modulate = Color(Color.WHITE, 0.5)
 		body_ref = body
 		if $Timer.time_left == 0 and isQuemada == false:
 			$Timer.start()
@@ -83,7 +83,7 @@ func _on_area_2d_body_exited(body):
 	if body.is_in_group('dropable'):
 		is_inside_dropable = false
 		$Timer.set_paused(true)
-		body.modulate = Color(Color.MEDIUM_PURPLE, 0.7)
+		body.modulate = Color(Color.WHITE, 0.3)
 		
 
 

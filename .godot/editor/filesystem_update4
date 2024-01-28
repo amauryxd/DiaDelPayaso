@@ -1,1 +1,7 @@
+res://scenes/control.tscn
 res://scenes/top_down.tscn
+res://scenes/MiniJuegoPayasada.tscn
+res://Prefabs/object.tscn
+res://Prefabs/platform.tscn
+res://Scripts/platform.gd
+res://Scripts/object.gd
