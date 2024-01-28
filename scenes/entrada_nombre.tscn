@@ -42,10 +42,10 @@ text = "Elige tu personaje"
 
 [node name="CheckButton" type="CheckButton" parent="."]
 layout_mode = 0
-offset_left = 485.0
-offset_top = 231.0
-offset_right = 529.0
-offset_bottom = 255.0
+offset_left = 475.0
+offset_top = 241.0
+offset_right = 519.0
+offset_bottom = 265.0
 scale = Vector2(3.30564, 3.30564)
 
 [node name="FrenteFrame1" type="Sprite2D" parent="."]
